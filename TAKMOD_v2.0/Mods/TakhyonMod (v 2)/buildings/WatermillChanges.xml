@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-09-22 23:34:59 -->
+<GameData>
+
+	<!-- No changes. Include this file for changes in the future. -->
+	<!--
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_WATERMILL" />
+			<Set Cost="60" GoldMaintenance="1" />
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_WATERMILL" YieldType="YIELD_FOOD" />
+			<Set Yield="1" />
+		</Update>
+	</Building_YieldChanges>
+	-->
+	
+</GameData>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:09:36 PM -->
+<GameData>
+
+	<!-- Voice of Democracy (replaces Arsenal of Democracy): Gain 15 Influence with every known City State whenever a Great Person is born. -->
+	<Policies>
+		<Update>
+			<Set Level="3" MilitaryProductionModifier="0" MilitaryUnitGiftExtraInfluence="0" InfluenceBoostPerGreatPersonBorn="12" NoMinorDOWIfFriends="true" />
+			<Where Type="POLICY_ARSENAL_DEMOCRACY" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+			<Text>Voice of Democracy</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Voice of Democracy[ENDCOLOR][NEWLINE]Gain 12 [ICON_INFLUENCE] Influence with every known City-State whenever a [ICON_GREAT_PEOPLE] Great Person is born. Friendly City-States will no longer declare war on you in support of their Ally.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Voice of Democracy</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Voice of Democracy[ENDCOLOR][NEWLINE]Gain 12 [ICON_INFLUENCE] Influence with every known City-State whenever a [ICON_GREAT_PEOPLE] Great Person is born. Friendly City-States will no longer declare war on you in support of their Ally.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Voice of Democracy</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Voice of Democracy[ENDCOLOR][NEWLINE]Gain 12 [ICON_INFLUENCE] Influence with every known City-State whenever a [ICON_GREAT_PEOPLE] Great Person is born. Friendly City-States will no longer declare war on you in support of their Ally.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Voice of Democracy</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Voice of Democracy[ENDCOLOR][NEWLINE]Gain 12 [ICON_INFLUENCE] Influence with every known City-State whenever a [ICON_GREAT_PEOPLE] Great Person is born. Friendly City-States will no longer declare war on you in support of their Ally.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT">
+			<Text>"Voice of Democracy" refers to a phrase "Arsenal of Democracy", which was coined by President Franklin Roosevelt during a radio broadcast in December 1940 to describe America's role in the struggle against totalitarianism. The unofficial policy of the United States during World War II and the ensuing Cold War against Communism, the "Arsenal" refers to committing a nation's private industry to producing military materials for the nation and other nations with the goal of defeating a common enemy. The privately-owned manufacturers are compensated at market value, usually on a "cash-and-carry" basis.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]"Voice of Democracy" refers to a phrase "Arsenal of Democracy", which was coined by President Franklin Roosevelt during a radio broadcast in December 1940 to describe America's role in the struggle against totalitarianism. The unofficial policy of the United States during World War II and the ensuing Cold War against Communism, the "Arsenal" refers to committing a nation's private industry to producing military materials for the nation and other nations with the goal of defeating a common enemy. The privately-owned manufacturers are compensated at market value, usually on a "cash-and-carry" basis.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]"Voice of Democracy" refers to a phrase "Arsenal of Democracy", which was coined by President Franklin Roosevelt during a radio broadcast in December 1940 to describe America's role in the struggle against totalitarianism. The unofficial policy of the United States during World War II and the ensuing Cold War against Communism, the "Arsenal" refers to committing a nation's private industry to producing military materials for the nation and other nations with the goal of defeating a common enemy. The privately-owned manufacturers are compensated at market value, usually on a "cash-and-carry" basis.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_ARSENAL_DEMOCRACY_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]"Voice of Democracy" refers to a phrase "Arsenal of Democracy", which was coined by President Franklin Roosevelt during a radio broadcast in December 1940 to describe America's role in the struggle against totalitarianism. The unofficial policy of the United States during World War II and the ensuing Cold War against Communism, the "Arsenal" refers to committing a nation's private industry to producing military materials for the nation and other nations with the goal of defeating a common enemy. The privately-owned manufacturers are compensated at market value, usually on a "cash-and-carry" basis.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

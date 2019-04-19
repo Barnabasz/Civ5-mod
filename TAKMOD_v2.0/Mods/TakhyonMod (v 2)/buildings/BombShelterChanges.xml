@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2018 4:06:40 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+			<Text>In case of a nuclear attack, population loss is reduced by 75%, and garrisoned Units in the City take 25 HP damage instead of getting destroyed.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]In case of a nuclear attack, population loss is reduced by 75%, and garrisoned Units in the City take 25 HP damage instead of getting destroyed.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]In case of a nuclear attack, population loss is reduced by 75%, and garrisoned Units in the City take 25 HP damage instead of getting destroyed.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]In case of a nuclear attack, population loss is reduced by 75%, and garrisoned Units in the City take 25 HP damage instead of getting destroyed.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+			<Text>Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. They also protect all Units inside the City from getting destroyed, making them take 25 HP damage instead. Duck and Cover!</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. They also protect all Units inside the City from getting destroyed, making them take 25 HP damage instead. Duck and Cover!</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. They also protect all Units inside the City from getting destroyed, making them take 25 HP damage instead. Duck and Cover!</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BOMB_SHELTER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Bomb Shelters reduce population loss from a nuclear attack on this city by 75%. They also protect all Units inside the City from getting destroyed, making them take 25 HP damage instead. Duck and Cover!</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

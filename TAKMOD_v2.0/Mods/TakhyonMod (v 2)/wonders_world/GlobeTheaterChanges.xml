@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 3:00:21 PM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_WRITER" GreatPeopleRateChange="1" />
+			<Where Type="BUILDING_GLOBE_THEATER" />
+		</Update>
+	</Buildings>
+  
+</GameData>

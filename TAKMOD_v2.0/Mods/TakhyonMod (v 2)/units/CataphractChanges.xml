@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/4/2018 1:22:21 PM -->
+<GameData>
+  <!-- No longer has a slower movement compared to horseman. -->
+
+	<Units>
+		<Update>
+			<Set Moves="4" />
+			<Where Type="UNIT_BYZANTINE_CATAPHRACT" />
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY">
+			<Text>The Cataphract is a Byzantine unique unit, replacing the Horseman. Cataphracts are more powerful than the Horseman unit, making them one of the most dangerous cavalry units until the arrival of the Knight. They can move after attacking. They are able to gain defensive bonuses, unlike the Horseman. Also their penalty for attacking cities is not as severe.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Cataphract is a Byzantine unique unit, replacing the Horseman. Cataphracts are more powerful than the Horseman unit, making them one of the most dangerous cavalry units until the arrival of the Knight. They can move after attacking. They are able to gain defensive bonuses, unlike the Horseman. Also their penalty for attacking cities is not as severe.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Cataphract is a Byzantine unique unit, replacing the Horseman. Cataphracts are more powerful than the Horseman unit, making them one of the most dangerous cavalry units until the arrival of the Knight. They can move after attacking. They are able to gain defensive bonuses, unlike the Horseman. Also their penalty for attacking cities is not as severe.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_CATAPHRACT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Cataphract is a Byzantine unique unit, replacing the Horseman. Cataphracts are more powerful than the Horseman unit, making them one of the most dangerous cavalry units until the arrival of the Knight. They can move after attacking. They are able to gain defensive bonuses, unlike the Horseman. Also their penalty for attacking cities is not as severe.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

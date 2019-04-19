@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Universal Healthcare: Now also affects Guilds (in addition to National Wonders). -->
+	<!-- Made into Lebensraum in v13.1. +3 Production from Garrison. -->
+	
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_A" />
+	</Policy_BuildingClassHappiness>
+
+	<Policies>
+		<Update>
+			<Set ProductionFromGarrison="3" Description="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A" Civilopedia="TXT_KEY_POLICY_NATIONALISM_TEXT" Help="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP" />
+			<Where Type="POLICY_UNIVERSAL_HEALTHCARE_A" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>Nationalism</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Nationalism</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Nationalism</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Nationalism</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]Garrisoned Units provide +3 [ICON_PRODUCTION] Production to the City.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]Garrisoned Units provide +3 [ICON_PRODUCTION] Production to the City.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]Garrisoned Units provide +3 [ICON_PRODUCTION] Production to the City.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_A_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Nationalism[ENDCOLOR][NEWLINE]Garrisoned Units provide +3 [ICON_PRODUCTION] Production to the City.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

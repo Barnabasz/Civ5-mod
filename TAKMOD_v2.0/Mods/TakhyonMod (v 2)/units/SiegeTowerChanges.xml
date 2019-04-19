@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/5/2018 6:23:11 AM -->
+<GameData>
+  <!-- Siege Tower now replaces Trebuchet (instead of Catapult). -->
+
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_ASSYRIAN_SIEGE_TOWER" />
+		<Row>
+			<CivilizationType>CIVILIZATION_ASSYRIA</CivilizationType>
+			<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
+			<UnitType>UNIT_ASSYRIAN_SIEGE_TOWER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<!-- Siege Tower upgrades into Trebuchet. -->
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitClassType="UNITCLASS_CANNON" />
+			<Where UnitType="UNIT_ASSYRIAN_SIEGE_TOWER" />
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<!-- Adjust the other stuff accordingly. Also make Siege Tower be available at Metal Casting (instead of Physics). -->
+
+	<Units>
+		<Update>
+			<Set Combat="17" Cost="120" FaithCost="240" Moves="2" Class="UNITCLASS_TREBUCHET" PrereqTech="TECH_METAL_CASTING" GoodyHutUpgradeUnitClass="UNITCLASS_CANNON" AdvancedStartCost="20" ObsoleteTech="TECH_CHEMISTRY" />
+			<Where Type="UNIT_ASSYRIAN_SIEGE_TOWER" />
+		</Update>
+	</Units>
+	
+	<!-- Texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY">
+			<Text>Unlike the Trebuchet it replaces, The Siege Tower is a melee siege unit unique to the Assyrians. It is more powerful than the Trebuchet, but the Siege Tower must move next to an enemy city to be effective, but once it has, it is devastating. It not only has a powerful city attack of its own, but also confers a bonus to any of your nearby units also attacking the city. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Unlike the Trebuchet it replaces, The Siege Tower is a melee siege unit unique to the Assyrians. It is more powerful than the Trebuchet, but the Siege Tower must move next to an enemy city to be effective, but once it has, it is devastating. It not only has a powerful city attack of its own, but also confers a bonus to any of your nearby units also attacking the city. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Unlike the Trebuchet it replaces, The Siege Tower is a melee siege unit unique to the Assyrians. It is more powerful than the Trebuchet, but the Siege Tower must move next to an enemy city to be effective, but once it has, it is devastating. It not only has a powerful city attack of its own, but also confers a bonus to any of your nearby units also attacking the city. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_ASSYRIAN_SIEGE_TOWER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unlike the Trebuchet it replaces, The Siege Tower is a melee siege unit unique to the Assyrians. It is more powerful than the Trebuchet, but the Siege Tower must move next to an enemy city to be effective, but once it has, it is devastating. It not only has a powerful city attack of its own, but also confers a bonus to any of your nearby units also attacking the city. Complement a Siege Tower with melee or ranged units, and make sure it reaches its target before getting killed, and cities will fall much more quickly.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER">
+			<Text>Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians. Replaces the Trebuchet, and is both stronger and more resistant to ranged attacks.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians. Replaces the Trebuchet, and is both stronger and more resistant to ranged attacks.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians. Replaces the Trebuchet, and is both stronger and more resistant to ranged attacks.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_ASSYRIAN_SIEGE_TOWER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Powerful melee siege unit which grants a city attack bonus to nearby units when next to an enemy city. May only be built by the Assyrians. Replaces the Trebuchet, and is both stronger and more resistant to ranged attacks.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

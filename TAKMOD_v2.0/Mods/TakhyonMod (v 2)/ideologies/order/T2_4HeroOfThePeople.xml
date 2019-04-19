@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/10/2018 7:19:15 PM -->
+<GameData>
+	
+  <!-- Moved to tier 2 -->
+	
+	<Policies>
+		<Update>
+			<Set Level="2" />
+			<Where Type="POLICY_HERO_OF_THE_PEOPLE" />
+		</Update>
+	</Policies>
+	
+	<!-- Text cleared up to match freedom entry. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]+25% [ICON_GREAT_PEOPLE] Great People generation in all Cities.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]+25% [ICON_GREAT_PEOPLE] Great People generation in all Cities.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]+25% [ICON_GREAT_PEOPLE] Great People generation in all Cities.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_HERO_OF_THE_PEOPLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Hero of the People[ENDCOLOR][NEWLINE]+25% [ICON_GREAT_PEOPLE] Great People generation in all Cities.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

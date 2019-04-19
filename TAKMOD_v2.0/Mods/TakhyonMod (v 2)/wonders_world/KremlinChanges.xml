@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 4/22/2017 2:39:03 AM -->
+<GameData>
+	
+	<!-- Kremlin has been made into St. Basil's Cathedral, also known as Tundra Petra. -->
+	
+	<Building_UnitCombatProductionModifiers>
+		<Delete BuildingType="BUILDING_KREMLIN" />
+	</Building_UnitCombatProductionModifiers>
+
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_ENGINEER" MaxStartEra="ERA_RENAISSANCE" GreatPeopleRateChange="1" FreePolicies="0" PolicyBranchType="NULL" PrereqTech="TECH_GUILDS" Cost="300" NearbyTerrainRequired="TERRAIN_TUNDRA" WonderSplashAudio="AS2D_WONDER_SPEECH_RED_FORT" Quote="TXT_KEY_BUILDING_RED_FORT_QUOTE" WonderSplashImage="basil.dds" />
+			<Where Type="BUILDING_KREMLIN" />
+		</Update>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>3</Yield>
+		</Row> 
+	</Building_YieldChanges>
+
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+
+	<!-- Kremlin: 1 free Social Policy, +1 Culture, +1 Happiness from Workshops, Factories, Solar Plants, and Nuclear Plants. -->
+<!--
+	<Building_BuildingClassHappiness>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SOLAR_PLANT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_KREMLIN</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_NUCLEAR_PLANT</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Building_BuildingClassHappiness>
+-->
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_HELP" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture for all tundra tiles worked by this city. City must be built on or next to Tundra.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_HELP" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture for all tundra tiles worked by this city. City must be built on or next to Tundra.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_HELP" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture for all tundra tiles worked by this city. City must be built on or next to Tundra.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_HELP" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PRODUCTION] Production and +1 [ICON_CULTURE] Culture for all tundra tiles worked by this city. City must be built on or next to Tundra.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_KREMLIN" />
+		<Row Tag="TXT_KEY_BUILDING_KREMLIN">
+			<Text>St. Basil's Cathedral</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_KREMLIN" />
+		<Row Tag="TXT_KEY_BUILDING_KREMLIN">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]St. Basil's Cathedral</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_KREMLIN" />
+		<Row Tag="TXT_KEY_BUILDING_KREMLIN">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]St. Basil's Cathedral</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_KREMLIN" />
+		<Row Tag="TXT_KEY_BUILDING_KREMLIN">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]St. Basil's Cathedral</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_DESC" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_DESC">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The large, dramatically colored cathedral near Moscow's Moskva River officially bore the name "Cathedral of the Intercession of the Virgin by the Moat," but most people referred to it as "St. Basil's." Also, the shorter name fits better on maps. Ivan the Terrible commissioned its construction in 1555 to commemorate victories achieved during his reign.[NEWLINE][NEWLINE]Despite Ivan's namesake, the cathedral turned out to be anything but terrible. The cathedral is reminiscent of a Russian nesting doll, consisting of eight separate clustered churches rather than a single one. Though St. Basil's was originally a drab white, it received a fresh coat of bold, patterned paint in 1860 that has defined it since.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Russian National Wonders - Valery[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_DESC" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_DESC">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The large, dramatically colored cathedral near Moscow's Moskva River officially bore the name "Cathedral of the Intercession of the Virgin by the Moat," but most people referred to it as "St. Basil's." Also, the shorter name fits better on maps. Ivan the Terrible commissioned its construction in 1555 to commemorate victories achieved during his reign.[NEWLINE][NEWLINE]Despite Ivan's namesake, the cathedral turned out to be anything but terrible. The cathedral is reminiscent of a Russian nesting doll, consisting of eight separate clustered churches rather than a single one. Though St. Basil's was originally a drab white, it received a fresh coat of bold, patterned paint in 1860 that has defined it since.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Russian National Wonders - Valery[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_DESC" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_DESC">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The large, dramatically colored cathedral near Moscow's Moskva River officially bore the name "Cathedral of the Intercession of the Virgin by the Moat," but most people referred to it as "St. Basil's." Also, the shorter name fits better on maps. Ivan the Terrible commissioned its construction in 1555 to commemorate victories achieved during his reign.[NEWLINE][NEWLINE]Despite Ivan's namesake, the cathedral turned out to be anything but terrible. The cathedral is reminiscent of a Russian nesting doll, consisting of eight separate clustered churches rather than a single one. Though St. Basil's was originally a drab white, it received a fresh coat of bold, patterned paint in 1860 that has defined it since.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Russian National Wonders - Valery[ENDCOLOR]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_KREMLIN_DESC" />
+		<Row Tag="TXT_KEY_WONDER_KREMLIN_DESC">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The large, dramatically colored cathedral near Moscow's Moskva River officially bore the name "Cathedral of the Intercession of the Virgin by the Moat," but most people referred to it as "St. Basil's." Also, the shorter name fits better on maps. Ivan the Terrible commissioned its construction in 1555 to commemorate victories achieved during his reign.[NEWLINE][NEWLINE]Despite Ivan's namesake, the cathedral turned out to be anything but terrible. The cathedral is reminiscent of a Russian nesting doll, consisting of eight separate clustered churches rather than a single one. Though St. Basil's was originally a drab white, it received a fresh coat of bold, patterned paint in 1860 that has defined it since.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Russian National Wonders - Valery[ENDCOLOR]</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 12:49:49 PM -->
+<GameData>
+	
+  <!-- Totem Pole (Monument). Provides +1 Gold (instead of costing 1 Gold maintenance.) -->
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TOTEM_POLE</Type>
+			<BuildingClass>BUILDINGCLASS_MONUMENT</BuildingClass>
+			<FreeStartEra>ERA_MEDIEVAL</FreeStartEra>
+			<Cost>40</Cost>
+			<FaithCost>75</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<GoldMaintenance>0</GoldMaintenance>
+			<Description>TXT_KEY_BUILDING_TOTEM_POLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_TOTEM_POLE_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_TOTEM_POLE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_TOTEM_POLE_HELP</Help>
+			<ArtDefineTag>MONUMENT</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>40</HurryCostModifier>
+			<IconAtlas>5UC_ICON_ATLAS</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>5</PortraitIndex>
+		</Row>
+	</Buildings>
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDING_TOTEM_POLE</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+	
+  <!-- Texts. -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE">
+			<Text>Totem Pole</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Totem Pole</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Totem Pole</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Totem Pole</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_STRATEGY">
+			<Text>The Totem Pole is an Ancient-era building unique to Shoshone, replacing the Monument. It provides +2 [ICON_CULTURE] Culture, but unlike the Monument, the Totem Pole does not cost any maintenance, instead providing +1 [ICON_GOLD] Gold to the city. Build Totem Poles in your cities as soon as possible to speed the growth of the city's territory and your civilization's acquisition of Social Policies, while also maintaining a healthy economy early game.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Totem Pole is an Ancient-era building unique to Shoshone, replacing the Monument. It provides +2 [ICON_CULTURE] Culture, but unlike the Monument, the Totem Pole does not cost any maintenance, instead providing +1 [ICON_GOLD] Gold to the city. Build Totem Poles in your cities as soon as possible to speed the growth of the city's territory and your civilization's acquisition of Social Policies, while also maintaining a healthy economy early game.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Totem Pole is an Ancient-era building unique to Shoshone, replacing the Monument. It provides +2 [ICON_CULTURE] Culture, but unlike the Monument, the Totem Pole does not cost any maintenance, instead providing +1 [ICON_GOLD] Gold to the city. Build Totem Poles in your cities as soon as possible to speed the growth of the city's territory and your civilization's acquisition of Social Policies, while also maintaining a healthy economy early game.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Totem Pole is an Ancient-era building unique to Shoshone, replacing the Monument. It provides +2 [ICON_CULTURE] Culture, but unlike the Monument, the Totem Pole does not cost any maintenance, instead providing +1 [ICON_GOLD] Gold to the city. Build Totem Poles in your cities as soon as possible to speed the growth of the city's territory and your civilization's acquisition of Social Policies, while also maintaining a healthy economy early game.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Totem_pole)[ENDCOLOR][NEWLINE][NEWLINE]Totem poles are monumental carvings, a type of Northwest Coast art, consisting of poles, posts or pillars, carved with symbols or figures. They serve as important illustrations of family lineage and the cultural heritage of the Native peoples in the islands and coastal areas of North America's Pacific Northwest, especially British Columbia, Canada, and coastal areas of Washington and southeastern Alaska in the United States. Totem poles can symbolize the characters and events in mythology, or convey the experiences of recent ancestors and living people.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 5UC Project - iamaplayer, Optik"Flo", SushiSquid[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Totem_pole)[ENDCOLOR][NEWLINE][NEWLINE]Totem poles are monumental carvings, a type of Northwest Coast art, consisting of poles, posts or pillars, carved with symbols or figures. They serve as important illustrations of family lineage and the cultural heritage of the Native peoples in the islands and coastal areas of North America's Pacific Northwest, especially British Columbia, Canada, and coastal areas of Washington and southeastern Alaska in the United States. Totem poles can symbolize the characters and events in mythology, or convey the experiences of recent ancestors and living people.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 5UC Project - iamaplayer, Optik"Flo", SushiSquid[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Totem_pole)[ENDCOLOR][NEWLINE][NEWLINE]Totem poles are monumental carvings, a type of Northwest Coast art, consisting of poles, posts or pillars, carved with symbols or figures. They serve as important illustrations of family lineage and the cultural heritage of the Native peoples in the islands and coastal areas of North America's Pacific Northwest, especially British Columbia, Canada, and coastal areas of Washington and southeastern Alaska in the United States. Totem poles can symbolize the characters and events in mythology, or convey the experiences of recent ancestors and living people.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 5UC Project - iamaplayer, Optik"Flo", SushiSquid[ENDCOLOR]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Totem_pole)[ENDCOLOR][NEWLINE][NEWLINE]Totem poles are monumental carvings, a type of Northwest Coast art, consisting of poles, posts or pillars, carved with symbols or figures. They serve as important illustrations of family lineage and the cultural heritage of the Native peoples in the islands and coastal areas of North America's Pacific Northwest, especially British Columbia, Canada, and coastal areas of Washington and southeastern Alaska in the United States. Totem poles can symbolize the characters and events in mythology, or convey the experiences of recent ancestors and living people.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 5UC Project - iamaplayer, Optik"Flo", SushiSquid[ENDCOLOR]</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_TOTEM_POLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

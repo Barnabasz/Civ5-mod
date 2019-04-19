@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/31/2018 5:50:50 AM -->
+<GameData>
+  <!-- Atlatlist now costs 20% less than archer (up from 10%), but has lower melee strength. -->
+
+	<Units>
+		<Update>
+			<Set Cost="32" FaithCost="64" Combat="4" />
+			<Where Type="UNIT_MAYAN_ATLATLIST" />
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MAYAN_ATLATLIST">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Atlatlist is a unique only available for the Maya, replacing the Archer. It is cheaper and available sooner than the Archer, but has a lower melee strength.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MAYAN_ATLATLIST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Atlatlist is the Mayan unique unit, replacing the Archer. Atlatlists are cheaper than a traditional Archer, and available earlier without having to research Archery, but are more fragile if subjected to a melee attack. This early game advantage allows other research priorities to come into play.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

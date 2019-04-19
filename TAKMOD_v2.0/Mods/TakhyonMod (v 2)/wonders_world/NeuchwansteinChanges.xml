@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 4:54:44 PM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_ENGINEER" GreatPeopleRateChange="2" PrereqTech="TECH_STEAM_POWER" Cost="905" />
+			<Where Type="BUILDING_NEUSCHWANSTEIN" />
+		</Update>
+	</Buildings>
+  
+</GameData>

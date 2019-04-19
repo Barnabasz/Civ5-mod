@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-16 23:52:07 -->
+<GameData>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_HELICOPTER_GUNSHIP</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<UnitPromotions_UnitCombats>
+		<Delete UnitCombatType="UNITCOMBAT_HELICOPTER" PromotionType="PROMOTION_EMBARKATION" />
+		<Delete UnitCombatType="UNITCOMBAT_HELICOPTER" PromotionType="PROMOTION_ALLWATER_EMBARKATION" />
+		<Delete UnitCombatType="UNITCOMBAT_HELICOPTER" PromotionType="PROMOTION_DEFENSIVE_EMBARKATION" />
+	</UnitPromotions_UnitCombats>
+	
+	<Units>
+		<Update>
+			<Set Pillage="false" />
+			<Where Type="UNIT_HELICOPTER_GUNSHIP" />
+		</Update>
+	</Units>
+	
+	<UnitPromotions>
+		<Update>
+			<Set HoveringUnit="false" CanMoveAllTerrain="true" />
+			<Where Type="PROMOTION_HOVERING_UNIT" />
+		</Update>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>May move over both land and sea tiles.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]May move over both land and sea tiles.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]May move over both land and sea tiles.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOVERING_UNIT_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]May move over both land and sea tiles.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP" />
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP" />
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP" />
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP" />
+		<Row Tag="TXT_KEY_UNIT_HELP_HELICOPTER_GUNSHIP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unit specialized in fighting Modern Armor and Tanks. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
+			<Text>The Helicopter Gunship is a deadly Air Unit, which can hover over all terrain types including mountains, and it can cross oceans without having to embark. Helicopter Gunships receive a hefty combat bonus when fighting tanks. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon Unit in the late game. Use it for fighting against tanks and for gaining extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Helicopter Gunship is a deadly Air Unit, which can hover over all terrain types including mountains, and it can cross oceans without having to embark. Helicopter Gunships receive a hefty combat bonus when fighting tanks. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon Unit in the late game. Use it for fighting against tanks and for gaining extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Helicopter Gunship is a deadly Air Unit, which can hover over all terrain types including mountains, and it can cross oceans without having to embark. Helicopter Gunships receive a hefty combat bonus when fighting tanks. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon Unit in the late game. Use it for fighting against tanks and for gaining extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_HELICOPTER_GUNSHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Helicopter Gunship is a deadly Air Unit, which can hover over all terrain types including mountains, and it can cross oceans without having to embark. Helicopter Gunships receive a hefty combat bonus when fighting tanks. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon Unit in the late game. Use it for fighting against tanks and for gaining extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

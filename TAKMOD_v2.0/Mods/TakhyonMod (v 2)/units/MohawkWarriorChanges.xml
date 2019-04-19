@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2015 3:44:21 PM -->
+<GameData>
+
+	<Units>
+		<Update>
+			<Set Combat="15" />
+			<Where Type="UNIT_IROQUOIAN_MOHAWKWARRIOR" />
+		</Update>
+	</Units>
+
+	<!-- Kris Swordsmen are reborn as Mohawk Warriors -->
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_IROQUOIAN_MOHAWKWARRIOR</UnitType>
+			<ResourceType>RESOURCE_IRON</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<Unit_FreePromotions>
+		<Update>
+			<Set PromotionType="PROMOTION_MYSTIC_BLADE" />
+			<Where UnitType="UNIT_IROQUOIAN_MOHAWKWARRIOR" />
+		</Update>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY">
+			<Text>The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. As powerful as the Swordsman in Clear or Hilly terrain, the Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Try them out in combat as soon as possible to unlock a secret promotion!</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. As powerful as the Swordsman in Clear or Hilly terrain, the Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Try them out in combat as soon as possible to unlock a secret promotion!</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. As powerful as the Swordsman in Clear or Hilly terrain, the Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Try them out in combat as soon as possible to unlock a secret promotion!</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_IROQUOIAN_MOHAWKWARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Mohawk Warrior is the Iroquoian unique unit, replacing the Swordsman. As powerful as the Swordsman in Clear or Hilly terrain, the Mohawk Warrior receives a significant combat bonus in Forest and Jungle. Try them out in combat as soon as possible to unlock a secret promotion!</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+			<Text>Strong, front-line land Unit of the Classical Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Swordsman which it replaces. It also receives a promotion whose abilities will be discovered the first time this Unit is used in combat.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Strong, front-line land Unit of the Classical Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Swordsman which it replaces. It also receives a promotion whose abilities will be discovered the first time this Unit is used in combat.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Strong, front-line land Unit of the Classical Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Swordsman which it replaces. It also receives a promotion whose abilities will be discovered the first time this Unit is used in combat.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MOHAWK_WARRIOR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Strong, front-line land Unit of the Classical Era. Only the Iroquois may build it. This Unit receives a major bonus when fighting on Forest and Jungle, unlike the Swordsman which it replaces. It also receives a promotion whose abilities will be discovered the first time this Unit is used in combat.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

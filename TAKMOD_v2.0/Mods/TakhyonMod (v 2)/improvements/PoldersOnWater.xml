@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/5/2018 6:00:56 AM -->
+<GameData>
+  <!-- Allows Polders to be built on Lake and Coastal tiles that are adjacent to at least 3 land tiles. 
+	   REMOVE / INCLUDE this file from the build if you whether you want to DISALLOW / ALLOW Water Polders. -->
+
+	<!--
+	NOTE:
+	
+	This was originally meant only be buildable on Lakes, not on coastal terrain.
+	
+	However, for some reason the game treats Lakes as a 'Fake Feature'
+	This means that using <RequiresFeature>true</RequiresFeature> and setting FEATURE_LAKE as the valid feature in Improvement_ValidFeatures, does NOT work... 
+	
+	Currently unsure how to make something be buildable only on Lake tiles.
+	
+	So currently dirty workaround is used: I made Treasure Fleets also apply on Lake tiles, but also reduce the same yields from Water Polder by -1. These effectively cancel out each other.
+	-->
+
+	<!-- Water Polder, can be built of lakes and coast tiles with at least 3 adjacent land tiles (Civ6 style). -->
+
+	<Builds>
+		<Row>
+			<Type>BUILD_WATER_POLDER</Type>
+			<Description>TXT_KEY_BUILD_POLDER</Description>
+			<Recommendation>TXT_KEY_BUILD_FOOD_REC</Recommendation>
+			<HotKey>KB_E</HotKey>
+			<HotKeyPriority>0</HotKeyPriority>
+			<HotKeyPriorityAlt>0</HotKeyPriorityAlt>
+			<OrderPriority>97</OrderPriority>
+			<Time>555</Time>
+			<Kill>false</Kill>
+			<Water>true</Water>
+			<CanBeEmbarked>true</CanBeEmbarked>
+			<PrereqTech>TECH_GUILDS</PrereqTech>
+			<ImprovementType>IMPROVEMENT_WATER_POLDER</ImprovementType>
+			<EntityEvent>ENTITY_EVENT_BUILD</EntityEvent>
+			<IconIndex>0</IconIndex>
+			<IconAtlas>EXPANSION_UNIT_ACTION_ATLAS</IconAtlas>
+			<ShowInPedia>true</ShowInPedia>
+			<ShowInTechTree>true</ShowInTechTree>
+		</Row>
+	</Builds>
+
+	<Improvements>
+		<Row>
+			<Type>IMPROVEMENT_WATER_POLDER</Type>
+			<Description>TXT_KEY_IMPROVEMENT_WATER_POLDER</Description>
+			<Civilopedia>TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_TEXT</Civilopedia>
+			<Help>TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_HELP</Help>
+			<ArtDefineTag>ART_DEF_IMPROVEMENT_POLDER</ArtDefineTag>
+			<SpecificCivRequired>true</SpecificCivRequired>
+			<CivilizationType>CIVILIZATION_NETHERLANDS</CivilizationType>
+			<Water>true</Water>
+			<DestroyedWhenPillaged>true</DestroyedWhenPillaged>
+			<PillageGold>18</PillageGold>
+			<RequiresXAdjacentLand>3</RequiresXAdjacentLand>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>EXPANSION_TERRAIN_ATLAS</IconAtlas>
+			<RequiresFeature>false</RequiresFeature>
+		</Row>
+	</Improvements>
+
+	<!-- Water polders get +1 Production and +2 Gold at Economics. -->
+
+	<Improvement_TechYieldChanges>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WATER_POLDER</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WATER_POLDER</ImprovementType>
+			<TechType>TECH_ECONOMICS</TechType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_TechYieldChanges>
+
+	<!-- Water Polder gives +2 Food (normal one gives +3), this is to avoid lake polders becoming tooooo crazy (now they are just normal crazy)-->
+
+	<Improvement_Yields>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WATER_POLDER</ImprovementType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Improvement_Yields>
+
+	<!-- Workers can build it -->
+
+	<Unit_Builds>
+		<Row>
+			<UnitType>UNIT_WORKER</UnitType>
+			<BuildType>BUILD_WATER_POLDER</BuildType>
+		</Row>
+	</Unit_Builds>
+
+	<!-- Valid terrain for Water Polder is the coast, this includes lakes, which are a feature of coast. -->
+
+	<Improvement_ValidTerrains>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WATER_POLDER</ImprovementType>
+			<TerrainType>TERRAIN_COAST</TerrainType>
+		</Row>
+	</Improvement_ValidTerrains>
+
+	<!-- Polder Civilopedia texts and stuff. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_IMPROVEMENT_POLDER" />
+		<Row Tag="TXT_KEY_IMPROVEMENT_POLDER">
+			<Text>Polder (land)</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_IMPROVEMENT_POLDER" />
+		<Row Tag="TXT_KEY_IMPROVEMENT_POLDER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Polder (land)</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_IMPROVEMENT_POLDER" />
+		<Row Tag="TXT_KEY_IMPROVEMENT_POLDER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Polder (land)</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_IMPROVEMENT_POLDER" />
+		<Row Tag="TXT_KEY_IMPROVEMENT_POLDER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Polder (land)</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+			<Text>A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+			<Text>A Polder (land) can only be built on Flood Plains and Marsh. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A Polder (land) can only be built on Flood Plains and Marsh. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A Polder (land) can only be built on Flood Plains and Marsh. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_POLDER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A Polder (land) can only be built on Flood Plains and Marsh. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!-- Water Polder -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WATER_POLDER">
+			<Text>Polder (water)</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WATER_POLDER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Polder (water)</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WATER_POLDER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Polder (water)</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_IMPROVEMENT_WATER_POLDER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Polder (water)</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_TEXT">
+			<Text>A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A polder is a low-lying tract enclosed by dikes with the water drained. In general, polder is land reclaimed from a lake or seabed, from flood plains, or from marshes. In time, the drained land subsides so that all polder is eventually below the surrounding water level. Because of this, water seeps into the drained area and must be pumped out or otherwise drained. The dikes are usually made of readily available materials, earth or sand; in modern times these barriers might be covered or completely composed of concrete. The drained land is extremely fertile and makes excellent pasturage or cropland.[NEWLINE][NEWLINE]The first polders of reclaimed land were constructed in the 11th Century AD, although building embankments as barriers to water date back to the Romans. The Dutch have a long history of reclaiming marshes and fenland, and even the seabed, and possess half of the polder acreage in Europe. Although there are polders in other countries of Europe, and examples can be found in Asia and North America, Holland has some 3000 polders accounting for about 27 percent of the country's land. Amsterdam itself is built largely upon polder. As the Dutch homily states, "God made the world, but the Dutch made Holland."</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_HELP">
+			<Text>A Polder (water) can only be built on Lake and Coastal tiles that are adjacent to at least three land tiles. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A Polder (water) can only be built on Lake and Coastal tiles that are adjacent to at least three land tiles. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A Polder (water) can only be built on Lake and Coastal tiles that are adjacent to at least three land tiles. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_WATER_POLDER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A Polder (water) can only be built on Lake and Coastal tiles that are adjacent to at least three land tiles. It provides a huge food output immediately. It also provides +1 [ICON_PRODUCTION] Production and +2 [ICON_GOLD] Gold once Economics is researched.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

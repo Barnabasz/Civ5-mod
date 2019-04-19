@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 8:34:28 AM -->
+<GameData>
+  <!-- Make Panzer replace Landship (instead of Tank) -->
+
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_GERMAN_PANZER" />
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<UnitClassType>UNITCLASS_WWI_TANK</UnitClassType>
+			<UnitType>UNIT_GERMAN_PANZER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<!-- Panzer upgrades into Tank. -->
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitClassType="UNITCLASS_TANK" />
+			<Where UnitType="UNIT_GERMAN_PANZER" />
+		</Update>
+	</Unit_ClassUpgrades>
+
+  <!-- Adjust the other stuff accordingly. -->
+
+	<Units>
+		<Update>
+			<Set Combat="65" Cost="350" FaithCost="700" Moves="5" Class="UNITCLASS_WWI_TANK" PrereqTech="TECH_COMBUSTION" GoodyHutUpgradeUnitClass="UNITCLASS_TANK" AdvancedStartCost="30" ObsoleteTech="TECH_COMBINED_ARMS" />
+			<Where Type="UNIT_GERMAN_PANZER" />
+		</Update>
+	</Units>
+
+	<!-- Texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY">
+			<Text>The Panzer is the German unique unit, replacing the Landship. It is both stronger and faster than the Landship. It also can move after combat, allowing it to blow huge holes in enemy lines and then barrel through before the enemy can repair the gap.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Panzer is the German unique unit, replacing the Landship. It is both stronger and faster than the Landship. It also can move after combat, allowing it to blow huge holes in enemy lines and then barrel through before the enemy can repair the gap.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Panzer is the German unique unit, replacing the Landship. It is both stronger and faster than the Landship. It also can move after combat, allowing it to blow huge holes in enemy lines and then barrel through before the enemy can repair the gap.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_GERMAN_PANZER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Panzer is the German unique unit, replacing the Landship. It is both stronger and faster than the Landship. It also can move after combat, allowing it to blow huge holes in enemy lines and then barrel through before the enemy can repair the gap.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PANZER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>Fast and powerful late game Unit.[NEWLINE][NEWLINE]Only the Germans may build it. This Unit is stronger and has one additional movement compared to the Landship, which it replaces.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PANZER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Fast and powerful late game Unit.[NEWLINE][NEWLINE]Only the Germans may build it. This Unit is stronger and has one additional movement compared to the Landship, which it replaces.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PANZER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Fast and powerful late game Unit.[NEWLINE][NEWLINE]Only the Germans may build it. This Unit is stronger and has one additional movement compared to the Landship, which it replaces.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PANZER" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PANZER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Fast and powerful late game Unit.[NEWLINE][NEWLINE]Only the Germans may build it. This Unit is stronger and has one additional movement compared to the Landship, which it replaces.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

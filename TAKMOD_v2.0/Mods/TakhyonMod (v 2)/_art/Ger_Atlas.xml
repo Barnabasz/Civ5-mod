@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 2:28:47 PM -->
+<GameData>
+
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>GER_ICON_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Ger_Icon256.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GER_ICON_ATLAS</Atlas>
+			<IconSize>128</IconSize>
+			<Filename>Ger_Icon128.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GER_ICON_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Ger_Icon64.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>GER_ICON_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Ger_Icon45.dds</Filename>
+			<IconsPerRow>1</IconsPerRow>
+			<IconsPerColumn>1</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+  
+</GameData>

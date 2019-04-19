@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/12/2015 3:23:05 AM -->
+<GameData>
+
+	<!-- Silk Road (old Wagon Trains) -->
+	<Policies>
+		<Update>
+			<Set LandTradeRouteGoldChange="300" SeaTradeRouteGoldChange="150" InternalTradeRouteGoldChange="300" RouteGoldMaintenanceMod="0" />
+			<Where Type="POLICY_CARAVANS" />
+		</Update>
+	</Policies>
+
+	<Policy_ImprovementYieldChanges>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<ImprovementType>IMPROVEMENT_TRADING_POST</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<ImprovementType>IMPROVEMENT_BRAZILWOOD_CAMP</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Policy_ImprovementYieldChanges>
+	<Policy_BuildingClassCultureChanges>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_CARAVANS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<CultureChange>1</CultureChange>
+		</Row>
+	</Policy_BuildingClassCultureChanges>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS">
+			<Text>Silk Road</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Silk Road[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your foreign and internal trade routes, and +1 [ICON_GOLD] Gold from Trading Posts and Brazilwood Camps. +1 [ICON_CULTURE] Culture from Markets and Mints.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Silk Road</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Silk Road[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your foreign and internal trade routes, and +1 [ICON_GOLD] Gold from Trading Posts and Brazilwood Camps. +1 [ICON_CULTURE] Culture from Markets and Mints.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Silk Road</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Silk Road[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your foreign and internal trade routes, and +1 [ICON_GOLD] Gold from Trading Posts and Brazilwood Camps. +1 [ICON_CULTURE] Culture from Markets and Mints.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Silk Road</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CARAVANS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CARAVANS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Silk Road[ENDCOLOR][NEWLINE]+3 [ICON_GOLD] Gold from all your foreign and internal trade routes, and +1 [ICON_GOLD] Gold from Trading Posts and Brazilwood Camps. +1 [ICON_CULTURE] Culture from Markets and Mints.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

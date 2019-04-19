@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/1/2018 11:14:35 AM -->
+<GameData>
+  <!-- Make movement bonus also apply for armor units, give Germany barbarian conversion to Mongolia. -->
+
+	<Traits>
+		<Update>
+			<Set LandBarbarianConversionPercent="100" CityStateCombatModifier="25" />
+			<Where Type="TRAIT_TERROR" />
+		</Update>
+	</Traits>
+
+	<Trait_MovesChangeUnitCombats>
+		<Row>
+			<TraitType>TRAIT_TERROR</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<MovesChange>1</MovesChange>
+		</Row>
+	</Trait_MovesChangeUnitCombats>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>Defeated Barbarian encampents join you and grant you 25 [ICON_GOLD] Gold. All Mounted and Armor Units have +1 [ICON_MOVES] Movement. +25% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Defeated Barbarian encampents join you and grant you 25 [ICON_GOLD] Gold. All Mounted and Armor Units have +1 [ICON_MOVES] Movement. +25% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Defeated Barbarian encampents join you and grant you 25 [ICON_GOLD] Gold. All Mounted and Armor Units have +1 [ICON_MOVES] Movement. +25% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_TERROR" />
+		<Row Tag="TXT_KEY_TRAIT_TERROR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Defeated Barbarian encampents join you and grant you 25 [ICON_GOLD] Gold. All Mounted and Armor Units have +1 [ICON_MOVES] Movement. +25% [ICON_STRENGTH] Combat Strength when fighting City-States and their Units.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

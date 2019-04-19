@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2018 6:57:51 AM -->
+<GameData>
+	
+  <!-- Heal 50HP if destroy now also applies when killing a barbarian unit. Give this promo to Aztec Jaguar and Ottoman Janissary. -->
+
+	<UnitPromotions>
+		<Update>
+			<Set HealIfDestroyExcludesBarbarians="false" />
+			<Where Type="PROMOTION_HEAL_IF_DESTROY_ENEMY" />
+		</Update>
+	</UnitPromotions>
+	
+	<!-- For some reason this promotion did not have a separate help text??? -->
+	
+	<UnitPromotions>
+		<Update>
+			<Set Help="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP" />
+			<Where Type="PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		</Update>
+	</UnitPromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Heals 50 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!-- Heals 25HP if kills a unit is now a unique promo given to Japanese melee and gunpowder units (instead of Aztec Jaguar). -->
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>Bushido</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Bushido</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Bushido</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Bushido</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>Bushido</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Bushido</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Bushido</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Bushido</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>Heals 25 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Heals 25 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Heals 25 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Heals 25 Damage If Kills a Unit.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

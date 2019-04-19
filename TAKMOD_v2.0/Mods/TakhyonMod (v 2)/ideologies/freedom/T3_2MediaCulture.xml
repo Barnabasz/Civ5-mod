@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:10:37 PM -->
+<GameData>
+
+	<!-- Media Culture: 10% Tourism from Happiness, Cultural, and Tourism buildings. -->
+	<Policy_BuildingClassTourismModifiers>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_OPERA_HOUSE</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MUSEUM</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_CIRCUS</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_COLOSSEUM</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_THEATRE</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STADIUM</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_AIRPORT</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MEDIA_CULTURE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_HOTEL</BuildingClassType>
+			<TourismModifier>10</TourismModifier>
+		</Row>
+		<Update>
+			<Set TourismModifier="10" />
+			<Where PolicyType="POLICY_MEDIA_CULTURE" BuildingClassType="BUILDINGCLASS_BROADCAST_TOWER" />
+		</Update>
+	</Policy_BuildingClassTourismModifiers>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR][NEWLINE]Amphitheaters, Opera Houses, Museums, Broadcast Towers, Circuses, Colosseums, Zoos, Stadiums, Hotels, and Airports each increase City [ICON_TOURISM] Tourism output by 10%.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR][NEWLINE]Amphitheaters, Opera Houses, Museums, Broadcast Towers, Circuses, Colosseums, Zoos, Stadiums, Hotels, and Airports each increase City [ICON_TOURISM] Tourism output by 10%.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR][NEWLINE]Amphitheaters, Opera Houses, Museums, Broadcast Towers, Circuses, Colosseums, Zoos, Stadiums, Hotels, and Airports each increase City [ICON_TOURISM] Tourism output by 10%.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MEDIA_CULTURE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Media Culture[ENDCOLOR][NEWLINE]Amphitheaters, Opera Houses, Museums, Broadcast Towers, Circuses, Colosseums, Zoos, Stadiums, Hotels, and Airports each increase City [ICON_TOURISM] Tourism output by 10%.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

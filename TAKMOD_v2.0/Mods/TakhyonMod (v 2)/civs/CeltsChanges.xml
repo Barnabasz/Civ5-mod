@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/24/2018 8:41:03 PM -->
+<GameData>
+  <!-- TODO: Insert table creation example here. -->
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE" />
+		<Row Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
+			<Text>+1 [ICON_PEACE] Faith per City with an adjacent Forest, increasing to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent Forest tiles.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE" />
+		<Row Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_PEACE] Faith per City with an adjacent Forest, increasing to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent Forest tiles.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE" />
+		<Row Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_PEACE] Faith per City with an adjacent Forest, increasing to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent Forest tiles.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE" />
+		<Row Tag="TXT_KEY_TRAIT_FAITH_FROM_NATURE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_PEACE] Faith per City with an adjacent Forest, increasing to +2 [ICON_PEACE] Faith in Cities with 3 or more adjacent Forest tiles.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

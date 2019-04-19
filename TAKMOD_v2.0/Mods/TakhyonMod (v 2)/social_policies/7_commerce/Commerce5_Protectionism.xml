@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/1/2015 6:58:41 PM -->
+<GameData>
+	
+	<!-- Protectionism -->
+	<Policies>
+		<Update>
+			<Set ExtraHappinessPerLuxury="0" />
+			<Where Type="POLICY_PROTECTIONISM" />
+		</Update>
+	</Policies>
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MINT</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MARKET</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_BANK</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_STOCK_EXCHANGE</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
+	<Policy_BuildingClassHappiness>
+		<Row>
+			<PolicyType>POLICY_PROTECTIONISM</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_NATIONAL_TREASURY</BuildingClassType>
+			<Happiness>5</Happiness>
+		</Row>
+	</Policy_BuildingClassHappiness>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange. +5 [ICON_HAPPINESS_1] Happiness from East India Trade Company.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange. +5 [ICON_HAPPINESS_1] Happiness from East India Trade Company.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange. +5 [ICON_HAPPINESS_1] Happiness from East India Trade Company.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PROTECTIONISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Protectionism[ENDCOLOR][NEWLINE]+2 [ICON_RESEARCH] Science from every Mint, Market, Bank, and Stock Exchange. +5 [ICON_HAPPINESS_1] Happiness from East India Trade Company.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2018 11:33:55 AM -->
+<GameData>
+  <!-- Camel archers are absolutely bonkers so nerf their melee strength to 13 (down from 17). -->
+
+	<Units>
+		<Update>
+			<Set Combat="13" />
+			<Where Type="UNIT_ARABIAN_CAMELARCHER" />
+		</Update>
+	</Units>
+  
+</GameData>

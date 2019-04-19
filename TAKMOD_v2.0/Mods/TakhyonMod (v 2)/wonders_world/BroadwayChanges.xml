@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 3:00:47 PM -->
+<GameData>
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_MUSICIAN" GreatPeopleRateChange="1" />
+			<Where Type="BUILDING_BROADWAY" />
+		</Update>
+	</Buildings>
+  
+</GameData>

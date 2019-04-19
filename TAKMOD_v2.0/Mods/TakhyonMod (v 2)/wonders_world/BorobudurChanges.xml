@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 1:36:28 PM -->
+<GameData>
+
+	<!-- Now provides +1 Great Engineer point per turn. -->
+	<Buildings>
+		<Update>
+			<Set SpecialistType="SPECIALIST_SCIENTIST" GreatPeopleRateChange="1" />
+			<Where Type="BUILDING_BOROBUDUR" />
+		</Update>
+	</Buildings>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_BOROBUDUR</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_BOROBUDUR_HELP" />
+		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
+			<Text>Must be built in a Holy City. +1 [ICON_PEACE] Faith from all Luxury Resources worked by this City. 3 free Missionaries appear.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_BOROBUDUR_HELP" />
+		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Must be built in a Holy City. +1 [ICON_PEACE] Faith from all Luxury Resources worked by this City. 3 free Missionaries appear.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_BOROBUDUR_HELP" />
+		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Must be built in a Holy City. +1 [ICON_PEACE] Faith from all Luxury Resources worked by this City. 3 free Missionaries appear.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_BOROBUDUR_HELP" />
+		<Row Tag="TXT_KEY_WONDER_BOROBUDUR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Must be built in a Holy City. +1 [ICON_PEACE] Faith from all Luxury Resources worked by this City. 3 free Missionaries appear.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

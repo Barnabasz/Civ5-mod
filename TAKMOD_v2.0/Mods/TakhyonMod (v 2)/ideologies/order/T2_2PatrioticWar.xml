@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:58:13 -->
+<GameData>
+  
+	<!-- Patriotic War: All Military Units gain up to 20% Combat Strength the closer they are to the Capital, +10% Production towards Military Units. -->
+	<Policies>
+		<Update>
+			<Set Level="2" IsDoubleTrainedMilitaryLandUnits="false" MilitaryProductionModifier="10" />
+			<Where Type="POLICY_PATRIOTIC_WAR" />
+		</Update>
+	</Policies>
+	<Policy_FreePromotions>
+		<Update>
+			<Set PromotionType="PROMOTION_PATRIOTIC_WAR" />
+			<Where PolicyType="POLICY_PATRIOTIC_WAR" />
+		</Update>
+	</Policy_FreePromotions>
+	<UnitPromotions_UnitCombats>
+		<Delete PromotionType="PROMOTION_NATIONALISM" />
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_HELICOPTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_BOMBER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_PARADROPPER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_PATRIOTIC_WAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED_RANGED</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_PATRIOTIC_WAR</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>33</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<!-- new promotion -->
+	<UnitPromotions>
+		<Delete Type="PROMOTION_NATIONALISM" />
+		<Row>
+			<Type>PROMOTION_PATRIOTIC_WAR</Type>
+			<Description>TXT_KEY_PROMOTION_PATRIOTIC_WAR</Description>
+			<Help>TXT_KEY_PROMOTION_PATRIOTIC_WAR_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>6</OrderPriority>
+			<PortraitIndex>24</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_PATRIOTIC_WAR</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<!--Gameplay effects below-->
+			<CapitalDefenseModifier>20</CapitalDefenseModifier>
+			<CapitalDefenseFalloff>-2</CapitalDefenseFalloff>
+		</Row>
+	</UnitPromotions>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+			<Text>Patriotic War</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+10% [ICON_PRODUCTION] Production towards Military Units, and all Military Units gain up to +20% [ICON_STRENGTH] Combat Strength the closer they are to the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Patriotic War</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+10% [ICON_PRODUCTION] Production towards Military Units, and all Military Units gain up to +20% [ICON_STRENGTH] Combat Strength the closer they are to the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Patriotic War</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+10% [ICON_PRODUCTION] Production towards Military Units, and all Military Units gain up to +20% [ICON_STRENGTH] Combat Strength the closer they are to the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Patriotic War</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP" />
+		<Row Tag="TXT_KEY_POLICY_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Patriotic War[ENDCOLOR][NEWLINE]+10% [ICON_PRODUCTION] Production towards Military Units, and all Military Units gain up to +20% [ICON_STRENGTH] Combat Strength the closer they are to the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR">
+			<Text>Patriotic War</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Patriotic War</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Patriotic War</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Patriotic War</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR_HELP">
+			<Text>20% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]20% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]20% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_PATRIOTIC_WAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]20% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!--Might as well match the text for Mehal Sefari promotion too for consistency-->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+			<Text>30% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]30% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]30% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_DEFEND_NEAR_CAPITAL_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]30% [ICON_STRENGTH] Combat Strength while fighting in the Capital, bonus falls off as the unit gets further away.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

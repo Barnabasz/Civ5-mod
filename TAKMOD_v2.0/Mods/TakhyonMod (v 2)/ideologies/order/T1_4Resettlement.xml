@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:58:58 -->
+<GameData>
+
+	<!-- Universal Healthcare: Now also affects Guilds (in addition to National Wonders). -->
+	<!-- Made into a new Resettlement Policy in v13.1. -->
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_O" />
+	</Policy_BuildingClassHappiness>
+
+	<Policies>
+		<Update>
+			<Set NewCityExtraPopulation="3" BuildingPurchaseCostModifier="-25" Description="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O" Civilopedia="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT" Help="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP" />
+			<Where Type="POLICY_UNIVERSAL_HEALTHCARE_O" />
+		</Update>
+	</Policies>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>Resettlement</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Resettlement</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Resettlement</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Resettlement</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT">
+			<Text>Forced resettlement, or "population transfer" in Soviet jargon, took several forms: deportations of "anti-Soviet" groups ("enemies of the people"), deportations of ethnic groups, labor force transfers, or forced migrations into "ethnically cleansed" regions. At their height during Stalin's rule, involuntary resettlement programs, usually into unpopulated areas of Asiatic Russia, involved those of Polish, Baltic, Finnish, Rumanian, Tatar, Kalmyk, Chechen and dozens of other peoples. Communist leaders believed it an efficient and relatively humane manner to bring order to such a vast and diverse land.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Forced resettlement, or "population transfer" in Soviet jargon, took several forms: deportations of "anti-Soviet" groups ("enemies of the people"), deportations of ethnic groups, labor force transfers, or forced migrations into "ethnically cleansed" regions. At their height during Stalin's rule, involuntary resettlement programs, usually into unpopulated areas of Asiatic Russia, involved those of Polish, Baltic, Finnish, Rumanian, Tatar, Kalmyk, Chechen and dozens of other peoples. Communist leaders believed it an efficient and relatively humane manner to bring order to such a vast and diverse land.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Forced resettlement, or "population transfer" in Soviet jargon, took several forms: deportations of "anti-Soviet" groups ("enemies of the people"), deportations of ethnic groups, labor force transfers, or forced migrations into "ethnically cleansed" regions. At their height during Stalin's rule, involuntary resettlement programs, usually into unpopulated areas of Asiatic Russia, involved those of Polish, Baltic, Finnish, Rumanian, Tatar, Kalmyk, Chechen and dozens of other peoples. Communist leaders believed it an efficient and relatively humane manner to bring order to such a vast and diverse land.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Forced resettlement, or "population transfer" in Soviet jargon, took several forms: deportations of "anti-Soviet" groups ("enemies of the people"), deportations of ethnic groups, labor force transfers, or forced migrations into "ethnically cleansed" regions. At their height during Stalin's rule, involuntary resettlement programs, usually into unpopulated areas of Asiatic Russia, involved those of Polish, Baltic, Finnish, Rumanian, Tatar, Kalmyk, Chechen and dozens of other peoples. Communist leaders believed it an efficient and relatively humane manner to bring order to such a vast and diverse land.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]New Cities start with 3 extra [ICON_CITIZEN] Population, and Buildings in all Cities cost 25% less [ICON_GOLD] Gold to purchase.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]New Cities start with 3 extra [ICON_CITIZEN] Population, and Buildings in all Cities cost 25% less [ICON_GOLD] Gold to purchase.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]New Cities start with 3 extra [ICON_CITIZEN] Population, and Buildings in all Cities cost 25% less [ICON_GOLD] Gold to purchase.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_O_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Resettlement[ENDCOLOR][NEWLINE]New Cities start with 3 extra [ICON_CITIZEN] Population, and Buildings in all Cities cost 25% less [ICON_GOLD] Gold to purchase.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

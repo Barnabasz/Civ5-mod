@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-11-15 14:28:12 -->
+<GameData>
+
+	<!-- No changes. Include this file for changes in the future. -->
+	<!--
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_FLOATING_GARDENS" />
+			<Set Cost="60" />
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Update>
+			<Where BuildingType="BUILDING_FLOATING_GARDENS" YieldType="YIELD_FOOD" />
+			<Set Yield="1" />
+		</Update>
+	</Building_YieldChanges>
+   -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY">
+			<Text>The Floating Gardens is the Aztec unique building. Like the Water Mill it replaces, the Floating Gardens increase the City's [ICON_FOOD] Food and [ICON_PRODUCTION] Production output, but can also be built if the City is adjacent to a Lake or Oasis. It costs less maintenance than the Water Mill, and provides a [ICON_FOOD] Food bonus to all Lake tiles worked by the City.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Floating Gardens is the Aztec unique building. Like the Water Mill it replaces, the Floating Gardens increase the City's [ICON_FOOD] Food and [ICON_PRODUCTION] Production output, but can also be built if the City is adjacent to a Lake or Oasis. It costs less maintenance than the Water Mill, and provides a [ICON_FOOD] Food bonus to all Lake tiles worked by the City.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Floating Gardens is the Aztec unique building. Like the Water Mill it replaces, the Floating Gardens increase the City's [ICON_FOOD] Food and [ICON_PRODUCTION] Production output, but can also be built if the City is adjacent to a Lake or Oasis. It costs less maintenance than the Water Mill, and provides a [ICON_FOOD] Food bonus to all Lake tiles worked by the City.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_FOATING_GARDENS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Floating Gardens is the Aztec unique building. Like the Water Mill it replaces, the Floating Gardens increase the City's [ICON_FOOD] Food and [ICON_PRODUCTION] Production output, but can also be built if the City is adjacent to a Lake or Oasis. It costs less maintenance than the Water Mill, and provides a [ICON_FOOD] Food bonus to all Lake tiles worked by the City.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP">
+			<Text>Requires less [ICON_GOLD] Gold maintenance than the Water Mill it replaces.[NEWLINE][NEWLINE]+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires less [ICON_GOLD] Gold maintenance than the Water Mill it replaces.[NEWLINE][NEWLINE]+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires less [ICON_GOLD] Gold maintenance than the Water Mill it replaces.[NEWLINE][NEWLINE]+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_FLOATING_GARDENS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires less [ICON_GOLD] Gold maintenance than the Water Mill it replaces.[NEWLINE][NEWLINE]+15% [ICON_FOOD] Food. Each worked Lake tile provides +2 [ICON_FOOD] Food.[NEWLINE][NEWLINE]City must be built next to a River or Lake.</Text>
+		</Row>
+	</Language_RU_RU>
+
+
+</GameData>

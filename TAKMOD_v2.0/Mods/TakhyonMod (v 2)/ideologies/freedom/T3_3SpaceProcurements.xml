@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:10:30 PM -->
+<GameData>
+
+	<!-- Space Procurements: Allows the purchase of Spaceship Parts with Gold. -->
+
+	<Policy_BuildingClassYieldModifiers>
+		<Row>
+			<PolicyType>POLICY_SPACE_PROCUREMENTS</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_RECYCLING_CENTER</BuildingClassType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<YieldMod>25</YieldMod>
+		</Row>
+	</Policy_BuildingClassYieldModifiers>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Space Procurements[ENDCOLOR][NEWLINE]Allows the purchase of Spaceship parts with [ICON_GOLD] Gold. Recycling Centers increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Space Procurements[ENDCOLOR][NEWLINE]Allows the purchase of Spaceship parts with [ICON_GOLD] Gold. Recycling Centers increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Space Procurements[ENDCOLOR][NEWLINE]Allows the purchase of Spaceship parts with [ICON_GOLD] Gold. Recycling Centers increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP" />
+		<Row Tag="TXT_KEY_POLICY_SPACE_PROCUREMENTS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Space Procurements[ENDCOLOR][NEWLINE]Allows the purchase of Spaceship parts with [ICON_GOLD] Gold. Recycling Centers increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

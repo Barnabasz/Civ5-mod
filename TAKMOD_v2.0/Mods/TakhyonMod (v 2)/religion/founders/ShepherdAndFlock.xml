@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-01-12 18:01:06 -->
+<GameData>
+
+	<!-- 2 Settlers and a Worker. -->
+	<Beliefs>
+		<Update>
+			<Set Pantheon="false" Founder="true" NumFreeSettlers="2" PlotCultureCostModifier="0" />
+			<Where Type="BELIEF_RELIGIOUS_SETTLEMENTS" />
+		</Update>
+	</Beliefs>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+			<Text>Gain two Settlers and a Worker</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Gain two Settlers and a Worker</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Gain two Settlers and a Worker</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Gain two Settlers and a Worker</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT">
+			<Text>Shepherd and Flock</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Shepherd and Flock</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Shepherd and Flock</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT" />
+		<Row Tag="TXT_KEY_BELIEF_RELIGIOUS_SETTLEMENTS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Shepherd and Flock</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

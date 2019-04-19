@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 15:57:43 -->
+<GameData>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards Factories, and Factories increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards Factories, and Factories increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards Factories, and Factories increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP" />
+		<Row Tag="TXT_KEY_POLICY_WORKERS_FACULTIES_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Workers' Faculties[ENDCOLOR][NEWLINE]+100% [ICON_PRODUCTION] Production towards Factories, and Factories increase a City's [ICON_RESEARCH] Science output by 25%.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

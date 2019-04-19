@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:08:46 PM -->
+<GameData>
+
+	<!-- Made into Materialism in v13.1. +1 Culture from Luxury Resource tiles and each unique Luxury is worth +1 extra Happiness for the Empire. -->
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_UNIVERSAL_HEALTHCARE_F" />
+	</Policy_BuildingClassHappiness>
+
+	<Policies>
+		<Update>
+			<Set ExtraHappinessPerLuxury="1" Description="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F" Civilopedia="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_TEXT" Help="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP" />
+			<Where Type="POLICY_UNIVERSAL_HEALTHCARE_F" />
+		</Update>
+	</Policies>
+
+	<!-- Materialism dummy building -->
+	<BuildingClasses>
+		<Row>
+			<Type>DUMMY_BUILDINGCLASS_T1_MATERIALISM</Type>
+			<DefaultBuilding>BUILDING_MATERIALISM</DefaultBuilding>
+			<Description>Materialism Dummy BuildingClass</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MATERIALISM</Type>
+			<BuildingClass>DUMMY_BUILDINGCLASS_T1_MATERIALISM</BuildingClass>
+			<Description>Materialism Dummy Building</Description>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<NeverCapture>true</NeverCapture>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<!-- Cotton -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_COTTON</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Furs -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_FUR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Dyes -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_DYE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Copper -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_COPPER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Marble -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_MARBLE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Spices -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_SPICES</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Ivory -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_IVORY</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Incense -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_INCENSE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gold -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_GOLD</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Pearls -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_PEARLS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Sugar -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_SUGAR</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silk -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_SILK</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Wine -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_WINE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Silver -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_SILVER</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Truffles -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_TRUFFLES</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Crab -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_CRAB</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Salt -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_SALT</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Whales -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_WHALE</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Citrus -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_CITRUS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Cocoa -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_COCOA</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<!-- Gems -->
+			<BuildingType>BUILDING_MATERIALISM</BuildingType>
+			<ResourceType>RESOURCE_GEMS</ResourceType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>Consumerism</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Consumerism</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Consumerism</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Consumerism</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Consumerism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each unique Luxury Resource, and Luxury Resource tiles provide +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Consumerism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each unique Luxury Resource, and Luxury Resource tiles provide +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Consumerism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each unique Luxury Resource, and Luxury Resource tiles provide +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Consumerism[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from each unique Luxury Resource, and Luxury Resource tiles provide +1 [ICON_CULTURE] Culture.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Consumerism)[ENDCOLOR][NEWLINE][NEWLINE]Consumerism is a social and economic order and ideology that encourages the acquisition of goods and services in ever-increasing amounts. With the industrial revolution, but particularly in the 20th century, mass production led to an economic crisis: there was overproduction — the supply of goods would grow beyond consumer demand, and so manufacturers turned to planned obsolescence and advertising to increase consumer spending.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Consumerism)[ENDCOLOR][NEWLINE][NEWLINE]Consumerism is a social and economic order and ideology that encourages the acquisition of goods and services in ever-increasing amounts. With the industrial revolution, but particularly in the 20th century, mass production led to an economic crisis: there was overproduction — the supply of goods would grow beyond consumer demand, and so manufacturers turned to planned obsolescence and advertising to increase consumer spending.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Consumerism)[ENDCOLOR][NEWLINE][NEWLINE]Consumerism is a social and economic order and ideology that encourages the acquisition of goods and services in ever-increasing amounts. With the industrial revolution, but particularly in the 20th century, mass production led to an economic crisis: there was overproduction — the supply of goods would grow beyond consumer demand, and so manufacturers turned to planned obsolescence and advertising to increase consumer spending.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_UNIVERSAL_HEALTHCARE_F_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Consumerism)[ENDCOLOR][NEWLINE][NEWLINE]Consumerism is a social and economic order and ideology that encourages the acquisition of goods and services in ever-increasing amounts. With the industrial revolution, but particularly in the 20th century, mass production led to an economic crisis: there was overproduction — the supply of goods would grow beyond consumer demand, and so manufacturers turned to planned obsolescence and advertising to increase consumer spending.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

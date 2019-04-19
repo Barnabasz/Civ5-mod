@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 4:20:01 PM -->
+<GameData>
+  <!-- Carolean now replaces Musketman instead of Rifleman. Fixed bug where Caroleans could not be purchased with Faith. -->
+
+	<Unit_ClassUpgrades>
+		<Update>
+			<Set UnitClassType="UNITCLASS_RIFLEMAN" />
+			<Where UnitType="UNIT_SWEDISH_CAROLEAN" />
+		</Update>
+	</Unit_ClassUpgrades>
+
+	<Units>
+		<Update>
+			<Set Combat="26" Cost="150" FaithCost="300" RequiresFaithPurchaseEnabled="true" Moves="2" Class="UNITCLASS_MUSKETMAN" PrereqTech="TECH_GUNPOWDER" GoodyHutUpgradeUnitClass="UNITCLASS_RIFLEMAN" AdvancedStartCost="30" ObsoleteTech="TECH_RIFLING" />
+			<Where Type="UNIT_SWEDISH_CAROLEAN" />
+		</Update>
+	</Units>
+	
+	<!-- Give Carolean the faster healing promo instead of March. -->
+
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_SWEDISH_CAROLEAN" PromotionType="PROMOTION_MARCH" />
+		<Row>
+			<UnitType>UNIT_SWEDISH_CAROLEAN</UnitType>
+			<PromotionType>PROMOTION_FASTER_HEAL</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- Texts -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY">
+			<Text>Caroleans are the backbone of the early Industrial era Swedish army. They start with a promotion that allows them to heal at double speed, and are stronger than the Musketman which they replace.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Caroleans are the backbone of the early Industrial era Swedish army. They start with a promotion that allows them to heal at double speed, and are stronger than the Musketman which they replace.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Caroleans are the backbone of the early Industrial era Swedish army. They start with a promotion that allows them to heal at double speed, and are stronger than the Musketman which they replace.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_CAROLEAN_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Caroleans are the backbone of the early Industrial era Swedish army. They start with a promotion that allows them to heal at double speed, and are stronger than the Musketman which they replace.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN">
+			<Text>Carolean is a strong, front-line land Unit that can only be built by the Swedish, replacing the Musketman. They have more [ICON_STRENGTH] Combat Strength and possess a promotion which allows them to heal at double speed.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Carolean is a strong, front-line land Unit that can only be built by the Swedish, replacing the Musketman. They have more [ICON_STRENGTH] Combat Strength and possess a promotion which allows them to heal at double speed.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Carolean is a strong, front-line land Unit that can only be built by the Swedish, replacing the Musketman. They have more [ICON_STRENGTH] Combat Strength and possess a promotion which allows them to heal at double speed.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_CAROLEAN">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Carolean is a strong, front-line land Unit that can only be built by the Swedish, replacing the Musketman. They have more [ICON_STRENGTH] Combat Strength and possess a promotion which allows them to heal at double speed.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	
+
+  
+</GameData>

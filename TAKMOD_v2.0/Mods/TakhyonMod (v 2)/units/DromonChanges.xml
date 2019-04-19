@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2018 12:27:49 PM -->
+<GameData>
+  <!-- Dromon now gives 100% of opponent's Strength as faith from kills (same as Celtic Pictish Warrior). -->
+
+	<Units>
+		<Update>
+			<Set Cost="56" />
+			<Where Type="UNIT_BYZANTINE_DROMON" />
+		</Update>
+	</Units>
+	
+	<Unit_YieldFromKills>
+		<Row>
+			<UnitType>UNIT_BYZANTINE_DROMON</UnitType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Unit_YieldFromKills>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY">
+			<Text>Only the Byzantines may build this unit. The Dromon is more expensive to build than the Trireme it replaces, but it attacks with lethal Greek Fire, making it the first naval unit with a ranged attack. This unit fights at +50% strength against other naval units and earns [ICON_PEACE] Faith for each unit they kill. Dromons advance your religious goals while protecting your coastal territory from barbarians, and they can also be used for early rushes against weakly defended coastal cities. It cannot enter Deep Ocean tiles outside of the city borders.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Only the Byzantines may build this unit. The Dromon is more expensive to build than the Trireme it replaces, but it attacks with lethal Greek Fire, making it the first naval unit with a ranged attack. This unit fights at +50% strength against other naval units and earns [ICON_PEACE] Faith for each unit they kill. Dromons advance your religious goals while protecting your coastal territory from barbarians, and they can also be used for early rushes against weakly defended coastal cities. It cannot enter Deep Ocean tiles outside of the city borders.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Only the Byzantines may build this unit. The Dromon is more expensive to build than the Trireme it replaces, but it attacks with lethal Greek Fire, making it the first naval unit with a ranged attack. This unit fights at +50% strength against other naval units and earns [ICON_PEACE] Faith for each unit they kill. Dromons advance your religious goals while protecting your coastal territory from barbarians, and they can also be used for early rushes against weakly defended coastal cities. It cannot enter Deep Ocean tiles outside of the city borders.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BYZANTINE_DROMON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Only the Byzantines may build this unit. The Dromon is more expensive to build than the Trireme it replaces, but it attacks with lethal Greek Fire, making it the first naval unit with a ranged attack. This unit fights at +50% strength against other naval units and earns [ICON_PEACE] Faith for each unit they kill. Dromons advance your religious goals while protecting your coastal territory from barbarians, and they can also be used for early rushes against weakly defended coastal cities. It cannot enter Deep Ocean tiles outside of the city borders.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON">
+			<Text>Dominant Ancient Era Naval Unit used to own the seas through the Classic Era with its ranged attack. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills. The Dromon is more expensive to build than the Trireme it replaces. Only the Byzantines may build it.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Dominant Ancient Era Naval Unit used to own the seas through the Classic Era with its ranged attack. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills. The Dromon is more expensive to build than the Trireme it replaces. Only the Byzantines may build it.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Dominant Ancient Era Naval Unit used to own the seas through the Classic Era with its ranged attack. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills. The Dromon is more expensive to build than the Trireme it replaces. Only the Byzantines may build it.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BYZANTINE_DROMON">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Dominant Ancient Era Naval Unit used to own the seas through the Classic Era with its ranged attack. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills. The Dromon is more expensive to build than the Trireme it replaces. Only the Byzantines may build it.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

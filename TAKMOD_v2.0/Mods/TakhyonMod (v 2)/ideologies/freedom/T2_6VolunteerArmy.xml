@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:08:59 PM -->
+<GameData>
+
+	<!-- Volunteer Army: Gain 5 Foreign Legions, +10% Combat Strength to Land and Naval Military Units in Friendly Territory. -->
+	<Policies>
+		<Update>
+			<Set Level="2" IncludesOneShotFreeUnits="true" BaseFreeUnits="5" />
+			<Where Type="POLICY_VOLUNTEER_ARMY" />
+		</Update>
+	</Policies>
+
+	<Policy_FreeUnitClasses>
+		<Update>
+			<Set Count="5" />
+			<Where PolicyType="POLICY_VOLUNTEER_ARMY" />
+		</Update>
+	</Policy_FreeUnitClasses>
+	
+	<!-- Volunteer Army Promotion -->
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_VOLUNTEER_ARMY</Type>
+			<Description>TXT_KEY_PROMOTION_VOLUNTEER_ARMY</Description>
+			<Help>TXT_KEY_PROMOTION_VOLUNTEER_ARMY_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>6</OrderPriority>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_VOLUNTEER_ARMY</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<FriendlyLandsModifier>10</FriendlyLandsModifier>
+		</Row>
+	</UnitPromotions>
+
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_VOLUNTEER_ARMY</PolicyType>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_PARADROPPER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_VOLUNTEER_ARMY</PromotionType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED_RANGED</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Five Units are maintenance-free, and receive five Foreign Legion Units immediately. Land and Naval Military Units gain +10% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Five Units are maintenance-free, and receive five Foreign Legion Units immediately. Land and Naval Military Units gain +10% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Five Units are maintenance-free, and receive five Foreign Legion Units immediately. Land and Naval Military Units gain +10% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Volunteer Army[ENDCOLOR][NEWLINE]Five Units are maintenance-free, and receive five Foreign Legion Units immediately. Land and Naval Military Units gain +10% [ICON_STRENGTH] Combat Strength in friendly territory.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY">
+			<Text>Volunteer Army</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Volunteer Army</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Volunteer Army</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Volunteer Army</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength in Friendly Territory.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+10% [ICON_STRENGTH] Combat Strength in Friendly Territory.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+10% [ICON_STRENGTH] Combat Strength in Friendly Territory.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_VOLUNTEER_ARMY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+10% [ICON_STRENGTH] Combat Strength in Friendly Territory.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

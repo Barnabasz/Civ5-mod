@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:09:46 PM -->
+<GameData>
+
+	<!-- Free Market (new Policy): 15% of the Empire's Gold income each turn is converted to bonus Science. -->
+
+	<Policies>
+		<Row>
+			<Type>POLICY_FREE_MARKET</Type>
+			<Description>TXT_KEY_POLICY_FREE_MARKET</Description>
+			<Civilopedia>TXT_KEY_POLICY_FREE_MARKET_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_FREE_MARKET_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_FREEDOM</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>25</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS</IconAtlasAchieved>
+			<Level>2</Level>
+			<GoldToScience>15</GoldToScience>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_FREE_MARKET</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_FREE_MARKET</PolicyType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>15</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET">
+			<Text>Free Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Free Market[ENDCOLOR][NEWLINE]15% of the Empire's [ICON_GOLD] Gold income each turn is converted to bonus [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_GOLD">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Gold income.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Free Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Free Market[ENDCOLOR][NEWLINE]15% of the Empire's [ICON_GOLD] Gold income each turn is converted to bonus [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_GOLD">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Gold income.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Free Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Free Market[ENDCOLOR][NEWLINE]15% of the Empire's [ICON_GOLD] Gold income each turn is converted to bonus [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_GOLD">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Gold income.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Free Market</Text>
+		</Row>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Free Market[ENDCOLOR][NEWLINE]15% of the Empire's [ICON_GOLD] Gold income each turn is converted to bonus [ICON_RESEARCH] Science.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TP_SCIENCE_FROM_GOLD">
+			<Text>[ICON_BULLET][COLOR_POSITIVE_TEXT]+{1_Num}[ENDCOLOR] [ICON_RESEARCH] from Gold income.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Free_market)[ENDCOLOR][NEWLINE][NEWLINE]In economics, a free market is an idealized system in which the prices for goods and services are determined by the open market and consumers, in which the laws and forces of supply and demand are free from any intervention by a government, price-setting monopoly, or other authority. Proponents of the concept of free market contrast it with a regulated market, in which a government intervenes in supply and demand through various methods such as tariffs used to restrict trade and protect the economy. In an idealized free market economy, prices for goods and services are set freely by the forces of supply and demand and are allowed to reach their point of equilibrium without intervention by government policy.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Free_market)[ENDCOLOR][NEWLINE][NEWLINE]In economics, a free market is an idealized system in which the prices for goods and services are determined by the open market and consumers, in which the laws and forces of supply and demand are free from any intervention by a government, price-setting monopoly, or other authority. Proponents of the concept of free market contrast it with a regulated market, in which a government intervenes in supply and demand through various methods such as tariffs used to restrict trade and protect the economy. In an idealized free market economy, prices for goods and services are set freely by the forces of supply and demand and are allowed to reach their point of equilibrium without intervention by government policy.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Free_market)[ENDCOLOR][NEWLINE][NEWLINE]In economics, a free market is an idealized system in which the prices for goods and services are determined by the open market and consumers, in which the laws and forces of supply and demand are free from any intervention by a government, price-setting monopoly, or other authority. Proponents of the concept of free market contrast it with a regulated market, in which a government intervenes in supply and demand through various methods such as tariffs used to restrict trade and protect the economy. In an idealized free market economy, prices for goods and services are set freely by the forces of supply and demand and are allowed to reach their point of equilibrium without intervention by government policy.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_FREE_MARKET_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Free_market)[ENDCOLOR][NEWLINE][NEWLINE]In economics, a free market is an idealized system in which the prices for goods and services are determined by the open market and consumers, in which the laws and forces of supply and demand are free from any intervention by a government, price-setting monopoly, or other authority. Proponents of the concept of free market contrast it with a regulated market, in which a government intervenes in supply and demand through various methods such as tariffs used to restrict trade and protect the economy. In an idealized free market economy, prices for goods and services are set freely by the forces of supply and demand and are allowed to reach their point of equilibrium without intervention by government policy.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-03 08:28:06 -->
+<GameData>
+	
+	<!-- remove B17, replaced with Pioneer -->
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_AMERICAN_B17" />
+		<Row>
+			<CivilizationType>CIVILIZATION_AMERICA</CivilizationType>
+			<UnitClassType>UNITCLASS_SETTLER</UnitClassType>
+			<UnitType>UNIT_AMERICAN_PIONEER</UnitType>
+		</Row>
+	</Civilization_UnitClassOverrides>
+
+	<!-- Minuteman no longer provides GA points from kills, instead has a higher combat strength? -->
+	
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_AMERICAN_MINUTEMAN" PromotionType="PROMOTION_GOLDEN_AGE_POINTS" />
+	</Unit_FreePromotions>
+
+	<Units>
+		<Update>
+			<Set Combat="26" />
+			<Where Type="UNIT_AMERICAN_MINUTEMAN" />
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY">
+			<Text>The Minuteman is the American unique unit, replacing the Musketman. The Minuteman has a higher [ICON_STRENGTH] Combat Strength than the Musketman, can move through difficult terrain as though it were clear (all tiles cost 1mp per hex), and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Minuteman is the American unique unit, replacing the Musketman. The Minuteman has a higher [ICON_STRENGTH] Combat Strength than the Musketman, can move through difficult terrain as though it were clear (all tiles cost 1mp per hex), and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Minuteman is the American unique unit, replacing the Musketman. The Minuteman has a higher [ICON_STRENGTH] Combat Strength than the Musketman, can move through difficult terrain as though it were clear (all tiles cost 1mp per hex), and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AMERICAN_MINUTEMAN_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Minuteman is the American unique unit, replacing the Musketman. The Minuteman has a higher [ICON_STRENGTH] Combat Strength than the Musketman, can move through difficult terrain as though it were clear (all tiles cost 1mp per hex), and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MINUTEMAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+			<Text>One of the first gunpowder units of the game. Only the Americans may build it. Replaces the Musketman. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman, may move through rough ground as though it were flat, and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MINUTEMAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]One of the first gunpowder units of the game. Only the Americans may build it. Replaces the Musketman. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman, may move through rough ground as though it were flat, and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MINUTEMAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]One of the first gunpowder units of the game. Only the Americans may build it. Replaces the Musketman. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman, may move through rough ground as though it were flat, and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_MINUTEMAN" />
+		<Row Tag="TXT_KEY_UNIT_HELP_MINUTEMAN">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]One of the first gunpowder units of the game. Only the Americans may build it. Replaces the Musketman. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman, may move through rough ground as though it were flat, and receives a bonus when fighting in rough terrain.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>All Land Military Units have +1 Sight. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All Land Military Units have +1 Sight. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All Land Military Units have +1 Sight. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_RIVER_EXPANSION" />
+		<Row Tag="TXT_KEY_TRAIT_RIVER_EXPANSION">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All Land Military Units have +1 Sight. 50% discount when purchasing tiles.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

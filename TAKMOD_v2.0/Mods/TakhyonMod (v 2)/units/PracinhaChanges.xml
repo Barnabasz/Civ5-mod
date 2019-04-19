@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2016 8:57:29 AM -->
+<GameData>
+
+	<!-- Pracinha Combat Strength improved to 75 (up from 70). -->
+	<Units>
+		<Update>
+			<Set Combat="75" />
+			<Where Type="UNIT_BRAZILIAN_PRACINHA" />
+		</Update>
+	</Units>
+
+	<!-- Pracinha now starts with a Cover I promotion. -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
+			<PromotionType>PROMOTION_COVER_1</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- Pracinha now starts with Foreign Lands bonus. -->
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_BRAZILIAN_PRACINHA</UnitType>
+			<PromotionType>PROMOTION_FOREIGN_LANDS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA">
+			<Text>Modern Era infantry unit that has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces. This Unit earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy, has a combat bonus outside of friendly territory, and defends better against all Ranged Attacks. May only be built by Brazil.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Modern Era infantry unit that has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces. This Unit earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy, has a combat bonus outside of friendly territory, and defends better against all Ranged Attacks. May only be built by Brazil.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Modern Era infantry unit that has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces. This Unit earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy, has a combat bonus outside of friendly territory, and defends better against all Ranged Attacks. May only be built by Brazil.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_BRAZILIAN_PRACINHA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Modern Era infantry unit that has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces. This Unit earns points toward a [ICON_GOLDEN_AGE] Golden Age when it defeats an enemy, has a combat bonus outside of friendly territory, and defends better against all Ranged Attacks. May only be built by Brazil.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY">
+			<Text>This melee unit earns points toward starting the next Carnival for Brazil when it defeats an enemy. It also has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces, receives a combat bonus outside friendly territory, and has extra defence against all Ranged Attacks. Use them to fight wars in foreign lands to push Brazil toward the next Carnival.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]This melee unit earns points toward starting the next Carnival for Brazil when it defeats an enemy. It also has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces, receives a combat bonus outside friendly territory, and has extra defence against all Ranged Attacks. Use them to fight wars in foreign lands to push Brazil toward the next Carnival.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]This melee unit earns points toward starting the next Carnival for Brazil when it defeats an enemy. It also has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces, receives a combat bonus outside friendly territory, and has extra defence against all Ranged Attacks. Use them to fight wars in foreign lands to push Brazil toward the next Carnival.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_BRAZILIAN_PRACINHA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]This melee unit earns points toward starting the next Carnival for Brazil when it defeats an enemy. It also has a higher [ICON_STRENGTH] Combat Strength than the Infantry it replaces, receives a combat bonus outside friendly territory, and has extra defence against all Ranged Attacks. Use them to fight wars in foreign lands to push Brazil toward the next Carnival.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

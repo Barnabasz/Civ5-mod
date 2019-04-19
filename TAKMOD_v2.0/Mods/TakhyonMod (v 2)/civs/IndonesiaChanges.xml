@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2016 10:23:50 AM -->
+<GameData>
+
+	<!-- Spice Islanders no longer requires cities founded on other continents (Capital still won't count). However, the unique luxuries no longer provide +2 Gold. -->
+	<Traits>
+		<Update>
+			<Set UniqueLuxuryRequiresNewArea="false" />
+			<Where Type="TRAIT_SPICE" />
+		</Update>
+	</Traits>
+	<Resource_YieldChanges>
+		<Delete ResourceType="RESOURCE_NUTMEG" YieldType="YIELD_GOLD" Yield="2" />
+		<Delete ResourceType="RESOURCE_CLOVES" YieldType="YIELD_GOLD" Yield="2" />
+		<Delete ResourceType="RESOURCE_PEPPER" YieldType="YIELD_GOLD" Yield="2" />
+	</Resource_YieldChanges>
+	
+	<!-- Change Kris Swordsman with Venetian Great Galleass (renamed to Jong). No longer has a higher production cost, but has less ranged strength (19 vs. 20), Galleass has 17. -->
+
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_VENETIAN_GALLEASS" />
+	</Civilization_UnitClassOverrides>
+	
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitClassType="UNITCLASS_GALLEASS" UnitType="UNIT_VENETIAN_GALLEASS" />
+			<Where CivilizationType="CIVILIZATION_INDONESIA" />
+		</Update>
+	</Civilization_UnitClassOverrides>
+
+	<Units>
+		<Update>
+			<Set Cost="100" RangedCombat="19" />
+			<Where Type="UNIT_VENETIAN_GALLEASS" />
+		</Update>
+	</Units>
+	
+	<!-- Unique Ability texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_SPICE" />
+		<Row Tag="TXT_KEY_TRAIT_SPICE">
+			<Text>The first 3 coastal Cities founded after the [ICON_CAPITAL] Capital each provide 2 unique Luxury Resources, and can never be razed.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_SPICE" />
+		<Row Tag="TXT_KEY_TRAIT_SPICE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The first 3 coastal Cities founded after the [ICON_CAPITAL] Capital each provide 2 unique Luxury Resources, and can never be razed.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_SPICE" />
+		<Row Tag="TXT_KEY_TRAIT_SPICE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The first 3 coastal Cities founded after the [ICON_CAPITAL] Capital each provide 2 unique Luxury Resources, and can never be razed.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_SPICE" />
+		<Row Tag="TXT_KEY_TRAIT_SPICE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The first 3 coastal Cities founded after the [ICON_CAPITAL] Capital each provide 2 unique Luxury Resources, and can never be razed.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Great Galleass texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS">
+			<Text>Jong</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Jong</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Jong</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Jong</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]If you wish to dominate the high seas, confront the enemy with overwhelming force. This was the philosophy behind the massive Jong ships, the schooner of the Majapahit. This vessel allowed the Empire to control Javanese waters through a combination of size and strength.[NEWLINE][NEWLINE]The Majapahit sailing vessels differentiated themselves from Chinese junks with the addition of a second rudder, which made the 600 ton Jong fast yet easy to control. This wasn't the only extra maneuverability option for the Jong; if the winds were low, a row of oarsmen could move the schooner beyond the range of enemy fire or around seaborne obstacles.[NEWLINE][NEWLINE]While primarily used as merchant ships, Jongs also served as military transports. All of that weight wasn't just for show: the addition of four-layer wooden masts offered protection against incoming cannon fire, and a Jong under attack could return the favor with its own opposing ordnance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]If you wish to dominate the high seas, confront the enemy with overwhelming force. This was the philosophy behind the massive Jong ships, the schooner of the Majapahit. This vessel allowed the Empire to control Javanese waters through a combination of size and strength.[NEWLINE][NEWLINE]The Majapahit sailing vessels differentiated themselves from Chinese junks with the addition of a second rudder, which made the 600 ton Jong fast yet easy to control. This wasn't the only extra maneuverability option for the Jong; if the winds were low, a row of oarsmen could move the schooner beyond the range of enemy fire or around seaborne obstacles.[NEWLINE][NEWLINE]While primarily used as merchant ships, Jongs also served as military transports. All of that weight wasn't just for show: the addition of four-layer wooden masts offered protection against incoming cannon fire, and a Jong under attack could return the favor with its own opposing ordnance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]If you wish to dominate the high seas, confront the enemy with overwhelming force. This was the philosophy behind the massive Jong ships, the schooner of the Majapahit. This vessel allowed the Empire to control Javanese waters through a combination of size and strength.[NEWLINE][NEWLINE]The Majapahit sailing vessels differentiated themselves from Chinese junks with the addition of a second rudder, which made the 600 ton Jong fast yet easy to control. This wasn't the only extra maneuverability option for the Jong; if the winds were low, a row of oarsmen could move the schooner beyond the range of enemy fire or around seaborne obstacles.[NEWLINE][NEWLINE]While primarily used as merchant ships, Jongs also served as military transports. All of that weight wasn't just for show: the addition of four-layer wooden masts offered protection against incoming cannon fire, and a Jong under attack could return the favor with its own opposing ordnance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_VENETIAN_GALLEASS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization VI - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]If you wish to dominate the high seas, confront the enemy with overwhelming force. This was the philosophy behind the massive Jong ships, the schooner of the Majapahit. This vessel allowed the Empire to control Javanese waters through a combination of size and strength.[NEWLINE][NEWLINE]The Majapahit sailing vessels differentiated themselves from Chinese junks with the addition of a second rudder, which made the 600 ton Jong fast yet easy to control. This wasn't the only extra maneuverability option for the Jong; if the winds were low, a row of oarsmen could move the schooner beyond the range of enemy fire or around seaborne obstacles.[NEWLINE][NEWLINE]While primarily used as merchant ships, Jongs also served as military transports. All of that weight wasn't just for show: the addition of four-layer wooden masts offered protection against incoming cannon fire, and a Jong under attack could return the favor with its own opposing ordnance.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS">
+			<Text>A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces. May only be built by Indonesia.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces. May only be built by Indonesia.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces. May only be built by Indonesia.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS" />
+		<Row Tag="TXT_KEY_UNIT_HELP_VENETIAN_GALLEASS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A brutally powerful Medieval Era Naval Unit used to wrest control of the seas with its ranged attack. Better at attacking and defending than the normal Galleass it replaces. May only be built by Indonesia.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY">
+			<Text>The Jong may only be built by the Indonesians. It has a stronger ranged attack and is more resilient in battle than the Galleass it replaces.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Jong may only be built by the Indonesians. It has a stronger ranged attack and is more resilient in battle than the Galleass it replaces.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Jong may only be built by the Indonesians. It has a stronger ranged attack and is more resilient in battle than the Galleass it replaces.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_VENETIAN_GALLEASS_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Jong may only be built by the Indonesians. It has a stronger ranged attack and is more resilient in battle than the Galleass it replaces.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

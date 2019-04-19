@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/7/2018 7:06:28 PM -->
+<GameData>
+	
+	<Policy_CapitalYieldChanges>
+		<Update>
+			<Set Yield="3" />
+			<Where PolicyType="POLICY_LANDED_ELITE" />
+		</Update>
+	</Policy_CapitalYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Growth and +3 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Growth and +3 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Growth and +3 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_LANDED_ELITE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Landed Elite[ENDCOLOR][NEWLINE]+10% [ICON_FOOD] Growth and +3 [ICON_FOOD] Food in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

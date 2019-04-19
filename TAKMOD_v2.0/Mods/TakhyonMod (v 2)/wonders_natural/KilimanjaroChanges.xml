@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/11/2018 11:17:06 PM -->
+<GameData>
+	
+	<Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_KILIMANJARO" YieldType="YIELD_CULTURE" />
+			<Set Yield="3" />
+		</Update>
+	</Feature_YieldChanges>
+  
+</GameData>

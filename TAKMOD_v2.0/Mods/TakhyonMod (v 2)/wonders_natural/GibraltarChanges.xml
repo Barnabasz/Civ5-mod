@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/11/2018 8:56:05 PM -->
+<GameData>
+
+	<!-- new promotion -->
+	<UnitPromotions>
+		<Delete Type="PROMOTION_ROCK_OF_GIBRALTAR" />
+		<Row>
+			<Type>PROMOTION_ROCK_OF_GIBRALTAR</Type>
+			<Description>TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR</Description>
+			<Help>TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<OrderPriority>0</OrderPriority>
+			<PortraitIndex>39</PortraitIndex>
+			<IconAtlas>PROMOTION_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR</PediaEntry>
+			<CannotBeChosen>true</CannotBeChosen>
+			<!--Gameplay effects below-->
+			<VisibilityChange>1</VisibilityChange>
+		</Row>
+	</UnitPromotions>
+
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_ROCK_OF_GIBRALTAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ROCK_OF_GIBRALTAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ROCK_OF_GIBRALTAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_ROCK_OF_GIBRALTAR</PromotionType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_GIBRALTAR">
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+	<Features>
+		<Update>
+			<Where Type="FEATURE_GIBRALTAR" />
+			<Set AdjacentUnitFreePromotion="PROMOTION_ROCK_OF_GIBRALTAR" Help="TXT_KEY_FEATURE_GIBRALTAR_HELP" />
+		</Update>
+	</Features>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR">
+			<Text>Rock of Gibraltar</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Rock of Gibraltar</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Rock of Gibraltar</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Rock of Gibraltar</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR_HELP">
+			<Text>+1 Visibility Range</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 Visibility Range</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 Visibility Range</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_ROCK_OF_GIBRALTAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 Visibility Range</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_FEATURE_GIBRALTAR_HELP">
+			<Text>All Naval Military Units that move to a tile adjacent to it gain +1 Sight for the rest of the game.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_FEATURE_GIBRALTAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All Naval Military Units that move to a tile adjacent to it gain +1 Sight for the rest of the game.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_FEATURE_GIBRALTAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All Naval Military Units that move to a tile adjacent to it gain +1 Sight for the rest of the game.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_FEATURE_GIBRALTAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All Naval Military Units that move to a tile adjacent to it gain +1 Sight for the rest of the game.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

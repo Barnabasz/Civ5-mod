@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-25 05:44:53 -->
+<GameData>
+
+	<!-- +8 Culture in the Empire -->
+	<Beliefs>
+		<Row>
+			<Type>BELIEF_KARMA</Type>
+			<Description>TXT_KEY_BELIEF_KARMA</Description>
+			<ShortDescription>TXT_KEY_BELIEF_KARMA_SHORT</ShortDescription>
+			<Enhancer>true</Enhancer>
+		</Row>
+	</Beliefs>
+	<Belief_HolyCityYieldChanges>
+		<Row>
+			<BeliefType>BELIEF_KARMA</BeliefType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>8</Yield>
+		</Row>
+	</Belief_HolyCityYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BELIEF_KARMA">
+			<Text>+8 [ICON_CULTURE] Culture in the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_KARMA_SHORT">
+			<Text>Karma</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BELIEF_KARMA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+8 [ICON_CULTURE] Culture in the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_KARMA_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Karma</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BELIEF_KARMA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+8 [ICON_CULTURE] Culture in the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_KARMA_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Karma</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BELIEF_KARMA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+8 [ICON_CULTURE] Culture in the Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BELIEF_KARMA_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Karma</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

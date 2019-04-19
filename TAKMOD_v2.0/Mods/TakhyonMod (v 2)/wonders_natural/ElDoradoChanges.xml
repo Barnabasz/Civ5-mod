@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by HellBlazer on 17/7/2015 15:00 -->
+<GameData>
+	
+	<!-- Reduce bonus gold to 75 (down from 500) -->
+	<Features>
+		<Update>
+			<Set FirstFinderGold="75" />
+			<Where Type="FEATURE_EL_DORADO" />
+		</Update>
+	</Features>
+
+	<!-- Increase spawn rate to 5 (up from 2) -->
+	<Natural_Wonder_Placement>
+		<Update>
+			<Where NaturalWonderType="FEATURE_EL_DORADO"/>
+			<Set OccurrenceFrequency="5"/>
+		</Update>
+	</Natural_Wonder_Placement>
+
+	<Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_EL_DORADO" YieldType="YIELD_CULTURE" />
+			<Set Yield="5" />
+		</Update>
+	</Feature_YieldChanges>
+	<Features>
+		<Update>
+			<Where Type="FEATURE_EL_DORADO" />
+			<Set InBorderHappiness="2"/>
+		</Update>
+	</Features>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP">
+			<Text>Grants 75 [ICON_GOLD] Gold to the first player to discover it.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Grants 75 [ICON_GOLD] Gold to the first player to discover it.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Grants 75 [ICON_GOLD] Gold to the first player to discover it.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_FEATURES_EL_DORADO_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Grants 75 [ICON_GOLD] Gold to the first player to discover it.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

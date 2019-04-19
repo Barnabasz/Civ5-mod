@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/9/2018 7:51:48 AM -->
+<GameData>
+  <!-- Golden Ages last 33% longer and the Empire enters a Golden Age. -->
+
+	<Policies>
+		<Row>
+			<Type>POLICY_LEBENSRAUM</Type>
+			<Description>TXT_KEY_POLICY_LEBENSRAUM</Description>
+			<Civilopedia>TXT_KEY_POLICY_LEBENSRAUM_TEXT</Civilopedia>
+			<Help>TXT_KEY_POLICY_LEBENSRAUM_HELP</Help>
+			<PolicyBranchType>POLICY_BRANCH_AUTOCRACY</PolicyBranchType>
+			<CultureCost>10</CultureCost>
+			<PortraitIndex>10</PortraitIndex>
+			<IconAtlas>POLICY_ATLAS_EXP2</IconAtlas>
+			<IconAtlasAchieved>POLICY_A_ATLAS_EXP2</IconAtlasAchieved>
+			<Level>2</Level>
+			<GoldenAgeTurns>10</GoldenAgeTurns>
+			<GoldenAgeDurationMod>33</GoldenAgeDurationMod>
+		</Row>
+	</Policies>
+	<Policy_Flavors>
+		<Row>
+			<PolicyType>POLICY_LEBENSRAUM</PolicyType>
+			<FlavorType>FLAVOR_GOLD</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LEBENSRAUM</PolicyType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_LEBENSRAUM</PolicyType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Policy_Flavors>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM">
+			<Text>Lebensraum</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Lebensraum</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Lebensraum</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Lebensraum</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Lebensraum[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE] Golden Ages last 33% longer and the Empire enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Lebensraum[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE] Golden Ages last 33% longer and the Empire enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Lebensraum[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE] Golden Ages last 33% longer and the Empire enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Lebensraum[ENDCOLOR][NEWLINE][ICON_GOLDEN_AGE] Golden Ages last 33% longer and the Empire enters a [ICON_GOLDEN_AGE] Golden Age.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Lebensraum)[ENDCOLOR][NEWLINE][NEWLINE]The German concept of Lebensraum ("living space") comprises policies and practices of settler colonialism which proliferated in Germany from the 1890s to the 1940s. First popularized around 1901, Lebensraum became a geopolitical goal of Imperial Germany in World War I (1914–1918) originally, as the core element of the Septemberprogramm of territorial expansion. The most extreme form of this ideology was supported by the Nazi Party (NSDAP) and Nazi Germany until the end of World War II.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Lebensraum)[ENDCOLOR][NEWLINE][NEWLINE]The German concept of Lebensraum ("living space") comprises policies and practices of settler colonialism which proliferated in Germany from the 1890s to the 1940s. First popularized around 1901, Lebensraum became a geopolitical goal of Imperial Germany in World War I (1914–1918) originally, as the core element of the Septemberprogramm of territorial expansion. The most extreme form of this ideology was supported by the Nazi Party (NSDAP) and Nazi Germany until the end of World War II.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Lebensraum)[ENDCOLOR][NEWLINE][NEWLINE]The German concept of Lebensraum ("living space") comprises policies and practices of settler colonialism which proliferated in Germany from the 1890s to the 1940s. First popularized around 1901, Lebensraum became a geopolitical goal of Imperial Germany in World War I (1914–1918) originally, as the core element of the Septemberprogramm of territorial expansion. The most extreme form of this ideology was supported by the Nazi Party (NSDAP) and Nazi Germany until the end of World War II.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_LEBENSRAUM_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Lebensraum)[ENDCOLOR][NEWLINE][NEWLINE]The German concept of Lebensraum ("living space") comprises policies and practices of settler colonialism which proliferated in Germany from the 1890s to the 1940s. First popularized around 1901, Lebensraum became a geopolitical goal of Imperial Germany in World War I (1914–1918) originally, as the core element of the Septemberprogramm of territorial expansion. The most extreme form of this ideology was supported by the Nazi Party (NSDAP) and Nazi Germany until the end of World War II.</Text>
+		</Row>
+	</Language_RU_RU>
+
+
+</GameData>

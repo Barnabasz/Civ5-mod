@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/5/2016 9:23:29 PM -->
+<GameData>
+	
+	<!-- Morocco bonus yield per trade partner now also increases by +1 Gold / +1 Culture per era. Kasbah food yield increased by 1. -->
+	
+	<!-- This will eventually be implemented correctly. For now it's hard coded to be +1 in CvTraitClasses.h - GetTradePartnerYieldFlatBonusPerEra() -->
+	<!--
+	<Traits>
+		<Update>
+			<Set TradePartnerYieldFlatBonusPerEra="1" />
+			<Where Type="TRAIT_GATEWAY_AFRICA" />
+		</Update>
+	</Traits>
+	-->
+	<Improvement_Yields>
+		<Update>
+			<Set Yield="2" />
+			<Where ImprovementType="IMPROVEMENT_KASBAH" YieldType="YIELD_FOOD" />
+		</Update>
+	</Improvement_Yields>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA" />
+		<Row Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
+			<Text>+3 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture for each [ICON_INTERNATIONAL_TRADE] Trade Route with a different Civilization or City-State, increasing by +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] each Era. Other Civilizations gain +2 [ICON_GOLD] Gold for each [ICON_INTERNATIONAL_TRADE] Trade Route sent to Morocco.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA" />
+		<Row Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+3 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture for each [ICON_INTERNATIONAL_TRADE] Trade Route with a different Civilization or City-State, increasing by +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] each Era. Other Civilizations gain +2 [ICON_GOLD] Gold for each [ICON_INTERNATIONAL_TRADE] Trade Route sent to Morocco.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA" />
+		<Row Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+3 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture for each [ICON_INTERNATIONAL_TRADE] Trade Route with a different Civilization or City-State, increasing by +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] each Era. Other Civilizations gain +2 [ICON_GOLD] Gold for each [ICON_INTERNATIONAL_TRADE] Trade Route sent to Morocco.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA" />
+		<Row Tag="TXT_KEY_TRAIT_GATEWAY_AFRICA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+3 [ICON_GOLD] Gold and +1 [ICON_CULTURE] Culture for each [ICON_INTERNATIONAL_TRADE] Trade Route with a different Civilization or City-State, increasing by +1 [ICON_GOLD] Gold and +1 [ICON_CULTURE] each Era. Other Civilizations gain +2 [ICON_GOLD] Gold for each [ICON_INTERNATIONAL_TRADE] Trade Route sent to Morocco.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!--TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP-->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP">
+			<Text>A Kasbah can only be built on a Desert tile. It provides +2 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold. It also provides the same +50% defense bonus as a Fort. Must be built in Moroccan territory.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A Kasbah can only be built on a Desert tile. It provides +2 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold. It also provides the same +50% defense bonus as a Fort. Must be built in Moroccan territory.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A Kasbah can only be built on a Desert tile. It provides +2 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold. It also provides the same +50% defense bonus as a Fort. Must be built in Moroccan territory.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_KASBAH_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A Kasbah can only be built on a Desert tile. It provides +2 [ICON_FOOD] Food, +1 [ICON_PRODUCTION] Production, and +1 [ICON_GOLD] Gold. It also provides the same +50% defense bonus as a Fort. Must be built in Moroccan territory.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

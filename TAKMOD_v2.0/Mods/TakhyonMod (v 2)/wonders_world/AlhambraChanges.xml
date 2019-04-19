@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 3:33:37 PM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set FreeBuildingThisCity="BUILDINGCLASS_CONSTABLE" />
+			<Where Type="BUILDING_ALHAMBRA" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_ALHAMBRA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+			<Text>All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion, improving [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. Provides a free Constabulary in the City in which it is built. Boosts City [ICON_CULTURE] Culture output by 20%.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_ALHAMBRA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion, improving [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. Provides a free Constabulary in the City in which it is built. Boosts City [ICON_CULTURE] Culture output by 20%.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_ALHAMBRA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion, improving [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. Provides a free Constabulary in the City in which it is built. Boosts City [ICON_CULTURE] Culture output by 20%.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_ALHAMBRA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_ALHAMBRA_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All newly-trained non-air Units in this City receive the [COLOR_POSITIVE_TEXT]Drill I[ENDCOLOR] Promotion, improving [ICON_STRENGTH] Combat Strength when fighting in [COLOR_POSITIVE_TEXT]ROUGH[ENDCOLOR] Terrain. Provides a free Constabulary in the City in which it is built. Boosts City [ICON_CULTURE] Culture output by 20%.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

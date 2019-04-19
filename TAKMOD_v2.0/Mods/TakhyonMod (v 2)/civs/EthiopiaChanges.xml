@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/4/2015 1:33:16 PM -->
+<GameData>
+	
+	<!-- Recolored Ethiopia slightly so it's not as close to barbarian colors -->
+	<Colors>
+		<Delete Type="COLOR_PLAYER_ETHIOPIA_BACKGROUND"/>
+		<Row>
+			<Type>COLOR_PLAYER_ETHIOPIA_BACKGROUND</Type>
+			<Red>0.01953125</Red>
+			<Green>0.37890625</Green>
+			<Blue>0.140625</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+	
+	<!-- Mehal Safari is now purchasable with Faith. -->
+	<Units>
+		<Update>
+			<Set Cost="180" FaithCost="360" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_ETHIOPIAN_MEHAL_SEFARI" />
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+			<Text>Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in rough terrain and near their capital. They are cheaper to build than the Rifleman that they replace.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in rough terrain and near their capital. They are cheaper to build than the Rifleman that they replace.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in rough terrain and near their capital. They are cheaper to build than the Rifleman that they replace.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_MEHAL_SEFARI_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Mehal Sefari are the backbone of the Ethiopian army. They start with promotions that give them bonuses fighting in rough terrain and near their capital. They are cheaper to build than the Rifleman that they replace.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

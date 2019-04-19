@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/7/2018 2:20:08 PM -->
+<GameData>
+	
+  <!-- New Unit, Airship. Meant to be a recon / support Unit in the mid-game when Scouts go obsolete. -->
+
+	<UnitClasses>
+		<Row>
+			<Type>UNITCLASS_AIRSHIP</Type>
+			<Description>TXT_KEY_UNIT_AIRSHIP_CUS</Description>
+			<DefaultUnit>UNIT_AIRSHIP</DefaultUnit>
+		</Row>
+	</UnitClasses>
+
+	<Units>
+		<Row>
+			<Class>UNITCLASS_AIRSHIP</Class>
+			<Type>UNIT_AIRSHIP</Type>
+			<PrereqTech>TECH_ELECTRICITY</PrereqTech>
+			<Combat>15</Combat>
+			<Cost>250</Cost>
+			<Moves>4</Moves>
+			<BaseSightRange>2</BaseSightRange>
+			<CombatClass>UNITCOMBAT_HELICOPTER</CombatClass>
+			<Domain>DOMAIN_LAND</Domain>
+			<DefaultUnitAI>UNITAI_FAST_ATTACK</DefaultUnitAI>
+			<Description>TXT_KEY_UNIT_AIRSHIP</Description>
+			<Civilopedia>TXT_KEY_UNIT_AIRSHIP_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_AIRSHIP_STRATEGY</Strategy>
+			<Help>TXT_KEY_UNIT_AIRSHIP_HELP</Help>
+			<MilitarySupport>true</MilitarySupport>
+			<MilitaryProduction>true</MilitaryProduction>
+			<Pillage>false</Pillage>
+			<IgnoreBuildingDefense>true</IgnoreBuildingDefense>
+			<ObsoleteTech>TECH_COMPUTERS</ObsoleteTech>
+			<AdvancedStartCost>40</AdvancedStartCost>
+			<XPValueAttack>3</XPValueAttack>
+			<XPValueDefense>3</XPValueDefense>
+			<UnitArtInfo>ART_DEF_UNIT_SMOKEY_STEAM_AIRSHIP_LEVEL_1</UnitArtInfo>
+			<UnitFlagIconOffset>7</UnitFlagIconOffset>
+			<UnitFlagAtlas>EXPANSION_SCEN_UNIT_FLAG_ATLAS</UnitFlagAtlas>
+			<IconAtlas>EXPANSION_SCEN_UNIT_ATLAS</IconAtlas>
+			<PortraitIndex>7</PortraitIndex>
+			<MoveRate>WHEELED</MoveRate>
+			<CombatLimit>100</CombatLimit>
+		</Row>
+	</Units>
+
+	<Unit_Flavors>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_RECON</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>12</Flavor>
+		</Row>
+	</Unit_Flavors>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_FLAT_MOVEMENT_COST</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_HOVERING_UNIT</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_DEFENSIVE_BONUSES</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_NO_CAPTURE</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_CAN_MOVE_AFTER_ATTACKING</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_ResourceQuantityRequirements>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<ResourceType>RESOURCE_COAL</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Unit_ResourceQuantityRequirements>
+
+	<UnitGameplay2DScripts>
+		<Row>
+			<UnitType>UNIT_AIRSHIP</UnitType>
+			<SelectionSound>AS2D_SELECT_HELICOPTER_GUNSHIP</SelectionSound>
+			<FirstSelectionSound>AS2D_BIRTH_HELICOPTER_GUNSHIP</FirstSelectionSound>
+		</Row>
+	</UnitGameplay2DScripts>
+	
+  <!-- Texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_HELP" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_HELP">
+			<Text>Unit specialized in recon and support. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_HELP" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Unit specialized in recon and support. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_HELP" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Unit specialized in recon and support. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_HELP" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unit specialized in recon and support. It is capable of hovering over all land tiles including mountains, and can cross oceans without embarking.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY">
+			<Text>The Airship is the first Air Unit available in the game. It is able to hover over all terrain types including mountains and can cross oceans without having to embark. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon and support Unit, but by itself it is very vulnerable in battle. Use it for exploring new lands and supporting your units with extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Airship is the first Air Unit available in the game. It is able to hover over all terrain types including mountains and can cross oceans without having to embark. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon and support Unit, but by itself it is very vulnerable in battle. Use it for exploring new lands and supporting your units with extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Airship is the first Air Unit available in the game. It is able to hover over all terrain types including mountains and can cross oceans without having to embark. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon and support Unit, but by itself it is very vulnerable in battle. Use it for exploring new lands and supporting your units with extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Airship is the first Air Unit available in the game. It is able to hover over all terrain types including mountains and can cross oceans without having to embark. However, as an Air Unit, it cannot capture Cities or pillage tiles. It's a highly mobile Unit with a lot of Movement and it also receives additional Sight, making it very useful as a recon and support Unit, but by itself it is very vulnerable in battle. Use it for exploring new lands and supporting your units with extra visibility in the battlefield.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_TEXT" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Airship)[ENDCOLOR][NEWLINE][NEWLINE]An airship or dirigible balloon is a type of aerostat or lighter-than-air aircraft that can navigate through the air under its own power. In early dirigibles, the lifting gas used was hydrogen gas, due to its high lifting capacity and ready availability. Helium gas has almost the same lifting capacity and is not flammable, unlike hydrogen, but is rare and relatively expensive. Aerostats gain their lift from large gas bags filled with a lifting gas that is less dense than the surrounding air. The envelope of an airship may form a single gas bag, or may contain a number of internal gas-filled cells. An airship also has engines, crew, and optionally also payload accommodation, typically housed in one or more "gondolas" suspended below the envelope.[NEWLINE][NEWLINE]Airships were the first aircraft capable of controlled powered flight, and were most commonly used before the 1940s, but their use decreased over time as their capabilities were surpassed by those of aeroplanes. Their decline was accelerated by a series of high-profile accidents, including the 1930 crash and burning of British R101 in France, the 1933 and 1935 storm-related crashes of the twin airborne aircraft carrier U.S. Navy helium-filled rigids, the USS Akron and USS Macon respectively, and the 1937 burning of the hydrogen-filled Hindenburg. From the 1960s, helium airships have been used in applications where the ability to hover in one place for an extended period outweighs the need for speed and manoeuvrability such as advertising, tourism, camera platforms, geological surveys, and aerial observation.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_TEXT" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Airship)[ENDCOLOR][NEWLINE][NEWLINE]An airship or dirigible balloon is a type of aerostat or lighter-than-air aircraft that can navigate through the air under its own power. In early dirigibles, the lifting gas used was hydrogen gas, due to its high lifting capacity and ready availability. Helium gas has almost the same lifting capacity and is not flammable, unlike hydrogen, but is rare and relatively expensive. Aerostats gain their lift from large gas bags filled with a lifting gas that is less dense than the surrounding air. The envelope of an airship may form a single gas bag, or may contain a number of internal gas-filled cells. An airship also has engines, crew, and optionally also payload accommodation, typically housed in one or more "gondolas" suspended below the envelope.[NEWLINE][NEWLINE]Airships were the first aircraft capable of controlled powered flight, and were most commonly used before the 1940s, but their use decreased over time as their capabilities were surpassed by those of aeroplanes. Their decline was accelerated by a series of high-profile accidents, including the 1930 crash and burning of British R101 in France, the 1933 and 1935 storm-related crashes of the twin airborne aircraft carrier U.S. Navy helium-filled rigids, the USS Akron and USS Macon respectively, and the 1937 burning of the hydrogen-filled Hindenburg. From the 1960s, helium airships have been used in applications where the ability to hover in one place for an extended period outweighs the need for speed and manoeuvrability such as advertising, tourism, camera platforms, geological surveys, and aerial observation.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_TEXT" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Airship)[ENDCOLOR][NEWLINE][NEWLINE]An airship or dirigible balloon is a type of aerostat or lighter-than-air aircraft that can navigate through the air under its own power. In early dirigibles, the lifting gas used was hydrogen gas, due to its high lifting capacity and ready availability. Helium gas has almost the same lifting capacity and is not flammable, unlike hydrogen, but is rare and relatively expensive. Aerostats gain their lift from large gas bags filled with a lifting gas that is less dense than the surrounding air. The envelope of an airship may form a single gas bag, or may contain a number of internal gas-filled cells. An airship also has engines, crew, and optionally also payload accommodation, typically housed in one or more "gondolas" suspended below the envelope.[NEWLINE][NEWLINE]Airships were the first aircraft capable of controlled powered flight, and were most commonly used before the 1940s, but their use decreased over time as their capabilities were surpassed by those of aeroplanes. Their decline was accelerated by a series of high-profile accidents, including the 1930 crash and burning of British R101 in France, the 1933 and 1935 storm-related crashes of the twin airborne aircraft carrier U.S. Navy helium-filled rigids, the USS Akron and USS Macon respectively, and the 1937 burning of the hydrogen-filled Hindenburg. From the 1960s, helium airships have been used in applications where the ability to hover in one place for an extended period outweighs the need for speed and manoeuvrability such as advertising, tourism, camera platforms, geological surveys, and aerial observation.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_AIRSHIP_TEXT" />
+		<Row Tag="TXT_KEY_UNIT_AIRSHIP_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Airship)[ENDCOLOR][NEWLINE][NEWLINE]An airship or dirigible balloon is a type of aerostat or lighter-than-air aircraft that can navigate through the air under its own power. In early dirigibles, the lifting gas used was hydrogen gas, due to its high lifting capacity and ready availability. Helium gas has almost the same lifting capacity and is not flammable, unlike hydrogen, but is rare and relatively expensive. Aerostats gain their lift from large gas bags filled with a lifting gas that is less dense than the surrounding air. The envelope of an airship may form a single gas bag, or may contain a number of internal gas-filled cells. An airship also has engines, crew, and optionally also payload accommodation, typically housed in one or more "gondolas" suspended below the envelope.[NEWLINE][NEWLINE]Airships were the first aircraft capable of controlled powered flight, and were most commonly used before the 1940s, but their use decreased over time as their capabilities were surpassed by those of aeroplanes. Their decline was accelerated by a series of high-profile accidents, including the 1930 crash and burning of British R101 in France, the 1933 and 1935 storm-related crashes of the twin airborne aircraft carrier U.S. Navy helium-filled rigids, the USS Akron and USS Macon respectively, and the 1937 burning of the hydrogen-filled Hindenburg. From the 1960s, helium airships have been used in applications where the ability to hover in one place for an extended period outweighs the need for speed and manoeuvrability such as advertising, tourism, camera platforms, geological surveys, and aerial observation.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

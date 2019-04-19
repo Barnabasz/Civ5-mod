@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-09 15:50:01 -->
+<GameData>
+	
+	<!-- UA now also gives +1 movement to embarked units and stronger defense (like War Canoes from Songhai) -->
+	<Traits>
+		<Update>
+			<Set ExtraEmbarkMoves="1" />
+			<Where Type="TRAIT_WAYFINDING" />
+		</Update>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_MELEE</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARCHER</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_RECON</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_SIEGE</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_GUN</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_WAYFINDING</TraitType>
+			<UnitCombatType>UNITCOMBAT_ARMOR</UnitCombatType>
+			<PromotionType>PROMOTION_WAR_CANOES</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+	<UnitPromotions>
+		<Update>
+			<Set EmbarkExtraVisibility="0" />
+			<Where Type="PROMOTION_WAR_CANOES" />
+		</Update>
+	</UnitPromotions>
+
+	<!-- Polynesian Maori Warrior now has 9 Combat Strength (up from 8), and get Amphibious promotion for free. -->
+	<Units>
+		<Update>
+			<Set Combat="9" />
+			<Where Type="UNIT_POLYNESIAN_MAORI_WARRIOR" />
+		</Update>
+	</Units>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_POLYNESIAN_MAORI_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_AMPHIBIOUS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<!-- Combat Strength bonus now increased to be 3 tiles from a Moai. -->
+
+	<Traits>
+		<Update>
+			<Set NearbyImprovementBonusRange="3" />
+			<Where Type="TRAIT_WAYFINDING" />
+		</Update>
+	</Traits>
+
+	<Improvement_TechYieldChanges>
+		<Update>
+			<Set TechType="TECH_ECONOMICS" />
+			<Where ImprovementType="IMPROVEMENT_MOAI" />
+		</Update>
+	</Improvement_TechYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_WAYFINDING" />
+		<Row Tag="TXT_KEY_TRAIT_WAYFINDING">
+			<Text>Can embark and move over Oceans immediately. +1 Sight, +1 [ICON_MOVES] Movement, and extra defense when embarked. +10% [ICON_STRENGTH] Combat Strength bonus if within 3 tiles of a Moai.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_PROMOTION_WAR_CANOES" />
+		<Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+			<Text>Wayfinding</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_WAYFINDING" />
+		<Row Tag="TXT_KEY_TRAIT_WAYFINDING">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Can embark and move over Oceans immediately. +1 Sight, +1 [ICON_MOVES] Movement, and extra defense when embarked. +10% [ICON_STRENGTH] Combat Strength bonus if within 3 tiles of a Moai.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_PROMOTION_WAR_CANOES" />
+		<Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Wayfinding</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_WAYFINDING" />
+		<Row Tag="TXT_KEY_TRAIT_WAYFINDING">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Can embark and move over Oceans immediately. +1 Sight, +1 [ICON_MOVES] Movement, and extra defense when embarked. +10% [ICON_STRENGTH] Combat Strength bonus if within 3 tiles of a Moai.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_PROMOTION_WAR_CANOES" />
+		<Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Wayfinding</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_WAYFINDING" />
+		<Row Tag="TXT_KEY_TRAIT_WAYFINDING">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Can embark and move over Oceans immediately. +1 Sight, +1 [ICON_MOVES] Movement, and extra defense when embarked. +10% [ICON_STRENGTH] Combat Strength bonus if within 3 tiles of a Moai.</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_PROMOTION_WAR_CANOES" />
+		<Row Tag="TXT_KEY_PROMOTION_WAR_CANOES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Wayfinding</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP">
+			<Text>Ancient Era unit that strikes fear into nearby enemies making them less effective in combat. Only Polynesia may build it. It is stronger than the Warrior it replaces, and comes with the amphibious promotion, allowing it to attack efficiently from the sea or across a river.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Ancient Era unit that strikes fear into nearby enemies making them less effective in combat. Only Polynesia may build it. It is stronger than the Warrior it replaces, and comes with the amphibious promotion, allowing it to attack efficiently from the sea or across a river.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Ancient Era unit that strikes fear into nearby enemies making them less effective in combat. Only Polynesia may build it. It is stronger than the Warrior it replaces, and comes with the amphibious promotion, allowing it to attack efficiently from the sea or across a river.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Ancient Era unit that strikes fear into nearby enemies making them less effective in combat. Only Polynesia may build it. It is stronger than the Warrior it replaces, and comes with the amphibious promotion, allowing it to attack efficiently from the sea or across a river.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY">
+			<Text>The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. It also receives a promotion which eliminates combat penalty for attacking from the sea or over a river. Build plenty of these units early for their promotions stay with them as they are upgraded.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. It also receives a promotion which eliminates combat penalty for attacking from the sea or over a river. Build plenty of these units early for their promotions stay with them as they are upgraded.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. It also receives a promotion which eliminates combat penalty for attacking from the sea or over a river. Build plenty of these units early for their promotions stay with them as they are upgraded.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_POLYNESIAN_MAORI_WARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Maori Warrior is similar to a Great General; however instead of increasing the strength of friendly units, it decreases the strength of adjacent enemy units. It also receives a promotion which eliminates combat penalty for attacking from the sea or over a river. Build plenty of these units early for their promotions stay with them as they are upgraded.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_HELP" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_HELP">
+			<Text>Adds a Moai (+1 [ICON_CULTURE] Culture) to the tile. Create a line of Moai along the coast for additional culture. Also provides +1 [ICON_GOLD] Gold after Economics is researched.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_HELP" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Adds a Moai (+1 [ICON_CULTURE] Culture) to the tile. Create a line of Moai along the coast for additional culture. Also provides +1 [ICON_GOLD] Gold after Economics is researched.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_HELP" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Adds a Moai (+1 [ICON_CULTURE] Culture) to the tile. Create a line of Moai along the coast for additional culture. Also provides +1 [ICON_GOLD] Gold after Economics is researched.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_HELP" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Adds a Moai (+1 [ICON_CULTURE] Culture) to the tile. Create a line of Moai along the coast for additional culture. Also provides +1 [ICON_GOLD] Gold after Economics is researched.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_REC" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_REC">
+			<Text>It will permit the tile to generate [ICON_CULTURE] Culture (and [ICON_GOLD] after Economics is researched).</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_REC" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_REC">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]It will permit the tile to generate [ICON_CULTURE] Culture (and [ICON_GOLD] after Economics is researched).</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_REC" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_REC">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]It will permit the tile to generate [ICON_CULTURE] Culture (and [ICON_GOLD] after Economics is researched).</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILD_MOAI_REC" />
+		<Row Tag="TXT_KEY_BUILD_MOAI_REC">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]It will permit the tile to generate [ICON_CULTURE] Culture (and [ICON_GOLD] after Economics is researched).</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP">
+			<Text>Moai can only be built on the coast. If built next to another Moai, it provides additional [ICON_CULTURE] Culture. After the Economics technology is researched it also provides extra [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Moai can only be built on the coast. If built next to another Moai, it provides additional [ICON_CULTURE] Culture. After the Economics technology is researched it also provides extra [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Moai can only be built on the coast. If built next to another Moai, it provides additional [ICON_CULTURE] Culture. After the Economics technology is researched it also provides extra [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_MOAI_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Moai can only be built on the coast. If built next to another Moai, it provides additional [ICON_CULTURE] Culture. After the Economics technology is researched it also provides extra [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>
