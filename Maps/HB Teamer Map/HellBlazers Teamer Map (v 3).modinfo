@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="75f6a383-f98f-400d-924e-2e2613fa2fc0" version="3">
+  <Properties>
+    <Name>HellBlazers Teamer Map</Name>
+    <Teaser>HellBlazers Teamer Map</Teaser>
+    <Description>HellBlazers Teamer Map</Description>
+    <Authors>Gary</Authors>
+    <HideSetupGame>0</HideSetupGame>
+    <AffectsSavedGames>1</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>1</SupportsSinglePlayer>
+    <SupportsMultiplayer>1</SupportsMultiplayer>
+    <SupportsHotSeat>1</SupportsHotSeat>
+    <SupportsMac>1</SupportsMac>
+    <ReloadAudioSystem>0</ReloadAudioSystem>
+    <ReloadLandmarkSystem>0</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>0</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>0</ReloadUnitSystem>
+  </Properties>
+  <Dependencies />
+  <References />
+  <Blocks />
+  <Files>
+    <File md5="0737CA766A5CFB03CAAE0A44AE75CF12" import="0">HBTeamerMapv3.lua</File>
+    <File md5="C8C14643438DB4217DA81AE8E6FD0BD1" import="0">HBTAssignStartingPlots.lua</File>
+    <File md5="62038D1E896EF3D9BEFA773AB8AC7F7D" import="0">HBTFeatureGenerator.lua</File>
+    <File md5="0C499B9B692240B770CE06FD6C340554" import="0">HBTMapGenerator.lua</File>
+    <File md5="AF997E7EEA6F0BF723B11360F4E9B69D" import="0">HBTMapmakerUtilities .lua</File>
+    <File md5="C552E7E16DED028DE52C8D28EED04520" import="0">HBTMultilayeredFractal.lua</File>
+    <File md5="ACB1AC34812A3FF004D085F758E432FB" import="0">HBTTerrainGenerator.lua</File>
+  </Files>
+  <EntryPoints>
+    <EntryPoint type="MapScript" file="HBTeamerMapv3.lua">
+      <Name>HellBlazers Teamer Map</Name>
+      <Description>HellBlazers Teamer Map</Description>
+    </EntryPoint>
+  </EntryPoints>
+</Mod>
