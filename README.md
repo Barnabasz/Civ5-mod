@@ -1,2 +1,3 @@
 # Civ5-mod
-Add folders to C:\...\Sid Meier's Civilization V\Assets\DLC
+folders TAKMOD v2.0 and UI_bc1 add to C:\...\Sid Meier's Civilization V\Assets\DLC
+folder maps to assets
