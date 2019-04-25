@@ -62,9 +62,9 @@
 			<Cost>-1</Cost>
 			<HurryCostModifier>-1</HurryCostModifier>
 			<NukeImmune>true</NukeImmune>
-      <YieldType>YIELD_CULTURE</YieldType>
-      <YieldChange>10</YieldChange>
-      <Help>TXT_KEY_BUILDING_GRAND_MONUMENT_STRATEGY</Help>
+      		<YieldType>YIELD_CULTURE</YieldType>
+     		<YieldChange>5</YieldChange>
+      		<Help>TXT_KEY_BUILDING_GRAND_MONUMENT_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_GRAND_MONUMENT_DESC</Description>
 			<Civilopedia>TXT_KEY_BUILDING_GRAND_MONUMENT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_GRAND_MONUMENT_STRATEGY</Strategy>

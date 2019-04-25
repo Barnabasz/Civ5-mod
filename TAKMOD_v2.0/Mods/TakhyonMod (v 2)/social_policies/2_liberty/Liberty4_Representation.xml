@@ -13,7 +13,7 @@
 			<PolicyType>POLICY_REPRESENTATION</PolicyType>
 			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
 			<YieldType>YIELD_GOLD</YieldType>
-			<YieldChange>1</YieldChange>
+			<YieldChange>2</YieldChange>
 		</Row>
 	</Policy_BuildingClassYieldChanges>
 	
