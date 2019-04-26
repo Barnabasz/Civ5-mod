@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 8/11/2018 7:31:41 PM -->
 <GameData>
-
+	<Policy_BuildingClassYieldChanges>
+		<Row>
+			<PolicyType>POLICY_COLLECTIVE_RULE</PolicyType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>1</YieldChange>
+		</Row>
+	</Policy_BuildingClassYieldChanges>
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP" />
 		<Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital. Give 4 global happines and +1 culture from monuments.</Text>
 		</Row>
 	</Language_en_US>
 	<Language_DE_DE>
@@ -17,7 +24,7 @@
 	<Language_PL_PL>
 		<Delete Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP" />
 		<Row Tag="TXT_KEY_POLICY_COLLECTIVE_RULE_HELP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital.</Text>
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Collective Rule[ENDCOLOR][NEWLINE]Speeds the training of [COLOR_POSITIVE_TEXT]Settlers[ENDCOLOR] by 50% in the [ICON_CAPITAL] Capital and a free Settler appears near the [ICON_CAPITAL] Capital. Give +4 global happines and +1 culture from monuments.</Text>
 		</Row>
 	</Language_PL_PL>
 	<Language_RU_RU>

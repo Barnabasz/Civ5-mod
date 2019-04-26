@@ -16,7 +16,6 @@
 			<YieldChange>2</YieldChange>
 		</Row>
 	</Policy_BuildingClassYieldChanges>
-	
 	<!-- Localization -->
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_POLICY_REPRESENTATION_HELP" />
