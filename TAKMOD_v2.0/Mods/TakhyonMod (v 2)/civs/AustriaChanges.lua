@@ -17,3 +17,43 @@ function AustriaAddDummyPolicy(iPlayer, iX, iY)
     end
 end
 GameEvents.PlayerCityFounded.Add(AustriaAddDummyPolicy)
+
+function CeltsAddDummyBuilding(iPlayer)
+	local player = Players[iPlayer]
+	if (player:IsEverAlive()) then
+		local iteam = player:GetTeam()
+		print(Teams[iteam]:IsHasTech(7))
+		if (player:GetCivilizationType() == GameInfoTypes.CIVILIZATION_CELTS) then
+			for pCity in player:Cities() do
+				if (Teams[iteam]:IsHasTech(7)) then
+					pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CELTS_DUMMY"], 0)
+				else
+					pCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CELTS_DUMMY"], 1)
+				end
+			end
+		end
+	end
+end
+GameEvents.PlayerDoTurn.Add(CeltsAddDummyBuilding);
+
+function addCeltsDummyBuilding(player, iX, iY)
+	local plot = Map.GetPlot(iX, iY);
+	local cCity = plot:GetPlotCity();
+	local iteam = player:GetTeam()
+	if (Teams[iteam]:IsHasTech(7)) then
+		cCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CELTS_DUMMY"], 0)
+	else
+		cCity:SetNumRealBuilding(GameInfoTypes["BUILDING_CELTS_DUMMY"], 1)
+	end
+end
+
+function CeltsAddDummyBuilding_OnFoundCity(iPlayer, iX, iY)
+	local player = Players[iPlayer]
+	if (player:IsEverAlive()) then
+		if (player:GetCivilizationType() == GameInfoTypes.CIVILIZATION_CELTS) then
+			addCeltsDummyBuilding(player, iX, iY)
+		end
+	end
+end
+GameEvents.PlayerCityFounded.Add(CeltsAddDummyBuilding_OnFoundCity)
+

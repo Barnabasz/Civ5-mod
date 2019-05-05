@@ -24,7 +24,7 @@
 	<Language_PL_PL>
 		<Delete Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP" />
 		<Row Tag="TXT_KEY_POLICY_MERCHANT_CONFEDERACY_HELP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR][NEWLINE]Gain +2 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, and +2 [ICON_GOLD] Gold per turn from trade routes with City-States, and gain +1 [ICON_INFLUENCE] Influence per turn with City-States you have a trade route to.</Text>
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Merchant Confederacy[ENDCOLOR][NEWLINE]Gain +2 [ICON_FOOD] Food, +2 [ICON_PRODUCTION] Production, and +2 [ICON_GOLD] Gold per turn from trade routes with City-States, and gain +1 [ICON_INFLUENCE] Influence per turn with City-States you have a trade route to.[NEWLINE]After adopting all policies in the Patronage tree increse bonus [ICON_FOOD] Food, [ICON_PRODUCTION] Production and [ICON_GOLD] Gold from trade routes with City-States to +4.</Text>
 		</Row>
 	</Language_PL_PL>
 	<Language_RU_RU>

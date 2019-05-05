@@ -74,7 +74,7 @@
 	<Language_PL_PL>
 		<Delete Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP" />
 		<Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. Gain 5 more [ICON_INFLUENCE] Influence per turn (on Quick Speed) with City-States you have a [ICON_INTERNATIONAL_TRADE] Trade Route to.</Text>
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. Gain 3 more [ICON_INFLUENCE] Influence, [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold per turn (on Quick Speed) with City-States you have a [ICON_INTERNATIONAL_TRADE] Trade Route to.</Text>
 		</Row>
 	</Language_PL_PL>
 	<Language_RU_RU>

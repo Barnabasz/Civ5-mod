@@ -6,7 +6,7 @@
 	<Language_en_US>
 		<Delete Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP" />
 		<Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
-			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building Uffizi.[NEWLINE][NEWLINE]Adopting all policies reveals Hidden Antiquity Sites and and allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era. Grants 1 free Social Policy upon completing the tree.</Text>
+			<Text>[COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building Uffizi.[NEWLINE][NEWLINE]Adopting all policies reveals Hidden Antiquity Sites and and allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era. Grants 1 free Social Policy upon completing the tree and Grand Monument in [ICON_CAPITAL] Capital providing +5 [ICON_CULTURE] Culture and +2% [ICON_CULTURE] Culture Bonus.</Text>
 		</Row>
 	</Language_en_US>
 	<Language_DE_DE>
@@ -18,7 +18,7 @@
 	<Language_PL_PL>
 		<Delete Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP" />
 		<Row Tag="TXT_KEY_POLICY_BRANCH_AESTHETICS_HELP">
-			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building Uffizi.[NEWLINE][NEWLINE]Adopting all policies reveals Hidden Antiquity Sites and and allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era. Grants 1 free Social Policy upon completing the tree.</Text>
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Aesthetics[ENDCOLOR] improves the civilization's ability to generate [ICON_CULTURE] Culture.[NEWLINE][NEWLINE]Adopting Aesthetics allows you to earn Great Writers, Artists, and Musicians 25% faster. Unlocks building Uffizi.[NEWLINE][NEWLINE]Adopting all policies reveals Hidden Antiquity Sites and and allows the purchase of Great Writers, Artists, or Musicians with [ICON_PEACE] Faith starting in the Industrial Era. Grants 1 free Social Policy upon completing the tree and Grand Monument in [ICON_CAPITAL] Capital providing +5 [ICON_CULTURE] Culture and +2% [ICON_CULTURE] Culture Bonus.</Text>
 		</Row>
 	</Language_PL_PL>
 	<Language_RU_RU>
