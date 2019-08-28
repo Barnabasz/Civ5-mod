@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2018 8:56:28 PM -->
+<GameData>
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES" />
+		<Row Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
+			<Text>Raze Cities at double speed. Borrow City names from other in-game Civilizations. Start with Animal Husbandry Technology. +1 [ICON_PRODUCTION] Production per Pasture.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES" />
+		<Row Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Raze Cities at double speed. Borrow City names from other in-game Civilizations. Start with Animal Husbandry Technology. +1 [ICON_PRODUCTION] Production per Pasture.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES" />
+		<Row Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Raze Cities at double speed. Borrow City names from other in-game Civilizations. Start with Animal Husbandry Technology. +1 [ICON_PRODUCTION] Production per Pasture.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES" />
+		<Row Tag="TXT_KEY_TRAIT_RAZE_AND_HORSES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Raze Cities at double speed. Borrow City names from other in-game Civilizations. Start with Animal Husbandry Technology. +1 [ICON_PRODUCTION] Production per Pasture.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

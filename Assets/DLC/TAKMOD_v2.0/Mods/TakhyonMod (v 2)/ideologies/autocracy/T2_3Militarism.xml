@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- War Heroes: Great Generals and Great Admirals provide additional +10HP when healing to Units within 1 tiles. Gain a free Great General and a free Great Admiral. -->
+
+	<!-- UPDATE: In-game name changed from War Heroes to Militarism to match with Civilopedia entry. So this is now a bit of a mess containing both MILITARISM and WAR_HEROES -entries... -->
+
+	<Policies>
+		<Update>
+			<Set Level="2" IsWarHero="false" IncludesOneShotFreeUnits="true" />
+			<Where Type="POLICY_MILITARISM" />
+		</Update>
+	</Policies>
+	<Policy_FreeUnitClasses>
+		<Row>
+			<PolicyType>POLICY_MILITARISM</PolicyType>
+			<UnitClassType>UNITCLASS_GREAT_GENERAL</UnitClassType>
+			<Count>1</Count>
+		</Row>
+		<Row>
+			<PolicyType>POLICY_MILITARISM</PolicyType>
+			<UnitClassType>UNITCLASS_GREAT_ADMIRAL</UnitClassType>
+			<Count>1</Count>
+		</Row>
+	</Policy_FreeUnitClasses>
+	<Policy_BuildingClassHappiness>
+		<Delete PolicyType="POLICY_MILITARISM" />
+	</Policy_BuildingClassHappiness>
+
+	<!-- Give promotion on this Policy. -->
+
+	<Policy_FreePromotions>
+		<Row>
+			<PolicyType>POLICY_MILITARISM</PolicyType>
+			<PromotionType>PROMOTION_WAR_HEROES</PromotionType>
+		</Row>
+	</Policy_FreePromotions>
+
+	<UnitPromotions_CivilianUnitType>
+		<Row>
+			<PromotionType>PROMOTION_WAR_HEROES</PromotionType>
+			<UnitType>UNIT_GREAT_GENERAL</UnitType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_WAR_HEROES</PromotionType>
+			<UnitType>UNIT_GREAT_ADMIRAL</UnitType>
+		</Row>
+	</UnitPromotions_CivilianUnitType>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_WAR_HEROES</Type>
+			<Description>TXT_KEY_PROMOTION_WAR_HEROES</Description>
+			<Help>TXT_KEY_PROMOTION_WAR_HEROES_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<EnemyHealChange>10</EnemyHealChange>
+			<NeutralHealChange>10</NeutralHealChange>
+			<FriendlyHealChange>10</FriendlyHealChange>
+			<SameTileHealChange>10</SameTileHealChange>
+			<AdjacentTileHealChange>10</AdjacentTileHealChange>
+			<PediaEntry>TXT_KEY_PROMOTION_WAR_HEROES</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	
+	<!-- Promotion texts. -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES">
+			<Text>Militarism</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Militarism</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Militarism</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Militarism</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES_HELP">
+			<Text>Units within one tile range gain additional 10 HP when healing.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Units within one tile range gain additional 10 HP when healing.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Units within one tile range gain additional 10 HP when healing.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_WAR_HEROES_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Units within one tile range gain additional 10 HP when healing.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM">
+			<Text>Militarism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Militarism[ENDCOLOR][NEWLINE]Units within one tile range of a Great General or a Great Admiral gain additional +10 HP when healing. Receive a free Great General and a free Great Admiral.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Militarism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Militarism[ENDCOLOR][NEWLINE]Units within one tile range of a Great General or a Great Admiral gain additional +10 HP when healing. Receive a free Great General and a free Great Admiral.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Militarism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Militarism[ENDCOLOR][NEWLINE]Units within one tile range of a Great General or a Great Admiral gain additional +10 HP when healing. Receive a free Great General and a free Great Admiral.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Militarism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_MILITARISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_MILITARISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Militarism[ENDCOLOR][NEWLINE]Units within one tile range of a Great General or a Great Admiral gain additional +10 HP when healing. Receive a free Great General and a free Great Admiral.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

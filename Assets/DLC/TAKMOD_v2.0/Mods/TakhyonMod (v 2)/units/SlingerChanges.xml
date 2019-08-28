@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/31/2018 6:07:44 AM -->
+<GameData>
+  <!-- Slinger now has the same melee strength as the archer. -->
+
+	<Units>
+		<Update>
+			<Set Combat="5" />
+			<Where Type="UNIT_INCAN_SLINGER" />
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP">
+			<Text>One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_CIV5_INCA_SLINGER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP">
+			<Text>One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP" />
+		<Row Tag="TXT_KEY_NEWWORLD_SCENARIO_CIV5_INCA_SLINGER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]One of the first available ranged Units, this Incan Unique Unit replaces the Archer. The Slinger is no more powerful than the Archer, but it possesses a promotion that gives it a good chance to withdraw to the rear before an enemy melee attack can occur.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

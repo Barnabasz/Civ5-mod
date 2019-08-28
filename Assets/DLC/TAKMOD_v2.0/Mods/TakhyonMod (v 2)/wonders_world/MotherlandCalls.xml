@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/16/2018 9:54:44 AM -->
+<GameData>
+	
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_MOTHERLAND_CALLS</Type>
+			<DefaultBuilding>BUILDING_MOTHERLAND_CALLS</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MOTHERLAND_CALLS</Description>
+			<MaxGlobalInstances>1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_MOTHERLAND_CALLS</Type>
+			<BuildingClass>BUILDINGCLASS_MOTHERLAND_CALLS</BuildingClass>
+			<Description>TXT_KEY_BUILDING_MOTHERLAND_CALLS</Description>
+			<Help>TXT_KEY_WONDER_MOTHERLAND_CALLS_HELP</Help>
+			<Civilopedia>TXT_KEY_WONDER_MOTHERLAND_CALLS_PEDIA</Civilopedia>
+			<Quote>TXT_KEY_WONDER_MOTHERLAND_CALLS_QUOTE</Quote>
+			<Cost>1060</Cost>
+			<PrereqTech>TECH_RAILROAD</PrereqTech>
+			<NukeImmune>true</NukeImmune>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>100</ConquestProb>
+			<IconAtlas>BW_ATLAS_MOTHERLAND</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<WonderSplashImage>MOTHERLAND_splash.dds</WonderSplashImage>
+			<WonderSplashAnchor>R,T</WonderSplashAnchor>
+			<PolicyBranchType>POLICY_BRANCH_ORDER</PolicyBranchType>
+			<FreePolicies>1</FreePolicies>
+			<WonderSplashAudio>AS2D_WONDER_SPEECH_MOTHERLAND_STATUE</WonderSplashAudio>
+		</Row>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND_CALLS</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Building_YieldChanges>
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND_CALLS</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>40</Flavor>
+		</Row>
+	</Building_Flavors>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_BARBARIAN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MOTHERLAND_CALLS</BuildingClassType>
+		</Row>
+		<Row>
+			<CivilizationType>CIVILIZATION_MINOR</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MOTHERLAND_CALLS</BuildingClassType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Building_BuildingClassHappiness>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND_CALLS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WORKSHOP</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND_CALLS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_FACTORY</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOTHERLAND_CALLS</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WINDMILL</BuildingClassType>
+			<Happiness>1</Happiness>
+		</Row>
+	</Building_BuildingClassHappiness>
+	<Audio_Sounds>
+		<Row>
+			<SoundID>SND_WONDER_SPEECH_MOTHERLAND_STATUE</SoundID>
+			<Filename>MotherlandStatue</Filename>
+			<LoadType>DynamicResident</LoadType>
+		</Row>
+	</Audio_Sounds>
+	<Audio_2DSounds>
+		<Row>
+			<ScriptID>AS2D_WONDER_SPEECH_MOTHERLAND_STATUE</ScriptID>
+			<SoundID>SND_WONDER_SPEECH_MOTHERLAND_STATUE</SoundID>
+			<SoundType>GAME_MUSIC_STINGS</SoundType>
+			<MinVolume>120</MinVolume>
+			<MaxVolume>120</MaxVolume>
+			<IsMusic>true</IsMusic>
+			<TaperSoundtrackVolume>0.0</TaperSoundtrackVolume>
+		</Row>
+	</Audio_2DSounds>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_CALLS">
+			<Text>Motherland Calls</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_CALLS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Motherland Calls</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_CALLS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Motherland Calls</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_MOTHERLAND_CALLS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Motherland Calls</Text>
+			<Gender>neuter:the</Gender>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_HELP">
+			<Text>Requires Order. 1 Free Social Policy. +1 [ICON_HAPPINESS_1] Happiness from Workshops, Windmills, and Factories.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires Order. 1 Free Social Policy. +1 [ICON_HAPPINESS_1] Happiness from Workshops, Windmills, and Factories.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires Order. 1 Free Social Policy. +1 [ICON_HAPPINESS_1] Happiness from Workshops, Windmills, and Factories.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires Order. 1 Free Social Policy. +1 [ICON_HAPPINESS_1] Happiness from Workshops, Windmills, and Factories.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_PEDIA">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/The_Motherland_Calls)[ENDCOLOR][NEWLINE][NEWLINE]The Motherland Calls is the compositional center of the monument-ensemble "Heroes of the Battle of Stalingrad" on Mamayev Kurgan in Volgograd, Russia. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the tallest statue in the world in 1967. The statue is an 85 metre figure of a woman stepping forward with a raised sword. It is the tallest statue in Europe, the tallest statue (excluding any pedestal) of a woman in the world and the tallest freestanding non-religious statue in the world.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: The Motherland Calls Wonder - Pouakai, Sukritact[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/The_Motherland_Calls)[ENDCOLOR][NEWLINE][NEWLINE]The Motherland Calls is the compositional center of the monument-ensemble "Heroes of the Battle of Stalingrad" on Mamayev Kurgan in Volgograd, Russia. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the tallest statue in the world in 1967. The statue is an 85 metre figure of a woman stepping forward with a raised sword. It is the tallest statue in Europe, the tallest statue (excluding any pedestal) of a woman in the world and the tallest freestanding non-religious statue in the world.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: The Motherland Calls Wonder - Pouakai, Sukritact[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/The_Motherland_Calls)[ENDCOLOR][NEWLINE][NEWLINE]The Motherland Calls is the compositional center of the monument-ensemble "Heroes of the Battle of Stalingrad" on Mamayev Kurgan in Volgograd, Russia. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the tallest statue in the world in 1967. The statue is an 85 metre figure of a woman stepping forward with a raised sword. It is the tallest statue in Europe, the tallest statue (excluding any pedestal) of a woman in the world and the tallest freestanding non-religious statue in the world.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: The Motherland Calls Wonder - Pouakai, Sukritact[ENDCOLOR]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_PEDIA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/The_Motherland_Calls)[ENDCOLOR][NEWLINE][NEWLINE]The Motherland Calls is the compositional center of the monument-ensemble "Heroes of the Battle of Stalingrad" on Mamayev Kurgan in Volgograd, Russia. It was designed by sculptor Yevgeny Vuchetich and structural engineer Nikolai Nikitin, and declared the tallest statue in the world in 1967. The statue is an 85 metre figure of a woman stepping forward with a raised sword. It is the tallest statue in Europe, the tallest statue (excluding any pedestal) of a woman in the world and the tallest freestanding non-religious statue in the world.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: The Motherland Calls Wonder - Pouakai, Sukritact[ENDCOLOR]</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_QUOTE">
+			<Text>[NEWLINE][TAB][TAB]"One of the hallmarks of a great nation is its ability to rise through its feet after a fall."[NEWLINE][TAB][TAB] - Theodore Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][NEWLINE][TAB][TAB]"One of the hallmarks of a great nation is its ability to rise through its feet after a fall."[NEWLINE][TAB][TAB] - Theodore Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][NEWLINE][TAB][TAB]"One of the hallmarks of a great nation is its ability to rise through its feet after a fall."[NEWLINE][TAB][TAB] - Theodore Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_WONDER_MOTHERLAND_CALLS_QUOTE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][NEWLINE][TAB][TAB]"One of the hallmarks of a great nation is its ability to rise through its feet after a fall."[NEWLINE][TAB][TAB] - Theodore Roosevelt[NEWLINE][TAB]</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

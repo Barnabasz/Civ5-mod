@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-11-30 02:35:54 -->
+<GameData>
+
+
+	<!-- Pyramids now provides 2 workers... -->
+	
+	<Building_FreeUnits>
+		<Update>
+			<Set NumUnits="2" />
+			<Where BuildingType="BUILDING_PYRAMID" UnitType="UNIT_WORKER" />
+		</Update>
+	</Building_FreeUnits>
+
+	<!-- ...and gives a free promotion... -->
+	
+	<Buildings>
+		<Update>
+			<Set FreePromotion="PROMOTION_PYRAMIDS" />
+			<Where Type="BUILDING_PYRAMID" />
+		</Update>
+	</Buildings>
+
+	<!-- ...which applies to workers... -->
+
+	<UnitPromotions_CivilianUnitType>
+		<Row>
+			<PromotionType>PROMOTION_PYRAMIDS</PromotionType>
+			<UnitType>UNIT_WORKER</UnitType>
+		</Row>
+	</UnitPromotions_CivilianUnitType>
+	
+	<!-- ...giving them +1 Movement! -->
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_PYRAMIDS</Type>
+			<Description>TXT_KEY_PROMOTION_PYRAMIDS</Description>
+			<Help>TXT_KEY_PROMOTION_PYRAMIDS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_SHARED</PediaType>
+			<MovesChange>1</MovesChange>
+			<PediaEntry>TXT_KEY_PROMOTION_PYRAMIDS</PediaEntry>
+		</Row>
+	</UnitPromotions>
+	
+	<!-- Oh Bloody Nora why does the help tag for Pyramids say Chichen Itza??? -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+			<Text>Requires Liberty. Tile improvement construction speed increased by 25% and two Workers appear near the City. All Workers gain +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires Liberty. Tile improvement construction speed increased by 25% and two Workers appear near the City. All Workers gain +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires Liberty. Tile improvement construction speed increased by 25% and two Workers appear near the City. All Workers gain +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP" />
+		<Row Tag="TXT_KEY_WONDER_CHICHEN_ITZA_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires Liberty. Tile improvement construction speed increased by 25% and two Workers appear near the City. All Workers gain +1 [ICON_MOVES] Movement.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Texts for this new promotion. -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS">
+			<Text>The Pyramids</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Pyramids</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Pyramids</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Pyramids</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS_HELP">
+			<Text>+1 [ICON_MOVES] Movement</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_MOVES] Movement</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_MOVES] Movement</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_PYRAMIDS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_MOVES] Movement</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

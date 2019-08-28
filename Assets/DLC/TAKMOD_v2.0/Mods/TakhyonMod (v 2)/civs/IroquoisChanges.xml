@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/4/2015 8:15:12 PM -->
+
+<GameData>
+
+	<!-- Updates Longhouse to also provide the flat 10% bonus to production that Workshops do. -->
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>10</Yield>
+		</Row>
+	</Building_YieldModifiers>
+
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_LONGHOUSE</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+
+	<Buildings>
+		<Update>
+			<Set Cost="96" />
+			<Where Type="BUILDING_LONGHOUSE" />
+		</Update>
+	</Buildings>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST" />
+		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+			<Text>Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel. Forest and Jungle extend length of Trade Routes as if they were Roads.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST" />
+		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel. Forest and Jungle extend length of Trade Routes as if they were Roads.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST" />
+		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel. Forest and Jungle extend length of Trade Routes as if they were Roads.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST" />
+		<Row Tag="TXT_KEY_TRAIT_IGNORE_TERRAIN_IN_FOREST">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Units move through Forest and Jungle in friendly territory as if they were Roads. These tiles can be used to establish [ICON_CONNECTED] City Connections upon researching The Wheel. Forest and Jungle extend length of Trade Routes as if they were Roads.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
+			<Text>Unique Iroquois replacement for the Workshop. Cheaper to construct. Allows [ICON_PRODUCTION] Production to be moved from this City along Trade Routes inside your Civilization. +1 [ICON_PRODUCTION] Production from each worked Forest or Jungle tile.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Unique Iroquois replacement for the Workshop. Cheaper to construct. Allows [ICON_PRODUCTION] Production to be moved from this City along Trade Routes inside your Civilization. +1 [ICON_PRODUCTION] Production from each worked Forest or Jungle tile.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Unique Iroquois replacement for the Workshop. Cheaper to construct. Allows [ICON_PRODUCTION] Production to be moved from this City along Trade Routes inside your Civilization. +1 [ICON_PRODUCTION] Production from each worked Forest or Jungle tile.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unique Iroquois replacement for the Workshop. Cheaper to construct. Allows [ICON_PRODUCTION] Production to be moved from this City along Trade Routes inside your Civilization. +1 [ICON_PRODUCTION] Production from each worked Forest or Jungle tile.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY">
+			<Text>The Longhouse is the Iroquois unique building, replacing the Workshop. In addition to the regular abilities of a Workshop, the Longhouse is cheaper to construct, and it also increases the [ICON_PRODUCTION] Production output of each Forest and Jungle within the City's radius.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Longhouse is the Iroquois unique building, replacing the Workshop. In addition to the regular abilities of a Workshop, the Longhouse is cheaper to construct, and it also increases the [ICON_PRODUCTION] Production output of each Forest and Jungle within the City's radius.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Longhouse is the Iroquois unique building, replacing the Workshop. In addition to the regular abilities of a Workshop, the Longhouse is cheaper to construct, and it also increases the [ICON_PRODUCTION] Production output of each Forest and Jungle within the City's radius.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_LONGHOUSE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Longhouse is the Iroquois unique building, replacing the Workshop. In addition to the regular abilities of a Workshop, the Longhouse is cheaper to construct, and it also increases the [ICON_PRODUCTION] Production output of each Forest and Jungle within the City's radius.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>
+

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/5/2016 6:01:19 AM -->
+<GameData>
+
+	<!-- Make this a Cuirassier unit for France. -->
+
+	<!-- Remove some of the old promos from Hakkapeliitta and give it the Camaraderie promo - +10% Combat Strength if adjacent to another horsie unit. Also give more Combat Strength. -->
+
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_SWEDISH_HAKKAPELIITTA" PromotionType="PROMOTION_GENERAL_STACKING" />
+		<Delete UnitType="UNIT_SWEDISH_HAKKAPELIITTA" PromotionType="PROMOTION_MOVEMENT_TO_GENERAL" />
+	</Unit_FreePromotions>
+
+	<UnitPromotions>
+		<Row>
+			<Type>PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS</Type>
+			<Description>TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS</Description>
+			<Help>TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS_HELP</Help>
+			<Sound>AS2D_IF_LEVELUP</Sound>
+			<CannotBeChosen>true</CannotBeChosen>
+			<AdjacentMod>10</AdjacentMod>
+			<PortraitIndex>59</PortraitIndex>
+			<IconAtlas>ABILITY_ATLAS</IconAtlas>
+			<PediaType>PEDIA_ATTRIBUTES</PediaType>
+			<PediaEntry>TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS</PediaEntry>
+		</Row>
+	</UnitPromotions>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SWEDISH_HAKKAPELIITTA</UnitType>
+			<PromotionType>PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Units>
+		<Update>
+			<Set Combat="27" />
+			<Where Type="UNIT_SWEDISH_HAKKAPELIITTA" />
+		</Update>
+	</Units>
+	
+	<!-- Promotion texts. -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS">
+			<Text>Camaraderie</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Camaraderie</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Camaraderie</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Camaraderie</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS_HELP">
+			<Text>+10% [ICON_STRENGTH] Combat Strength when adjacent to units of the same Combat Type.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+10% [ICON_STRENGTH] Combat Strength when adjacent to units of the same Combat Type.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+10% [ICON_STRENGTH] Combat Strength when adjacent to units of the same Combat Type.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_EXTRA_COMBAT_STRENGTH_FROM_ADJACENT_UNITS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+10% [ICON_STRENGTH] Combat Strength when adjacent to units of the same Combat Type.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!-- Change texts to be Cuirassier instead of Hakkapeliitta. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA">
+			<Text>Cuirassier</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Cuirassier</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Cuirassier</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Cuirassier</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The Cuirassier was the last step in the evolution of European armored cavalry. Drawing their name from their heavy, metal breastplates - or "cuirasses" - the Cuirassiers were the heaviest of the heavy cavalry.[NEWLINE][NEWLINE]The earliest Cuirassiers, born in the 15th century, were armored head-to-toe and armed with heavy saber and pistols. As European warfare began to rely more on firearms, much of this heavy armor was shed to increase mobility, eventually adapting into what is now recognized as the standard Cuirassier uniform - a breastplate and helm. Fielded almost exclusively in the battles of continental Europe, the Cuirassier saw its most widespread use under the command of Napoleon, who was fielding 14 regiments of the cavalrymen by 1812.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The Cuirassier was the last step in the evolution of European armored cavalry. Drawing their name from their heavy, metal breastplates - or "cuirasses" - the Cuirassiers were the heaviest of the heavy cavalry.[NEWLINE][NEWLINE]The earliest Cuirassiers, born in the 15th century, were armored head-to-toe and armed with heavy saber and pistols. As European warfare began to rely more on firearms, much of this heavy armor was shed to increase mobility, eventually adapting into what is now recognized as the standard Cuirassier uniform - a breastplate and helm. Fielded almost exclusively in the battles of continental Europe, the Cuirassier saw its most widespread use under the command of Napoleon, who was fielding 14 regiments of the cavalrymen by 1812.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The Cuirassier was the last step in the evolution of European armored cavalry. Drawing their name from their heavy, metal breastplates - or "cuirasses" - the Cuirassiers were the heaviest of the heavy cavalry.[NEWLINE][NEWLINE]The earliest Cuirassiers, born in the 15th century, were armored head-to-toe and armed with heavy saber and pistols. As European warfare began to rely more on firearms, much of this heavy armor was shed to increase mobility, eventually adapting into what is now recognized as the standard Cuirassier uniform - a breastplate and helm. Fielded almost exclusively in the battles of continental Europe, the Cuirassier saw its most widespread use under the command of Napoleon, who was fielding 14 regiments of the cavalrymen by 1812.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SWEDISH_HAKKAPELIITTA_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]The Cuirassier was the last step in the evolution of European armored cavalry. Drawing their name from their heavy, metal breastplates - or "cuirasses" - the Cuirassiers were the heaviest of the heavy cavalry.[NEWLINE][NEWLINE]The earliest Cuirassiers, born in the 15th century, were armored head-to-toe and armed with heavy saber and pistols. As European warfare began to rely more on firearms, much of this heavy armor was shed to increase mobility, eventually adapting into what is now recognized as the standard Cuirassier uniform - a breastplate and helm. Fielded almost exclusively in the battles of continental Europe, the Cuirassier saw its most widespread use under the command of Napoleon, who was fielding 14 regiments of the cavalrymen by 1812.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY">
+			<Text>Cuirassiers are the elite Mounted Units of the late Renaissance French army. They are stronger than the Lancer which they replace, and also receive additional combat bonus when they are adjacent to another Mounted Melee Unit.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Cuirassiers are the elite Mounted Units of the late Renaissance French army. They are stronger than the Lancer which they replace, and also receive additional combat bonus when they are adjacent to another Mounted Melee Unit.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Cuirassiers are the elite Mounted Units of the late Renaissance French army. They are stronger than the Lancer which they replace, and also receive additional combat bonus when they are adjacent to another Mounted Melee Unit.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_SWEDISH_HAKKAPELIITTA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Cuirassiers are the elite Mounted Units of the late Renaissance French army. They are stronger than the Lancer which they replace, and also receive additional combat bonus when they are adjacent to another Mounted Melee Unit.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA">
+			<Text>Elite Mounted Unit that specializes in defeating other Mounted Units. It is stronger than the Lancer it replaces and receives a promotion that gives it additional Combat Strength when it is adjacent to other Mounted Melee Units. Only the French may build it.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Elite Mounted Unit that specializes in defeating other Mounted Units. It is stronger than the Lancer it replaces and receives a promotion that gives it additional Combat Strength when it is adjacent to other Mounted Melee Units. Only the French may build it.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Elite Mounted Unit that specializes in defeating other Mounted Units. It is stronger than the Lancer it replaces and receives a promotion that gives it additional Combat Strength when it is adjacent to other Mounted Melee Units. Only the French may build it.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SWEDISH_HAKKAPELIITTA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Elite Mounted Unit that specializes in defeating other Mounted Units. It is stronger than the Lancer it replaces and receives a promotion that gives it additional Combat Strength when it is adjacent to other Mounted Melee Units. Only the French may build it.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

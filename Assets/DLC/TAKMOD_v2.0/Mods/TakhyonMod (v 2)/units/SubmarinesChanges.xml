@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2018 9:49:25 AM -->
+<GameData>
+  <!-- Submarines and Nuclear Submarines now have extra Sight. -->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_NUCLEAR_SUBMARINE" PromotionType="PROMOTION_EXTRA_SIGHT_I" />
+	</Unit_FreePromotions>
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_NUCLEAR_SUBMARINE</UnitType>
+			<PromotionType>PROMOTION_EXTRA_SIGHT_II</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+  
+</GameData>

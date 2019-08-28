@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2018 7:14:44 AM -->
+<GameData>
+	
+  <!-- Jaguar now gets the promo to heal 50HP if it kills a unit (instead of 25HP). -->
+	
+	<Unit_FreePromotions>
+		<Delete UnitType="UNIT_AZTEC_JAGUAR" PromotionType="PROMOTION_PARTIAL_HEAL_IF_DESTROY_ENEMY" />
+		<Row>
+			<UnitType>UNIT_AZTEC_JAGUAR</UnitType>
+			<PromotionType>PROMOTION_HEAL_IF_DESTROY_ENEMY</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS" />
+		<Row Tag="TXT_KEY_TRAIT_CULTURE_FROM_KILLS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Gains [ICON_CULTURE] Culture for the Empire from each enemy Unit killed.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

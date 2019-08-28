@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 2:44:46 PM -->
+<GameData>
+
+	<Buildings>
+		<Update>
+			<Set Cost="80" />
+			<Where Type="BUILDING_DUCAL_STABLE" />
+		</Update>
+	</Buildings>
+	
+  <!-- Add to the describtion that Ducal Stable is cheaper than normal stable, because this is missing from the base game... -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY">
+			<Text>In addition to the regular abilities of the Stable, the Ducal Stable is cheaper to build, costs no maintenance, increases [ICON_GOLD] Gold on Pasture tiles, and provides +15 XP for Mounted Units. Only the Polish may build it.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]In addition to the regular abilities of the Stable, the Ducal Stable is cheaper to build, costs no maintenance, increases [ICON_GOLD] Gold on Pasture tiles, and provides +15 XP for Mounted Units. Only the Polish may build it.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]In addition to the regular abilities of the Stable, the Ducal Stable is cheaper to build, costs no maintenance, increases [ICON_GOLD] Gold on Pasture tiles, and provides +15 XP for Mounted Units. Only the Polish may build it.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]In addition to the regular abilities of the Stable, the Ducal Stable is cheaper to build, costs no maintenance, increases [ICON_GOLD] Gold on Pasture tiles, and provides +15 XP for Mounted Units. Only the Polish may build it.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP">
+			<Text>Unique Polish Stable replacement. Cheaper to construct, and requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production and +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Unique Polish Stable replacement. Cheaper to construct, and requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production and +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Unique Polish Stable replacement. Cheaper to construct, and requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production and +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_DUCAL_STABLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unique Polish Stable replacement. Cheaper to construct, and requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+15% [ICON_PRODUCTION] Production and +15 XP for Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Cleaning up normal texts for Stable. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_STRATEGY">
+			<Text>The Stable increases the speed of production of mounted units and provides +1 [ICON_PRODUCTION] Production from Pasture resource tiles. It can only be constructed in a city near to one or more improved [ICON_RES_HORSE] Horse, [ICON_RES_SHEEP] Sheep, or [ICON_RES_COW] Cattle resources.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Stable increases the speed of production of mounted units and provides +1 [ICON_PRODUCTION] Production from Pasture resource tiles. It can only be constructed in a city near to one or more improved [ICON_RES_HORSE] Horse, [ICON_RES_SHEEP] Sheep, or [ICON_RES_COW] Cattle resources.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Stable increases the speed of production of mounted units and provides +1 [ICON_PRODUCTION] Production from Pasture resource tiles. It can only be constructed in a city near to one or more improved [ICON_RES_HORSE] Horse, [ICON_RES_SHEEP] Sheep, or [ICON_RES_COW] Cattle resources.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Stable increases the speed of production of mounted units and provides +1 [ICON_PRODUCTION] Production from Pasture resource tiles. It can only be constructed in a city near to one or more improved [ICON_RES_HORSE] Horse, [ICON_RES_SHEEP] Sheep, or [ICON_RES_COW] Cattle resources.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+			<Text>+15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_STABLE_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_STABLE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City produce +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+
+</GameData>

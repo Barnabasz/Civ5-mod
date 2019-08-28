@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/1/2018 1:38:01 PM -->
+<GameData>
+  <!-- Extra territory claim reduced to 6 tiles (down from 8). -->
+
+	<Traits>
+		<Update>
+			<Set ExtraFoundedCityTerritoryClaimRange="6" />
+			<Where Type="TRAIT_GREAT_EXPANSE" />
+		</Update>
+	</Traits>
+	
+	<UnitPromotions>
+		<Update>
+			<Set FriendlyLandsModifier="10" />
+			<Where Type="PROMOTION_HOMELAND_GUARDIAN_BOOGALOO" />
+		</Update>
+	</UnitPromotions>
+
+	<Trait_FreePromotionUnitCombats>
+		<Row>
+			<TraitType>TRAIT_GREAT_EXPANSE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALRANGED</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GREAT_EXPANSE</TraitType>
+			<UnitCombatType>UNITCOMBAT_NAVALMELEE</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GREAT_EXPANSE</TraitType>
+			<UnitCombatType>UNITCOMBAT_SUBMARINE</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_GREAT_EXPANSE</TraitType>
+			<UnitCombatType>UNITCOMBAT_CARRIER</UnitCombatType>
+			<PromotionType>PROMOTION_HOMELAND_GUARDIAN_BOOGALOO</PromotionType>
+		</Row>
+	</Trait_FreePromotionUnitCombats>
+		
+	<!-- Remove Comanche Rider, add Totem Pole. -->
+	
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_SHOSHONE_COMANCHE_RIDERS" />
+	</Civilization_UnitClassOverrides>
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SHOSHONE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+			<BuildingType>BUILDING_TOTEM_POLE</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_GREAT_EXPANSE" />
+		<Row Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
+			<Text>Founded Cities start with additional territory. Land and Naval Units receive +10% [ICON_STRENGTH] Combat Strength bonus when fighting within their own territory.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_GREAT_EXPANSE" />
+		<Row Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Founded Cities start with additional territory. Land and Naval Units receive +10% [ICON_STRENGTH] Combat Strength bonus when fighting within their own territory.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_GREAT_EXPANSE" />
+		<Row Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Founded Cities start with additional territory. Land and Naval Units receive +10% [ICON_STRENGTH] Combat Strength bonus when fighting within their own territory.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_GREAT_EXPANSE" />
+		<Row Tag="TXT_KEY_TRAIT_GREAT_EXPANSE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Founded Cities start with additional territory. Land and Naval Units receive +10% [ICON_STRENGTH] Combat Strength bonus when fighting within their own territory.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP">
+			<Text>+10% Bonus in combat in your territory</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+10% Bonus in combat in your territory</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+10% Bonus in combat in your territory</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_HOMELAND_GUARDIAN_BOOGALOO_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+10% Bonus in combat in your territory</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

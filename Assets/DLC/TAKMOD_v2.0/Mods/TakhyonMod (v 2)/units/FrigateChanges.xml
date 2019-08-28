@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/30/2015 11:10:55 PM -->
+<GameData>
+	<!-- Nerf Frigate & SotL -->
+	<Units>
+		<Update>
+			<Set Combat="23" RangedCombat="25" />
+			<Where Type="UNIT_FRIGATE" />
+		</Update>
+		<Update>
+			<Set Combat="25" RangedCombat="30" />
+			<Where Type="UNIT_ENGLISH_SHIPOFTHELINE" />
+		</Update>
+	</Units>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+			<Text>Powerful Renaissance Era Naval Unit used to wrest control of the seas. Slightly cheaper than the Frigate it replaces. Only the English may build it.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Powerful Renaissance Era Naval Unit used to wrest control of the seas. Slightly cheaper than the Frigate it replaces. Only the English may build it.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Powerful Renaissance Era Naval Unit used to wrest control of the seas. Slightly cheaper than the Frigate it replaces. Only the English may build it.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE" />
+		<Row Tag="TXT_KEY_UNIT_HELP_SHIPOFTHELINE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Powerful Renaissance Era Naval Unit used to wrest control of the seas. Slightly cheaper than the Frigate it replaces. Only the English may build it.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

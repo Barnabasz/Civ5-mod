@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2018 8:42:33 PM -->
+<GameData>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2" />
+		<Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
+			<Text>Caravans gain 50% extended range. Your [ICON_INTERNATIONAL_TRADE] Trade Routes spread the home city's Religion twice as effectively. Oil Resources are doubled.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2" />
+		<Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Caravans gain 50% extended range. Your [ICON_INTERNATIONAL_TRADE] Trade Routes spread the home city's Religion twice as effectively. Oil Resources are doubled.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2" />
+		<Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Caravans gain 50% extended range. Your [ICON_INTERNATIONAL_TRADE] Trade Routes spread the home city's Religion twice as effectively. Oil Resources are doubled.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2" />
+		<Row Tag="TXT_KEY_TRAIT_LAND_TRADE_GOLD2">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Caravans gain 50% extended range. Your [ICON_INTERNATIONAL_TRADE] Trade Routes spread the home city's Religion twice as effectively. Oil Resources are doubled.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY">
+			<Text>The Bazaar is the Arabian unique Building, replacing the Market. The Bazaar provides a larger [ICON_GOLD] Gold bonus to the City than the Market, and the Civilization gains one additional copy of each Luxury Resource provided by a City possessing a Bazaar. The Bazaar also provides +2 [ICON_GOLD] Gold on [ICON_RES_OIL] Oil and Oases.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Bazaar is the Arabian unique Building, replacing the Market. The Bazaar provides a larger [ICON_GOLD] Gold bonus to the City than the Market, and the Civilization gains one additional copy of each Luxury Resource provided by a City possessing a Bazaar. The Bazaar also provides +2 [ICON_GOLD] Gold on [ICON_RES_OIL] Oil and Oases.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Bazaar is the Arabian unique Building, replacing the Market. The Bazaar provides a larger [ICON_GOLD] Gold bonus to the City than the Market, and the Civilization gains one additional copy of each Luxury Resource provided by a City possessing a Bazaar. The Bazaar also provides +2 [ICON_GOLD] Gold on [ICON_RES_OIL] Oil and Oases.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Bazaar is the Arabian unique Building, replacing the Market. The Bazaar provides a larger [ICON_GOLD] Gold bonus to the City than the Market, and the Civilization gains one additional copy of each Luxury Resource provided by a City possessing a Bazaar. The Bazaar also provides +2 [ICON_GOLD] Gold on [ICON_RES_OIL] Oil and Oases.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+			<Text>Provides 1 extra copy of each improved Luxury Resource near this City. Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. The Bazaar increases the City's output of wealth more than the Market it replaces. Trade Routes other players make to a City with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the City owner and the Trade Route owner gains an additional 1 [ICON_GOLD] Gold for the Trade route.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Provides 1 extra copy of each improved Luxury Resource near this City. Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. The Bazaar increases the City's output of wealth more than the Market it replaces. Trade Routes other players make to a City with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the City owner and the Trade Route owner gains an additional 1 [ICON_GOLD] Gold for the Trade route.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Provides 1 extra copy of each improved Luxury Resource near this City. Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. The Bazaar increases the City's output of wealth more than the Market it replaces. Trade Routes other players make to a City with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the City owner and the Trade Route owner gains an additional 1 [ICON_GOLD] Gold for the Trade route.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_BAZAAR_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_BAZAAR_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Provides 1 extra copy of each improved Luxury Resource near this City. Each source of [ICON_RES_OIL] Oil and each Oasis provides +2 [ICON_GOLD] Gold. The Bazaar increases the City's output of wealth more than the Market it replaces. Trade Routes other players make to a City with a Bazaar will generate an extra 1 [ICON_GOLD] Gold for the City owner and the Trade Route owner gains an additional 1 [ICON_GOLD] Gold for the Trade route.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

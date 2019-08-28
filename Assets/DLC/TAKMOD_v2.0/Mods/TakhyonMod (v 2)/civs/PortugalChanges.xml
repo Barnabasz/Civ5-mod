@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-03 23:17:45 -->
+<GameData>
+
+	<!-- Feitorias now available at Compass instead of Navigation. -->
+	<Builds>
+		<Update>
+			<Set PrereqTech="TECH_COMPASS" />
+			<Where Type="BUILD_FEITORIA" />
+		</Update>
+	</Builds>
+	
+	<!-- Nau has 22 Combat Strength. -->
+
+	<Units>
+		<Update>
+			<Set Combat="22" />
+			<Where Type="UNIT_PORTUGUESE_NAU" />
+		</Update>
+	</Units>
+
+	<!-- Dummy building for Portugal -->
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PORTUGALDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_PORTUGALDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_PORTUGALDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_PORTUGALDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_PORTUGALDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_PORTUGALDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_PORTUGALDUMMYBUILDING</BuildingType>
+			<UnitCombatType>UNITCOMBAT_TRADE</UnitCombatType>
+			<Modifier>25</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<!-- All Portugal's cities get dummy building for free. -->
+
+	<Traits>
+		<Update>
+			<Set FreeBuilding="BUILDING_PORTUGALDUMMYBUILDING" FreeBuildingOnConquest="BUILDING_PORTUGALDUMMYBUILDING" />
+			<Where Type="TRAIT_EXTRA_TRADE" />
+		</Update>
+	</Traits>
+	<!--FreeUnit="UNITCLASS_CARGO_SHIP" FreeUnitPrereqTech="TECH_COMPASS"-->
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_EXTRA_TRADE" />
+		<Row Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
+			<Text>+25% [ICON_PRODUCTION] Production towards Caravans and Cargo Ships. Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_EXTRA_TRADE" />
+		<Row Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+25% [ICON_PRODUCTION] Production towards Caravans and Cargo Ships. Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_EXTRA_TRADE" />
+		<Row Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+25% [ICON_PRODUCTION] Production towards Caravans and Cargo Ships. Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_EXTRA_TRADE" />
+		<Row Tag="TXT_KEY_TRAIT_EXTRA_TRADE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+25% [ICON_PRODUCTION] Production towards Caravans and Cargo Ships. Resource diversity grants twice as much [ICON_GOLD] Gold for Portugal in [ICON_INTERNATIONAL_TRADE] Trade Routes.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY">
+			<Text>This melee naval unit replaces the Caravel and is skilled at exploration. Nau is faster and stronger than the Caravel, and when it is in a tile next to land owned by another Civilization or City-State you are at peace with, it may perform a one-time trade mission to earn [ICON_GOLD] Gold and XP. The further the land is from your own capital, the greater the bonus, so it is best to use on distant players. Use this unit to explore the map and uncover the locations of other players.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]This melee naval unit replaces the Caravel and is skilled at exploration. Nau is faster and stronger than the Caravel, and when it is in a tile next to land owned by another Civilization or City-State you are at peace with, it may perform a one-time trade mission to earn [ICON_GOLD] Gold and XP. The further the land is from your own capital, the greater the bonus, so it is best to use on distant players. Use this unit to explore the map and uncover the locations of other players.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]This melee naval unit replaces the Caravel and is skilled at exploration. Nau is faster and stronger than the Caravel, and when it is in a tile next to land owned by another Civilization or City-State you are at peace with, it may perform a one-time trade mission to earn [ICON_GOLD] Gold and XP. The further the land is from your own capital, the greater the bonus, so it is best to use on distant players. Use this unit to explore the map and uncover the locations of other players.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_PORTUGUESE_NAU_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]This melee naval unit replaces the Caravel and is skilled at exploration. Nau is faster and stronger than the Caravel, and when it is in a tile next to land owned by another Civilization or City-State you are at peace with, it may perform a one-time trade mission to earn [ICON_GOLD] Gold and XP. The further the land is from your own capital, the greater the bonus, so it is best to use on distant players. Use this unit to explore the map and uncover the locations of other players.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU">
+			<Text>Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement and [ICON_STRENGTH] Combat Strength than the Caravel, which it replaces, and can perform a one-time ability next to foreign lands to earn [ICON_GOLD] Gold and XP. May only be built by the Portuguese.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement and [ICON_STRENGTH] Combat Strength than the Caravel, which it replaces, and can perform a one-time ability next to foreign lands to earn [ICON_GOLD] Gold and XP. May only be built by the Portuguese.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement and [ICON_STRENGTH] Combat Strength than the Caravel, which it replaces, and can perform a one-time ability next to foreign lands to earn [ICON_GOLD] Gold and XP. May only be built by the Portuguese.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU" />
+		<Row Tag="TXT_KEY_UNIT_HELP_PORTUGUESE_NAU">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Melee naval unit which excels at sea exploration. It has more [ICON_MOVES] Movement and [ICON_STRENGTH] Combat Strength than the Caravel, which it replaces, and can perform a one-time ability next to foreign lands to earn [ICON_GOLD] Gold and XP. May only be built by the Portuguese.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!-- Dummy building -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGALDUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGALDUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]You should not see this in game?</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGALDUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]You should not see this in game?</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_PORTUGALDUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]You should not see this in game?</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

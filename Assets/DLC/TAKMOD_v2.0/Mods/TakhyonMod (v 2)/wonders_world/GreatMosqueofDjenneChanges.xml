@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 11:09:12 AM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set FreeBuildingThisCity="" />
+			<Where Type="BUILDING_MOSQUE_OF_DJENNE" />
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_MOSQUE_OF_DJENNE" />
+		</Update>
+	</Building_YieldChanges>
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_BASILICA</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_GURDWARA</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MADRASSA</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_STUPA</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MOSQUE_OF_DJENNE</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+			<Text>All Religious Buildings which provide [ICON_CULTURE] Culture and [ICON_PEACE] Faith also provide +2 [ICON_GOLD] Gold. Missionaries born in this City can spread Religion one extra time.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All Religious Buildings which provide [ICON_CULTURE] Culture and [ICON_PEACE] Faith also provide +2 [ICON_GOLD] Gold. Missionaries born in this City can spread Religion one extra time.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All Religious Buildings which provide [ICON_CULTURE] Culture and [ICON_PEACE] Faith also provide +2 [ICON_GOLD] Gold. Missionaries born in this City can spread Religion one extra time.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_MOSQUE_OF_DJENNE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All Religious Buildings which provide [ICON_CULTURE] Culture and [ICON_PEACE] Faith also provide +2 [ICON_GOLD] Gold. Missionaries born in this City can spread Religion one extra time.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

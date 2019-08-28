@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 4:31:17 PM -->
+<GameData>
+  <!-- Hussars can now be purchased with faith. -->
+
+	<Units>
+		<Update>
+			<Set FaithCost="450" RequiresFaithPurchaseEnabled="true" />
+			<Where Type="UNIT_AUSTRIAN_HUSSAR" />
+		</Update>
+	</Units>
+  
+</GameData>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/20/2016 2:43:04 PM -->
+<GameData>
+
+	<!-- [Updated UA] Nobel Prize: +25% Great Person points in all Cities. Gain Science whenever a Great Person is born. -->
+	<Traits>
+		<Update>
+			<Set GreatPersonGiftInfluence="0" DOFGreatPersonModifier="0" GreatPeopleRateModifier="25" SciencePerGreatPersonBorn="37" />
+			<Where Type="TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+		</Update>
+	</Traits>
+	
+	<!-- This piece of text super wonky because Hakkapeliitta is now a French Cuirassier unit. It works though, don't recommend messing with it. -->
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_SWEDISH_CAROLEAN" />
+		<Update>
+			<Set UnitClassType="UNITCLASS_MUSKETMAN" UnitType="UNIT_SWEDISH_CAROLEAN" />
+			<Where CivilizationType="CIVILIZATION_SWEDEN" />
+		</Update>
+	</Civilization_UnitClassOverrides>
+	
+	<!--
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_IRONWORKS</BuildingClassType>
+			<BuildingType>BUILDING_FALU_GRUVA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	-->
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+		<Row Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
+			<Text>+25% [ICON_GREAT_PEOPLE] Great Person points in all Cities. Gain [ICON_RESEARCH] Science whenever a Great Person is born, scaling with Era.</Text>
+		</Row>
+	</Language_en_US>
+	
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+		<Row Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+25% [ICON_GREAT_PEOPLE] Great Person points in all Cities. Gain [ICON_RESEARCH] Science whenever a Great Person is born, scaling with Era.</Text>
+		</Row>
+	</Language_DE_DE>
+	
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+		<Row Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+25% [ICON_GREAT_PEOPLE] Great Person points in all Cities. Gain [ICON_RESEARCH] Science whenever a Great Person is born, scaling with Era.</Text>
+		</Row>
+	</Language_PL_PL>
+	
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE" />
+		<Row Tag="TXT_KEY_TRAIT_DIPLOMACY_GREAT_PEOPLE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+25% [ICON_GREAT_PEOPLE] Great Person points in all Cities. Gain [ICON_RESEARCH] Science whenever a Great Person is born, scaling with Era.</Text>
+		</Row>
+	</Language_RU_RU>	
+	
+	<!-- Swedish City name changes -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_HELSINKI" />
+		<Row Tag="TXT_KEY_CITY_NAME_HELSINKI">
+			<Text>Åbo</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_HELSINKI" />
+		<Row Tag="TXT_KEY_CITY_NAME_HELSINKI">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Åbo</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_HELSINKI" />
+		<Row Tag="TXT_KEY_CITY_NAME_HELSINKI">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Åbo</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_HELSINKI" />
+		<Row Tag="TXT_KEY_CITY_NAME_HELSINKI">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Åbo</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_TURKU" />
+		<Row Tag="TXT_KEY_CITY_NAME_TURKU">
+			<Text>Borgå</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_TURKU" />
+		<Row Tag="TXT_KEY_CITY_NAME_TURKU">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Borgå</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_TURKU" />
+		<Row Tag="TXT_KEY_CITY_NAME_TURKU">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Borgå</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_TURKU" />
+		<Row Tag="TXT_KEY_CITY_NAME_TURKU">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Borgå</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_ESPOO" />
+		<Row Tag="TXT_KEY_CITY_NAME_ESPOO">
+			<Text>Nådendal</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_ESPOO" />
+		<Row Tag="TXT_KEY_CITY_NAME_ESPOO">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Nådendal</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_ESPOO" />
+		<Row Tag="TXT_KEY_CITY_NAME_ESPOO">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Nådendal</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_ESPOO" />
+		<Row Tag="TXT_KEY_CITY_NAME_ESPOO">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Nådendal</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_VANTAA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VANTAA">
+			<Text>Uleåborg</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_VANTAA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VANTAA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Uleåborg</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_VANTAA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VANTAA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Uleåborg</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_VANTAA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VANTAA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Uleåborg</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_TAMPERE" />
+		<Row Tag="TXT_KEY_CITY_NAME_TAMPERE">
+			<Text>Tammerfors</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_TAMPERE" />
+		<Row Tag="TXT_KEY_CITY_NAME_TAMPERE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Tammerfors</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_TAMPERE" />
+		<Row Tag="TXT_KEY_CITY_NAME_TAMPERE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Tammerfors</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_TAMPERE" />
+		<Row Tag="TXT_KEY_CITY_NAME_TAMPERE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Tammerfors</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_OULU" />
+		<Row Tag="TXT_KEY_CITY_NAME_OULU">
+			<Text>Brahestad</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_OULU" />
+		<Row Tag="TXT_KEY_CITY_NAME_OULU">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Brahestad</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_OULU" />
+		<Row Tag="TXT_KEY_CITY_NAME_OULU">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Brahestad</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_OULU" />
+		<Row Tag="TXT_KEY_CITY_NAME_OULU">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Brahestad</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_JYVASKYLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_JYVASKYLA">
+			<Text>Raumo</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_JYVASKYLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_JYVASKYLA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Raumo</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_JYVASKYLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_JYVASKYLA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Raumo</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_JYVASKYLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_JYVASKYLA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Raumo</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_LAHTI" />
+		<Row Tag="TXT_KEY_CITY_NAME_LAHTI">
+			<Text>Nykarleby</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_LAHTI" />
+		<Row Tag="TXT_KEY_CITY_NAME_LAHTI">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Nykarleby</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_LAHTI" />
+		<Row Tag="TXT_KEY_CITY_NAME_LAHTI">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Nykarleby</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_LAHTI" />
+		<Row Tag="TXT_KEY_CITY_NAME_LAHTI">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Nykarleby</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_KUOPIO" />
+		<Row Tag="TXT_KEY_CITY_NAME_KUOPIO">
+			<Text>Jakobstad</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_KUOPIO" />
+		<Row Tag="TXT_KEY_CITY_NAME_KUOPIO">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Jakobstad</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_KUOPIO" />
+		<Row Tag="TXT_KEY_CITY_NAME_KUOPIO">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Jakobstad</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_KUOPIO" />
+		<Row Tag="TXT_KEY_CITY_NAME_KUOPIO">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Jakobstad</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_KOUVOLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_KOUVOLA">
+			<Text>Villmanstrand</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_KOUVOLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_KOUVOLA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Villmanstrand</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_KOUVOLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_KOUVOLA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Villmanstrand</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_KOUVOLA" />
+		<Row Tag="TXT_KEY_CITY_NAME_KOUVOLA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Villmanstrand</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_PORI" />
+		<Row Tag="TXT_KEY_CITY_NAME_PORI">
+			<Text>Björneborg</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_PORI" />
+		<Row Tag="TXT_KEY_CITY_NAME_PORI">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Björneborg</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_PORI" />
+		<Row Tag="TXT_KEY_CITY_NAME_PORI">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Björneborg</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_PORI" />
+		<Row Tag="TXT_KEY_CITY_NAME_PORI">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Björneborg</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CITY_NAME_VAASA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VAASA">
+			<Text>Vasa</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CITY_NAME_VAASA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VAASA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Vasa</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CITY_NAME_VAASA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VAASA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Vasa</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CITY_NAME_VAASA" />
+		<Row Tag="TXT_KEY_CITY_NAME_VAASA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Vasa</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Ragusa replaced by Helsinki -->
+
+	<MinorCivilization_CityNames>
+		<Update>
+			<Set CityName="TXT_KEY_CITYSTATE_HELSINKI" />
+			<Where MinorCivType="MINOR_CIV_RAGUSA" />
+		</Update>
+	</MinorCivilization_CityNames>
+
+	<MinorCivilizations>
+		<Update>
+			<Set Description="TXT_KEY_CITYSTATE_HELSINKI" Civilopedia="TXT_KEY_CIV5_HELSINKI_TEXT" ShortDescription="TXT_KEY_CITYSTATE_HELSINKI" Adjective="TXT_KEY_CITYSTATE_HELSINKI_ADJ" />
+			<Where Type="MINOR_CIV_RAGUSA" />
+		</Update>
+	</MinorCivilizations>
+
+</GameData>

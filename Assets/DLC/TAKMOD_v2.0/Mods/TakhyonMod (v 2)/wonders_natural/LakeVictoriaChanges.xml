@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/11/2018 11:22:30 PM -->
+<GameData>
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_LAKE_VICTORIA">
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+  
+</GameData>

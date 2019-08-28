@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 4:59:02 PM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set Water="false" Cost="1500" />
+			<Where Type="BUILDING_SYDNEY_OPERA_HOUSE" />
+		</Update>
+	</Buildings>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+			<Text>1 Free Social Policy and +50% [ICON_CULTURE] Culture in this city. Contains 2 slots for Great Works of Music.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]1 Free Social Policy and +50% [ICON_CULTURE] Culture in this city. Contains 2 slots for Great Works of Music.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]1 Free Social Policy and +50% [ICON_CULTURE] Culture in this city. Contains 2 slots for Great Works of Music.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP" />
+		<Row Tag="TXT_KEY_WONDER_SYDNEY_OPERA_HOUSE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]1 Free Social Policy and +50% [ICON_CULTURE] Culture in this city. Contains 2 slots for Great Works of Music.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

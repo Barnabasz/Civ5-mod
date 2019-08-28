@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/11/2018 8:36:21 PM -->
+<GameData>
+	
+	<Feature_YieldChanges>
+		<Update>
+			<Where FeatureType="FEATURE_POTOSI" YieldType="YIELD_GOLD" />
+			<Set Yield="3" />
+		</Update>
+	</Feature_YieldChanges>
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_POTOSI">
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>3</Yield>
+		</Row>
+	</Feature_YieldChanges>
+	<Feature_YieldChanges>
+		<Row FeatureType="FEATURE_POTOSI">
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Feature_YieldChanges>
+  
+</GameData>

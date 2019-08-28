@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-02-12 16:02:19 -->
+<GameData>
+	
+	<!-- Ministry of Transport (replaces Resettlement): +1 Happiness from City connections, additional +1 Happiness from Railroad Connections. Pay 25% less maintenance on Roads and Railroads. -->
+	<Policies>
+		<Update>
+			<Set Level="1" NewCityExtraPopulation="0" HappinessPerRailConnection="100" HappinessPerTradeRoute="100" RouteGoldMaintenanceMod="-25" />
+			<Where Type="POLICY_RESETTLEMENT" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+			<Text>Ministry of Transport</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Ministry of Transport</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Ministry of Transport</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Ministry of Transport</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Ministry of Transport[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from [ICON_CONNECTED] City Connections and Railroad Connections. Roads and Railroads cost 25% less maintenance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Ministry of Transport[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from [ICON_CONNECTED] City Connections and Railroad Connections. Roads and Railroads cost 25% less maintenance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Ministry of Transport[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from [ICON_CONNECTED] City Connections and Railroad Connections. Roads and Railroads cost 25% less maintenance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Ministry of Transport[ENDCOLOR][NEWLINE]+1 [ICON_HAPPINESS_1] Happiness from [ICON_CONNECTED] City Connections and Railroad Connections. Roads and Railroads cost 25% less maintenance.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Ministry_of_Transport)[ENDCOLOR][NEWLINE][NEWLINE]A Ministry of Transport or Transportation is a ministry responsible for transportation within a country. It usually is administered by the Minister for Transport. The term is also sometimes applied to the departments or other government agencies administering transport in nations who do not employ ministers. Specific responsibilities may include overseeing road safety, civil aviation, maritime transport, rail transport, developing government transportation policy, organizing public transport, and the maintenance and construction of infrastructural projects. Some ministries have additional responsibilities in related policy areas such as infrastructure, public works, waterworks, construction, communication, housing and economic activities, such as industry and trade.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Ministry_of_Transport)[ENDCOLOR][NEWLINE][NEWLINE]A Ministry of Transport or Transportation is a ministry responsible for transportation within a country. It usually is administered by the Minister for Transport. The term is also sometimes applied to the departments or other government agencies administering transport in nations who do not employ ministers. Specific responsibilities may include overseeing road safety, civil aviation, maritime transport, rail transport, developing government transportation policy, organizing public transport, and the maintenance and construction of infrastructural projects. Some ministries have additional responsibilities in related policy areas such as infrastructure, public works, waterworks, construction, communication, housing and economic activities, such as industry and trade.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Ministry_of_Transport)[ENDCOLOR][NEWLINE][NEWLINE]A Ministry of Transport or Transportation is a ministry responsible for transportation within a country. It usually is administered by the Minister for Transport. The term is also sometimes applied to the departments or other government agencies administering transport in nations who do not employ ministers. Specific responsibilities may include overseeing road safety, civil aviation, maritime transport, rail transport, developing government transportation policy, organizing public transport, and the maintenance and construction of infrastructural projects. Some ministries have additional responsibilities in related policy areas such as infrastructure, public works, waterworks, construction, communication, housing and economic activities, such as industry and trade.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT" />
+		<Row Tag="TXT_KEY_POLICY_RESETTLEMENT_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Ministry_of_Transport)[ENDCOLOR][NEWLINE][NEWLINE]A Ministry of Transport or Transportation is a ministry responsible for transportation within a country. It usually is administered by the Minister for Transport. The term is also sometimes applied to the departments or other government agencies administering transport in nations who do not employ ministers. Specific responsibilities may include overseeing road safety, civil aviation, maritime transport, rail transport, developing government transportation policy, organizing public transport, and the maintenance and construction of infrastructural projects. Some ministries have additional responsibilities in related policy areas such as infrastructure, public works, waterworks, construction, communication, housing and economic activities, such as industry and trade.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

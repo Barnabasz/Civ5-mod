@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/5/2016 3:36:21 PM -->
+<GameData>
+
+	<Resolutions>
+		<Update>
+			<Set MemberDiscoveredTechMod="10" />
+			<Where Type="RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT" />
+		</Update>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_NUCLEAR_FISSION" />
+			<Where Type="RESOLUTION_NUCLEAR_NON_PROLIFERATION" />
+		</Update>
+		<Update>
+			<Set TechPrereqAnyMember="TECH_ROCKETRY" />
+			<Where Type="RESOLUTION_INTERNATIONAL_SPACE_STATION" />
+		</Update>
+	</Resolutions>
+	
+	<!-- texts -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+			<Text>Civilizations research a technology 10% more quickly if it has been discovered by at least one other Civilization.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Civilizations research a technology 10% more quickly if it has been discovered by at least one other Civilization.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Civilizations research a technology 10% more quickly if it has been discovered by at least one other Civilization.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_MEMBER_DISCOVERED_TECH_DISCOUNT_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Civilizations research a technology 10% more quickly if it has been discovered by at least one other Civilization.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+			<Text>All Civilizations are prevented from constructing new nuclear weapons (Atomic Bomb and Nuclear Missile). Weapons already constructed, however, are not disarmed.[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fission.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All Civilizations are prevented from constructing new nuclear weapons (Atomic Bomb and Nuclear Missile). Weapons already constructed, however, are not disarmed.[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fission.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All Civilizations are prevented from constructing new nuclear weapons (Atomic Bomb and Nuclear Missile). Weapons already constructed, however, are not disarmed.[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fission.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_NUCLEAR_NON_PROLIFERATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All Civilizations are prevented from constructing new nuclear weapons (Atomic Bomb and Nuclear Missile). Weapons already constructed, however, are not disarmed.[NEWLINE][NEWLINE]Available once any Civilization discovers Nuclear Fission.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+			<Text>Begins the International Space Station project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Rocketry.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Begins the International Space Station project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Rocketry.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Begins the International Space Station project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Rocketry.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP" />
+		<Row Tag="TXT_KEY_RESOLUTION_INTERNATIONAL_SPACE_STATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Begins the International Space Station project. Once underway, Civilizations can contribute [ICON_PRODUCTION] Production towards its completion by selecting it in the city production list. When complete, Civilizations receive bonuses based on how much they contributed.[NEWLINE][NEWLINE][ICON_TROPHY_GOLD]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_3_HELP}[NEWLINE][ICON_TROPHY_SILVER]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_2_HELP}[NEWLINE][ICON_TROPHY_BRONZE]: {TXT_KEY_LEAGUE_PROJECT_REWARD_ISS_1_HELP}[NEWLINE][NEWLINE]Available once any Civilization discovers Rocketry.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

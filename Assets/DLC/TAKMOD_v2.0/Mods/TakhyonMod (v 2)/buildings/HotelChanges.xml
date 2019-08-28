@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/16/2018 1:47:51 PM -->
+<GameData>
+	
+	<!-- Did they forget to add maintenance to Hotels??? -->
+	
+	<Buildings>
+		<Update>
+			<Where Type="BUILDING_HOTEL" />
+			<Set GoldMaintenance="3" />
+		</Update>
+	</Buildings>
+  
+</GameData>

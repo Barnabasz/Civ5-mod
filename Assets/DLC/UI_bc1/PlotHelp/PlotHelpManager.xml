@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context>
+
+	<AlphaAnim ID="Timer" Speed="1000" Pause="0" Cycle="Bounce" Stopped="1" />
+	<Container ID="TipArea" Size="Full,Full" ToolTipType="PlotHelpToolTip" />
+
+	<ToolTipType Name="PlotHelpToolTip" >
+		<Container ID="PlotHelpToolTip">
+			<Grid ID="TipGrid" Anchor="L,T" Size="60,12" Padding="8,8" Style="GridBlack8" Color="White,240" >
+				<Label ID="TipText" Anchor="C,C" String="words" WrapWidth="400" ColorSet="Beige_Black" FontStyle="Shadow" Font="TwCenMT16" />
+			</Grid>
+		</Container>
+	</ToolTipType>
+
+</Context>

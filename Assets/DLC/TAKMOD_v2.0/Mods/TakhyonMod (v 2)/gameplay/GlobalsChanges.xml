@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2018 2:42:58 PM -->
+<GameData>
+
+	<Defines>
+		<Update>
+			<Set Value="15" />
+			<Where Name="MAX_EXPERIENCE_PER_COMBAT" />
+		</Update>
+	</Defines>
+
+</GameData>

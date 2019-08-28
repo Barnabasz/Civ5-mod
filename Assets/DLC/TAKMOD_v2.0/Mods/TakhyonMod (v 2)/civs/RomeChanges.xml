@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/1/2018 2:22:09 PM -->
+<GameData>
+  <!-- Rome now gets +2 Gold from City Connections. -->
+
+	<Traits>
+		<Update>
+			<Set CityConnectionTradeRouteChange="2" />
+			<Where Type="TRAIT_CAPITAL_BUILDINGS_CHEAPER" />
+		</Update>
+	</Traits>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER" />
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>+25% [ICON_PRODUCTION] Production towards any Buildings that already exist in the [ICON_CAPITAL] Capital. +2 [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER" />
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+25% [ICON_PRODUCTION] Production towards any Buildings that already exist in the [ICON_CAPITAL] Capital. +2 [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER" />
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+25% [ICON_PRODUCTION] Production towards any Buildings that already exist in the [ICON_CAPITAL] Capital. +2 [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER" />
+		<Row Tag="TXT_KEY_TRAIT_CAPITAL_BUILDINGS_CHEAPER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+25% [ICON_PRODUCTION] Production towards any Buildings that already exist in the [ICON_CAPITAL] Capital. +2 [ICON_GOLD] Gold from [ICON_CONNECTED] City Connections.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

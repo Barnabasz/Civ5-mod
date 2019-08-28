@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:10:22 PM -->
+<GameData>
+
+	<!-- Treaty Organization: Moved to level 2. -->
+	<Policies>
+		<Update>
+			<Set Level="2"  />
+			<Where Type="POLICY_TREATY_ORGANIZATION" />
+		</Update>
+	</Policies>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_TREATY_DUMMY</Type>
+			<DefaultBuilding>BUILDING_TREATY_DUMMY</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_TREATY_DUMMY</Description>
+		</Row>
+	</BuildingClasses>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_TREATY_DUMMY</Type>
+			<BuildingClass>BUILDINGCLASS_TREATY_DUMMY</BuildingClass>
+			<NumTradeRouteBonus>1</NumTradeRouteBonus>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_TREATY_DUMMY</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_TREATY_DUMMY">
+			<Text>Another Dummy Bites the Dust</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_TREATY_DUMMY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Another Dummy Bites the Dust</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_TREATY_DUMMY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Another Dummy Bites the Dust</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_TREATY_DUMMY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Another Dummy Bites the Dust</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. Gain 3 more [ICON_INFLUENCE] Influence, [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold per turn (on Quick Speed) with City-States you have a [ICON_INTERNATIONAL_TRADE] Trade Route to.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. Gain 5 more [ICON_INFLUENCE] Influence per turn (on Quick Speed) with City-States you have a [ICON_INTERNATIONAL_TRADE] Trade Route to.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. Gain 3 more [ICON_INFLUENCE] Influence, [ICON_FOOD] Food, [ICON_PRODUCTION] Production, and [ICON_GOLD] Gold per turn (on Quick Speed) with City-States you have a [ICON_INTERNATIONAL_TRADE] Trade Route to.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_TREATY_ORGANIZATION_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Treaty Organization[ENDCOLOR][NEWLINE]+1 [ICON_INTERNATIONAL_TRADE] Trade Route. Gain 5 more [ICON_INFLUENCE] Influence per turn (on Quick Speed) with City-States you have a [ICON_INTERNATIONAL_TRADE] Trade Route to.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

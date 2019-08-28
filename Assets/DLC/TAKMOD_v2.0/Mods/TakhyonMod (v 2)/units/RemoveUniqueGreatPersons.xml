@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2018 8:09:02 PM -->
+<GameData>
+	
+	<Units>
+		<Delete Type="UNIT_MONGOLIAN_KHAN" />
+		<Delete Type="UNIT_SWEDISH_HUMANITARIAN" />
+		<Delete Type="UNIT_VENETIAN_MERCHANT" />
+	</Units>
+
+</GameData>

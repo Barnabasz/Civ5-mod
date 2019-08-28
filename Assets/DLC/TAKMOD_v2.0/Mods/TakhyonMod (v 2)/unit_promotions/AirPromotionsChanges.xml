@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/8/2018 1:08:23 PM -->
+<GameData>
+	
+  <!-- Remove Ambush promo from Bombers and Fighters. -->
+	
+	<UnitPromotions>
+		<Delete Type="PROMOTION_AIR_AMBUSH_2" />
+	</UnitPromotions>
+	<UnitPromotions_UnitCombatMods>
+		<Delete PromotionType="PROMOTION_AIR_AMBUSH_1" />
+		<Delete PromotionType="PROMOTION_AIR_AMBUSH_2" />
+	</UnitPromotions_UnitCombatMods>
+	<UnitPromotions_UnitCombats>
+		<Delete PromotionType="PROMOTION_AIR_AMBUSH_2" />
+	</UnitPromotions_UnitCombats>
+	
+	<!-- New Promotion, Air Targeting III -->
+	
+	<!-- This needs to actually replace Air Ambush 1 to be in the right order in the unit promos... -->
+
+	<UnitPromotions>
+		<Update>
+			<Set Description="TXT_KEY_PROMOTION_AIR_TARGETING_3" Help="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP" OrderPriority="3" PortraitIndex="54" PediaEntry="TXT_KEY_PROMOTION_AIR_TARGETING_3" PromotionPrereqOr1="PROMOTION_AIR_TARGETING_2" PromotionPrereqOr2="NULL" PromotionPrereqOr3="NULL" PromotionPrereqOr4="NULL" />
+			<Where Type="PROMOTION_AIR_AMBUSH_1" />
+		</Update>
+	</UnitPromotions>
+
+	<UnitPromotions_Domains>
+		<Row>
+			<PromotionType>PROMOTION_AIR_TARGETING_3</PromotionType>
+			<DomainType>DOMAIN_SEA</DomainType>
+			<Modifier>34</Modifier>
+		</Row>
+	</UnitPromotions_Domains>
+	
+	<!-- Air Targeting I no longer requires any prerequisite promo -->
+
+	<UnitPromotions>
+		<Update>
+			<Set PromotionPrereq="NULL" PromotionPrereqOr1="NULL" PromotionPrereqOr2="NULL" PromotionPrereqOr3="NULL" PromotionPrereqOr4="NULL" />
+			<Where Type="PROMOTION_AIR_TARGETING_1" />
+		</Update>
+	</UnitPromotions>
+	
+	<!-- Fighters can now also get Bombardment promo. -->
+
+	<UnitPromotions_UnitCombats>
+		<Row>
+			<PromotionType>PROMOTION_BOMBARDMENT_1</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_BOMBARDMENT_2</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+		<Row>
+			<PromotionType>PROMOTION_BOMBARDMENT_3</PromotionType>
+			<UnitCombatType>UNITCOMBAT_FIGHTER</UnitCombatType>
+		</Row>
+	</UnitPromotions_UnitCombats>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>Air Targeting III</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Air Targeting III</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Air Targeting III</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Air Targeting III</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] units.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] units.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] units.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_3_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+34% [ICON_STRENGTH] Combat Strength VS [COLOR_POSITIVE_TEXT]Naval[ENDCOLOR] units.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Argh there is a typo in the game, Air Targeting I and II are written "Air Targetting", I have to fix these too... -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+			<Text>Air Targeting I</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Air Targeting I</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Air Targeting I</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_1">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Air Targeting I</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+			<Text>Air Targeting II</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Air Targeting II</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Air Targeting II</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2" />
+		<Row Tag="TXT_KEY_PROMOTION_AIR_TARGETING_2">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Air Targeting II</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

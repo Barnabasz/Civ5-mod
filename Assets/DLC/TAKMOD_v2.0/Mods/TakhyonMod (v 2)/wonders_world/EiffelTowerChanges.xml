@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/16/2018 1:05:22 PM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set GreatPeopleRateChange="0" GreatWorksTourismModifier="50" />
+			<Where Type="BUILDING_EIFFEL_TOWER" />
+		</Update>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_EIFFEL_TOWER" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP" />
+		<Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+			<Text>In addition to its [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture effects, the Eiffel Tower also provides +12 [ICON_TOURISM] Tourism and +50% [ICON_TOURISM] Tourism from Great Works.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP" />
+		<Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]In addition to its [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture effects, the Eiffel Tower also provides +12 [ICON_TOURISM] Tourism and +50% [ICON_TOURISM] Tourism from Great Works.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP" />
+		<Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]In addition to its [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture effects, the Eiffel Tower also provides +12 [ICON_TOURISM] Tourism and +50% [ICON_TOURISM] Tourism from Great Works.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP" />
+		<Row Tag="TXT_KEY_WONDER_EIFFEL_TOWER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]In addition to its [ICON_HAPPINESS_1] Happiness and [ICON_CULTURE] Culture effects, the Eiffel Tower also provides +12 [ICON_TOURISM] Tourism and +50% [ICON_TOURISM] Tourism from Great Works.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY">
+			<Text>The Eiffel Tower provides a large amount of happiness, as well as +2 [ICON_CULTURE] Culture, +12 [ICON_TOURISM] Tourism, and +50% [ICON_TOURISM] Tourism from Great Works. This wonder is very helpful for those seeking a Culture victory.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Eiffel Tower provides a large amount of happiness, as well as +2 [ICON_CULTURE] Culture, +12 [ICON_TOURISM] Tourism, and +50% [ICON_TOURISM] Tourism from Great Works. This wonder is very helpful for those seeking a Culture victory.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Eiffel Tower provides a large amount of happiness, as well as +2 [ICON_CULTURE] Culture, +12 [ICON_TOURISM] Tourism, and +50% [ICON_TOURISM] Tourism from Great Works. This wonder is very helpful for those seeking a Culture victory.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_EIFFEL_TOWER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Eiffel Tower provides a large amount of happiness, as well as +2 [ICON_CULTURE] Culture, +12 [ICON_TOURISM] Tourism, and +50% [ICON_TOURISM] Tourism from Great Works. This wonder is very helpful for those seeking a Culture victory.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

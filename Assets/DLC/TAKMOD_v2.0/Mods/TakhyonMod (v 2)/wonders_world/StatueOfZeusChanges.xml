@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/6/2018 5:14:55 PM -->
+<GameData>
+	<!-- Give Statue of Zeus the unit upgrade reduction effect from Pentagon (now down to 25% from 33%). Maybe there's actually now a chance people might want to build this. -->
+
+	<Buildings>
+		<Update>
+			<Set FreePromotion="NULL" UnitUpgradeCostMod="-25" />
+			<Where Type="BUILDING_STATUE_ZEUS" />
+		</Update>
+	</Buildings>
+
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="2" />
+			<Where BuildingType="BUILDING_STATUE_ZEUS" YieldType="YIELD_CULTURE" />
+		</Update>
+	</Building_YieldChanges>
+  
+  <!-- Texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+			<Text>[ICON_GOLD] Gold cost of upgrading military units reduced by 25%.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][ICON_GOLD] Gold cost of upgrading military units reduced by 25%.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][ICON_GOLD] Gold cost of upgrading military units reduced by 25%.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_WONDER_STATUE_ZEUS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][ICON_GOLD] Gold cost of upgrading military units reduced by 25%.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-13 22:44:47 -->
+<GameData>
+	
+	<!-- African Forest Elephant now costs the same hammers as Horseman and gains Charge Downhill (if attacking from higher elevation to lower elevation, gains +20% Combat Strength and knocks opponents back just like Winged Hussar) -->
+
+	<Units>
+		<Update>
+			<Set Cost="75" FaithCost="150" />
+			<Where Type="UNIT_CARTHAGINIAN_FOREST_ELEPHANT" />
+		</Update>
+	</Units>
+
+	<!-- Promotion HeavyChargeDownhill is defined in HeavyChargeDownhill.xml -->
+
+	<!-- African Forest Elephant gets Altitude Training Kilimanjaro promo (I wanted this to be ingore terrain cost on hills, but that's more difficult to do)... -->
+	<!-- Making a completely different promotion which would only give the movement bonus from Kilimanjaro would also allow the unit to possibly get both that AND the Kilimanjaro movement bonus, which would be totally bonkers. -->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CARTHAGINIAN_FOREST_ELEPHANT</UnitType>
+			<PromotionType>PROMOTION_ALTITUDE_TRAINING</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY">
+			<Text>The African Forest Elephant is a Carthaginian unique unit which can move after attacking, replacing the Horseman. The Carthaginian Elephants are more powerful than the Horseman but have less movement points. However, the Altitude Training promotion they receive means that African Forest Elephants have double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills, and strike fear into nearby enemy units, giving them all a negative combat modifier. Use them to quickly advance through higher elevation terrain and attack into opponents in hills. Success in combat with an Elephant has an increased chance of generating Great Generals.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The African Forest Elephant is a Carthaginian unique unit which can move after attacking, replacing the Horseman. The Carthaginian Elephants are more powerful than the Horseman but have less movement points. However, the Altitude Training promotion they receive means that African Forest Elephants have double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills, and strike fear into nearby enemy units, giving them all a negative combat modifier. Use them to quickly advance through higher elevation terrain and attack into opponents in hills. Success in combat with an Elephant has an increased chance of generating Great Generals.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The African Forest Elephant is a Carthaginian unique unit which can move after attacking, replacing the Horseman. The Carthaginian Elephants are more powerful than the Horseman but have less movement points. However, the Altitude Training promotion they receive means that African Forest Elephants have double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills, and strike fear into nearby enemy units, giving them all a negative combat modifier. Use them to quickly advance through higher elevation terrain and attack into opponents in hills. Success in combat with an Elephant has an increased chance of generating Great Generals.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CARTHAGINIAN_FOREST_ELEPHANT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The African Forest Elephant is a Carthaginian unique unit which can move after attacking, replacing the Horseman. The Carthaginian Elephants are more powerful than the Horseman but have less movement points. However, the Altitude Training promotion they receive means that African Forest Elephants have double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills, and strike fear into nearby enemy units, giving them all a negative combat modifier. Use them to quickly advance through higher elevation terrain and attack into opponents in hills. Success in combat with an Elephant has an increased chance of generating Great Generals.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT">
+			<Text>Powerful early game Mounted Unit. Weak to Spearmen. Only the Carthaginians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Horseman which it replaces and strikes fear into nearby enemy units. They receive the Altitude Training promotion, giving them double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills. Helps produce Great Generals more quickly.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Powerful early game Mounted Unit. Weak to Spearmen. Only the Carthaginians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Horseman which it replaces and strikes fear into nearby enemy units. They receive the Altitude Training promotion, giving them double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills. Helps produce Great Generals more quickly.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Powerful early game Mounted Unit. Weak to Spearmen. Only the Carthaginians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Horseman which it replaces and strikes fear into nearby enemy units. They receive the Altitude Training promotion, giving them double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills. Helps produce Great Generals more quickly.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CARTHAGINIAN_FOREST_ELEPHANT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Powerful early game Mounted Unit. Weak to Spearmen. Only the Carthaginians may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Horseman which it replaces and strikes fear into nearby enemy units. They receive the Altitude Training promotion, giving them double movement and extra [ICON_STRENGTH] Combat Strength on hills. They also receive offensive bonuses when attacking into a lower elevation tile from hills. Helps produce Great Generals more quickly.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

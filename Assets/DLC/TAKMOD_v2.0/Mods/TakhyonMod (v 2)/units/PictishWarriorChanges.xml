@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/30/2018 12:45:31 PM -->
+<GameData>
+	
+  <!-- Pictish Warrior now gets 100% of opponent's Strength as faith from kills (same as Byzantine Dromon). -->
+
+	<Unit_YieldFromKills>
+		<Update>
+			<Set Yield="100" />
+			<Where UnitType="UNIT_CELT_PICTISH_WARRIOR" YieldType="YIELD_FAITH" />
+		</Update>
+	</Unit_YieldFromKills>
+
+	<!-- Pictish Warrior now gets the same Combat Bonus against Mounted Units as the Spearman it replaces. -->	
+	
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_CELT_PICTISH_WARRIOR</UnitType>
+			<PromotionType>PROMOTION_ANTI_MOUNTED_I</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY">
+			<Text>The Pictish Warrior is the Celt unique unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. Perfectly suited for early rushes, a Pictish Warrior can lay waste to an opponents' lands, quickly pillaging and moving within the same turn. Additionally, they earn [ICON_PEACE] Faith for each unit they kill, constantly advancing your religious goals while at war, or when protecting your lands from barbarians.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Pictish Warrior is the Celt unique unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. Perfectly suited for early rushes, a Pictish Warrior can lay waste to an opponents' lands, quickly pillaging and moving within the same turn. Additionally, they earn [ICON_PEACE] Faith for each unit they kill, constantly advancing your religious goals while at war, or when protecting your lands from barbarians.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Pictish Warrior is the Celt unique unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. Perfectly suited for early rushes, a Pictish Warrior can lay waste to an opponents' lands, quickly pillaging and moving within the same turn. Additionally, they earn [ICON_PEACE] Faith for each unit they kill, constantly advancing your religious goals while at war, or when protecting your lands from barbarians.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY" />
+		<Row Tag="TXT_KEY_UNIT_CELT_PICTISH_WARRIOR_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Pictish Warrior is the Celt unique unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. Perfectly suited for early rushes, a Pictish Warrior can lay waste to an opponents' lands, quickly pillaging and moving within the same turn. Additionally, they earn [ICON_PEACE] Faith for each unit they kill, constantly advancing your religious goals while at war, or when protecting your lands from barbarians.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR">
+			<Text>Only the Celts may build this unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. It has a combat bonus outside of friendly territory and can pillage enemy improvements at no additional movement cost. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Only the Celts may build this unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. It has a combat bonus outside of friendly territory and can pillage enemy improvements at no additional movement cost. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Only the Celts may build this unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. It has a combat bonus outside of friendly territory and can pillage enemy improvements at no additional movement cost. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR" />
+		<Row Tag="TXT_KEY_UNIT_HELP_CELT_PICTISH_WARRIOR">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Only the Celts may build this unit. Like the Spearman it replaces, the Pictish Warrior gets a significant combat bonus against mounted units. It has a combat bonus outside of friendly territory and can pillage enemy improvements at no additional movement cost. Earns 100% of opponents' strength as [ICON_PEACE] Faith for kills.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

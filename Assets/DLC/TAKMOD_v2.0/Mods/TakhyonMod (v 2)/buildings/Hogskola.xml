@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 5:19:46 PM -->
+<GameData>
+  <!-- New UB for Sweden, Hogskola (replaces University). No maintenance cost, also gives +1 Science from Tundra. -->
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_HOGSKOLA</Type>
+			<BuildingClass>BUILDINGCLASS_UNIVERSITY</BuildingClass>
+			<Cost>160</Cost>
+			<FaithCost>225</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_EDUCATION</PrereqTech>
+			<Description>TXT_KEY_BUILDING_HOGSKOLA</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_HOGSKOLA_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HOGSKOLA_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_HOGSKOLA_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_UNIVERSITY</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>66</ConquestProb>
+			<HurryCostModifier>15</HurryCostModifier>
+			<IconAtlas>3SKOLA_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<SpecialistCount>2</SpecialistCount>
+		</Row>
+	</Buildings>
+	
+	<!-- Overrides University -->
+	
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_SWEDEN</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_UNIVERSITY</BuildingClassType>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<!-- Science from Tundra and Jungle tiles -->
+	
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+	<Building_FeatureYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<FeatureType>FEATURE_JUNGLE</FeatureType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_FeatureYieldChanges>
+	
+	<!-- City needs to have a Library. -->
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_LIBRARY</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	
+	<!-- Flavors, same as University -->
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>50</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<FlavorType>FLAVOR_GREAT_PEOPLE</FlavorType>
+			<Flavor>5</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<!-- Gives +25% Science. -->
+
+	<Building_YieldModifiers>
+		<Row>
+			<BuildingType>BUILDING_HOGSKOLA</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>25</Yield>
+		</Row>
+	</Building_YieldModifiers>
+		
+	<!-- Texts. -->
+	
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA">
+			<Text>Hogskola</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Hogskola</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Hogskola</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Hogskola</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_STRATEGY">
+			<Text>The Hogskola is a Medieval-era building unique to Sweden, replacing the University. It increases the [ICON_RESEARCH] Science output of the city, and it's even more effective if the city is near to jungle or tundra tiles. Unlike the University, Hogskola costs no gold maintenance. The city must already have a Library in order to construct a Hogskola.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Hogskola is a Medieval-era building unique to Sweden, replacing the University. It increases the [ICON_RESEARCH] Science output of the city, and it's even more effective if the city is near to jungle or tundra tiles. Unlike the University, Hogskola costs no gold maintenance. The city must already have a Library in order to construct a Hogskola.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Hogskola is a Medieval-era building unique to Sweden, replacing the University. It increases the [ICON_RESEARCH] Science output of the city, and it's even more effective if the city is near to jungle or tundra tiles. Unlike the University, Hogskola costs no gold maintenance. The city must already have a Library in order to construct a Hogskola.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Hogskola is a Medieval-era building unique to Sweden, replacing the University. It increases the [ICON_RESEARCH] Science output of the city, and it's even more effective if the city is near to jungle or tundra tiles. Unlike the University, Hogskola costs no gold maintenance. The city must already have a Library in order to construct a Hogskola.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+2 [ICON_RESEARCH] Science from Jungle tiles and +1 [ICON_RESEARCH] Science from Tundra tiles worked by this City. Costs no [NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+2 [ICON_RESEARCH] Science from Jungle tiles and +1 [ICON_RESEARCH] Science from Tundra tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+2 [ICON_RESEARCH] Science from Jungle tiles and +1 [ICON_RESEARCH] Science from Tundra tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_HOGSKOLA_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.[NEWLINE][NEWLINE]+2 [ICON_RESEARCH] Science from Jungle tiles and +1 [ICON_RESEARCH] Science from Tundra tiles worked by this City.[NEWLINE][NEWLINE]City must have a Library.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_HOGSKOLA_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/University_college_(Scandinavia))[ENDCOLOR][NEWLINE][NEWLINE]A Hogskola in Denmark, Norway and Sweden is an independent institution that provides tertiary education (Bachelor and Master's Degrees) and quaternary education (PhD). These institutions traditionally had emphasis on less academic and more vocational programmes such as teacher or nursing education as well as shorter technical education. In Sweden, education is funded by tax money. This goes for both primary and secondary schools, high schools and universities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Swedish Hogskola - Gazebo, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_HOGSKOLA_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/University_college_(Scandinavia))[ENDCOLOR][NEWLINE][NEWLINE]A Hogskola in Denmark, Norway and Sweden is an independent institution that provides tertiary education (Bachelor and Master's Degrees) and quaternary education (PhD). These institutions traditionally had emphasis on less academic and more vocational programmes such as teacher or nursing education as well as shorter technical education. In Sweden, education is funded by tax money. This goes for both primary and secondary schools, high schools and universities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Swedish Hogskola - Gazebo, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_HOGSKOLA_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/University_college_(Scandinavia))[ENDCOLOR][NEWLINE][NEWLINE]A Hogskola in Denmark, Norway and Sweden is an independent institution that provides tertiary education (Bachelor and Master's Degrees) and quaternary education (PhD). These institutions traditionally had emphasis on less academic and more vocational programmes such as teacher or nursing education as well as shorter technical education. In Sweden, education is funded by tax money. This goes for both primary and secondary schools, high schools and universities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Swedish Hogskola - Gazebo, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_HOGSKOLA_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/University_college_(Scandinavia))[ENDCOLOR][NEWLINE][NEWLINE]A Hogskola in Denmark, Norway and Sweden is an independent institution that provides tertiary education (Bachelor and Master's Degrees) and quaternary education (PhD). These institutions traditionally had emphasis on less academic and more vocational programmes such as teacher or nursing education as well as shorter technical education. In Sweden, education is funded by tax money. This goes for both primary and secondary schools, high schools and universities.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: Swedish Hogskola - Gazebo, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

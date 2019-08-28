@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2017-05-08 18:15:14 -->
+<GameData>
+	
+	<!-- Mughal Fort now gives +1 Defense per Citizen in the City (instead of flat +7). -->
+	<Buildings>
+		<Update>
+			<Set Defense="0" DefensePerCitizen="100" Cost="160" />
+			<Where Type="BUILDING_MUGHAL_FORT" />
+		</Update>
+	</Buildings>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+			<Text>+1 [ICON_STRENGTH] Defense per [ICON_CITIZEN] Citizen in the City. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+1 [ICON_STRENGTH] Defense per [ICON_CITIZEN] Citizen in the City. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+1 [ICON_STRENGTH] Defense per [ICON_CITIZEN] Citizen in the City. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+1 [ICON_STRENGTH] Defense per [ICON_CITIZEN] Citizen in the City. Provides +2 [ICON_TOURISM] Tourism after Flight is researched.[NEWLINE][NEWLINE]City must have Walls.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY">
+			<Text>The Mughal Fort is a Medieval-era building that increases the city's [ICON_STRENGTH] Defense Strength by as many points as there are [ICON_CITIZEN] Citizen in the City, Hit Points by 25, and provides some [ICON_CULTURE] Culture every turn. It is the Indian unique building, replacing the Castle. After Flight is learned, it provides +2 [ICON_TOURISM] Tourism as well. The City must have Walls to able to build the Mughal Fort.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Mughal Fort is a Medieval-era building that increases the city's [ICON_STRENGTH] Defense Strength by as many points as there are [ICON_CITIZEN] Citizen in the City, Hit Points by 25, and provides some [ICON_CULTURE] Culture every turn. It is the Indian unique building, replacing the Castle. After Flight is learned, it provides +2 [ICON_TOURISM] Tourism as well. The City must have Walls to able to build the Mughal Fort.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Mughal Fort is a Medieval-era building that increases the city's [ICON_STRENGTH] Defense Strength by as many points as there are [ICON_CITIZEN] Citizen in the City, Hit Points by 25, and provides some [ICON_CULTURE] Culture every turn. It is the Indian unique building, replacing the Castle. After Flight is learned, it provides +2 [ICON_TOURISM] Tourism as well. The City must have Walls to able to build the Mughal Fort.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDING_MUGHAL_FORT_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Mughal Fort is a Medieval-era building that increases the city's [ICON_STRENGTH] Defense Strength by as many points as there are [ICON_CITIZEN] Citizen in the City, Hit Points by 25, and provides some [ICON_CULTURE] Culture every turn. It is the Indian unique building, replacing the Castle. After Flight is learned, it provides +2 [ICON_TOURISM] Tourism as well. The City must have Walls to able to build the Mughal Fort.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

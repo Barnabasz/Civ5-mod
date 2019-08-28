@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Third Alternative: Quantity of Strategic Resources produced is doubled. +5 Food, +5 Production, and +5 Science in the Capital. -->
+	<Policy_CapitalYieldChanges>
+		<Update>
+			<Set Yield="5" />
+			<Where PolicyType="POLICY_THIRD_ALTERNATIVE" />
+		</Update>
+		<Row>
+			<PolicyType>POLICY_THIRD_ALTERNATIVE</PolicyType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>5</Yield>
+		</Row>
+	</Policy_CapitalYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Third Alternative[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced is doubled. +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, and +5 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Third Alternative[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced is doubled. +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, and +5 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Third Alternative[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced is doubled. +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, and +5 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP" />
+		<Row Tag="TXT_KEY_POLICY_THIRD_ALTERNATIVE_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Third Alternative[ENDCOLOR][NEWLINE]Quantity of Strategic Resources produced is doubled. +5 [ICON_FOOD] Food, +5 [ICON_PRODUCTION] Production, and +5 [ICON_RESEARCH] Science in the [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

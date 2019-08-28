@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/6/2015 2:19:04 AM -->
+<GameData>
+	
+	<!-- Compass: +1 movement while embarked. -->
+	<Technologies>
+		<Update>
+			<Set EmbarkedMoveChange="1" />
+			<Where Type="TECH_COMPASS" />
+		</Update>
+	</Technologies>
+
+	<Improvement_TechYieldChanges>
+		<Update>
+			<Set YieldType="YIELD_PRODUCTION" />
+			<Where TechType="TECH_COMPASS" />
+		</Update>
+	</Improvement_TechYieldChanges>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TECH_COMPASS_HELP" />
+		<Row Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text>Allows you to build the [COLOR_POSITIVE_TEXT]Galleass[ENDCOLOR], the first ranged naval unit. Also allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates city connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_PRODUCTION] Production yield from Fishing Boats is increased.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TECH_COMPASS_HELP" />
+		<Row Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Allows you to build the [COLOR_POSITIVE_TEXT]Galleass[ENDCOLOR], the first ranged naval unit. Also allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates city connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_PRODUCTION] Production yield from Fishing Boats is increased.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TECH_COMPASS_HELP" />
+		<Row Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Allows you to build the [COLOR_POSITIVE_TEXT]Galleass[ENDCOLOR], the first ranged naval unit. Also allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates city connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_PRODUCTION] Production yield from Fishing Boats is increased.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TECH_COMPASS_HELP" />
+		<Row Tag="TXT_KEY_TECH_COMPASS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Allows you to build the [COLOR_POSITIVE_TEXT]Galleass[ENDCOLOR], the first ranged naval unit. Also allows you to build the [COLOR_POSITIVE_TEXT]Harbor[ENDCOLOR], which creates city connections from cities to the capital over the water, producing [ICON_GOLD] Gold. Additionally, the [ICON_PRODUCTION] Production yield from Fishing Boats is increased.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

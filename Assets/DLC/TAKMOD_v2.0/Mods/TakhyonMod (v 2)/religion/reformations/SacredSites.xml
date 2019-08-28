@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2016-09-26 23:38:28 -->
+<GameData>
+
+	<!-- This is cheated in the DLL by just using the same value for Tourism, Faith and Gold. If you change it, it will update both of them (i.e. changing to 3 makes it +3 Tourism, +3 Faith, and +3 Gold from Faith buildings. -->
+	<!-- Takhyon change: the DLL currently now only gives +2 Tourism. Everything else is given here to the buildings with .XML -->
+
+	<Belief_BuildingClassYieldChanges>
+		
+		<!-- Culture change, follower beliefs (10 buildings) -->
+		
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BASILICA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GURDWARA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MADRASSA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_STUPA</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		
+		<!-- Culture change, Houses of Worship (three buildings) -->
+		
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CHANTRY</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CHAPEL</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CHURCH</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		
+		<!-- Faith change, follower beliefs (10 buildings) -->
+		
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_BASILICA</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CATHEDRAL</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_GURDWARA</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_PAGODA</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MADRASSA</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MANDIR</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MONASTERY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_MOSQUE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_STUPA</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_SYNAGOGUE</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		
+		<!-- Faith change, Houses of Worship (three buildings) -->
+		
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CHANTRY</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CHAPEL</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BeliefType>BELIEF_SACRED_SITES</BeliefType>
+			<BuildingClassType>BUILDINGCLASS_CHURCH</BuildingClassType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Belief_BuildingClassYieldChanges>
+	
+	
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BELIEF_SACRED_SITES" />
+		<Row Tag="TXT_KEY_BELIEF_SACRED_SITES">
+			<Text>+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Religious Buildings purchased with [ICON_PEACE] Faith</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BELIEF_SACRED_SITES" />
+		<Row Tag="TXT_KEY_BELIEF_SACRED_SITES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Religious Buildings purchased with [ICON_PEACE] Faith</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BELIEF_SACRED_SITES" />
+		<Row Tag="TXT_KEY_BELIEF_SACRED_SITES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Religious Buildings purchased with [ICON_PEACE] Faith</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BELIEF_SACRED_SITES" />
+		<Row Tag="TXT_KEY_BELIEF_SACRED_SITES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+2 [ICON_CULTURE] Culture, +2 [ICON_PEACE] Faith, and +2 [ICON_TOURISM] Tourism from Religious Buildings purchased with [ICON_PEACE] Faith</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

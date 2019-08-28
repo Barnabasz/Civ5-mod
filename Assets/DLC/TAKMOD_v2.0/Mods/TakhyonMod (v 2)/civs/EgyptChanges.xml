@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2018 8:19:48 AM -->
+<GameData>
+  <!-- No gameplay changes required, only text update. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>+20% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+20% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+20% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_WONDER_BUILDER" />
+		<Row Tag="TXT_KEY_TRAIT_WONDER_BUILDER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+20% [ICON_PRODUCTION] Production towards National Wonders, World Wonders, and Guilds.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

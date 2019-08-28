@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 2:26:40 PM -->
+<GameData>
+	
+  <!-- Delete Khan. Give new UB for Mongolia - Ger (replaces Stable). Gives +2 Happy. -->
+
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_MONGOLIAN_KHAN" />
+	</Civilization_UnitClassOverrides>
+	<Buildings>
+		<Row>
+			<Type>BUILDING_GER</Type>
+			<BuildingClass>BUILDINGCLASS_STABLE</BuildingClass>
+			<Cost>100</Cost>
+			<PrereqTech>TECH_HORSEBACK_RIDING</PrereqTech>
+			<Description>TXT_KEY_BUILDING_GER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDING_GER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_GER_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_GER_HELP</Help>
+			<ArtDefineTag>ART_DEF_BUILDING_STABLE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<ConquestProb>0</ConquestProb>
+			<NeverCapture>true</NeverCapture>
+			<Happiness>1</Happiness>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>GER_ICON_ATLAS</IconAtlas>
+			<PortraitIndex>0</PortraitIndex>
+		</Row>
+	</Buildings>
+	<Building_LocalResourceOrs>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+		</Row>
+	</Building_LocalResourceOrs>
+
+	<Building_ResourceYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<ResourceType>RESOURCE_SHEEP</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<ResourceType>RESOURCE_COW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_ResourceYieldChanges>
+
+	<Building_UnitCombatProductionModifiers>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<UnitCombatType>UNITCOMBAT_MOUNTED_RANGED</UnitCombatType>
+			<Modifier>15</Modifier>
+		</Row>
+	</Building_UnitCombatProductionModifiers>
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<FlavorType>FLAVOR_MILITARY_TRAINING</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<FlavorType>FLAVOR_MOBILE</FlavorType>
+			<Flavor>6</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<FlavorType>FLAVOR_PRODUCTION</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GER</BuildingType>
+			<FlavorType>FLAVOR_HAPPINESS</FlavorType>
+			<Flavor>25</Flavor>
+		</Row>
+	</Building_Flavors>
+			
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_MONGOL</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_STABLE</BuildingClassType>
+			<BuildingType>BUILDING_GER</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<!-- Texts. -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GER">
+			<Text>Ger</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_GER">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Ger</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_GER">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Ger</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_GER">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Ger</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GER_STRATEGY">
+			<Text>In addition to the regular abilities of the Stable, the Ger also increases the City's [ICON_PRODUCTION] Production output and provides some [ICON_HAPPINESS_1] Happiness. Only the Mongolians may build it.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_GER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]In addition to the regular abilities of the Stable, the Ger also increases the City's [ICON_PRODUCTION] Production output and provides some [ICON_HAPPINESS_1] Happiness. Only the Mongolians may build it.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_GER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]In addition to the regular abilities of the Stable, the Ger also increases the City's [ICON_PRODUCTION] Production output and provides some [ICON_HAPPINESS_1] Happiness. Only the Mongolians may build it.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_GER_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]In addition to the regular abilities of the Stable, the Ger also increases the City's [ICON_PRODUCTION] Production output and provides some [ICON_HAPPINESS_1] Happiness. Only the Mongolians may build it.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GER_HELP">
+			<Text>Unique Mongolian Stable replacement. Increases the City's [ICON_PRODUCTION] Production output and [ICON_HAPPINESS_1] Happiness. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City provide +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_GER_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Unique Mongolian Stable replacement. Increases the City's [ICON_PRODUCTION] Production output and [ICON_HAPPINESS_1] Happiness. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City provide +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_GER_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Unique Mongolian Stable replacement. Increases the City's [ICON_PRODUCTION] Production output and [ICON_HAPPINESS_1] Happiness. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City provide +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_GER_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Unique Mongolian Stable replacement. Increases the City's [ICON_PRODUCTION] Production output and [ICON_HAPPINESS_1] Happiness. +15% [ICON_PRODUCTION] Production when building Mounted Units.[NEWLINE][NEWLINE]Each source of [ICON_RES_HORSE] Horses, [ICON_RES_SHEEP] Sheep, and [ICON_RES_COW] Cattle worked by this City provide +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]City must have at least one of these resources improved with a Pasture.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_GER_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]A ger is a portable, bent dwelling structure traditionally used by nomads in the steppes of Central Asia as their home. The structure comprises a crown or compression wheel, usually steam bent, supported by roof ribs which are bent down at the end where they meet the lattice wall (again, steam bent). The top of the wall is prevented from spreading by means of a tension band which opposes the force of the roof ribs. The structure is usually covered by layers of fabric and sheep's wool felt for insulation and weatherproofing.[NEWLINE][NEWLINE]As nomadic tribesmen (and later as cavalry-based conquerors), the Mongolians' survival was dependent upon the quality of their horses and the skill of their riders. A warhorse must be extensively trained if it is to be successfully used in battle. In their natural state, most horses quite sensibly seek to run away from dangerous situations - say, when surrounded by screaming men armed with sharp objects. A cavalryman's horse, on the other hand, needs to be able to suppress this instinct and instead instantly carry out any order given it by its rider - no matter how suicidal. Such training takes time and skill - for both mount and rider.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 3UC Project - wodhann, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_GER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]A ger is a portable, bent dwelling structure traditionally used by nomads in the steppes of Central Asia as their home. The structure comprises a crown or compression wheel, usually steam bent, supported by roof ribs which are bent down at the end where they meet the lattice wall (again, steam bent). The top of the wall is prevented from spreading by means of a tension band which opposes the force of the roof ribs. The structure is usually covered by layers of fabric and sheep's wool felt for insulation and weatherproofing.[NEWLINE][NEWLINE]As nomadic tribesmen (and later as cavalry-based conquerors), the Mongolians' survival was dependent upon the quality of their horses and the skill of their riders. A warhorse must be extensively trained if it is to be successfully used in battle. In their natural state, most horses quite sensibly seek to run away from dangerous situations - say, when surrounded by screaming men armed with sharp objects. A cavalryman's horse, on the other hand, needs to be able to suppress this instinct and instead instantly carry out any order given it by its rider - no matter how suicidal. Such training takes time and skill - for both mount and rider.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 3UC Project - wodhann, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_GER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]A ger is a portable, bent dwelling structure traditionally used by nomads in the steppes of Central Asia as their home. The structure comprises a crown or compression wheel, usually steam bent, supported by roof ribs which are bent down at the end where they meet the lattice wall (again, steam bent). The top of the wall is prevented from spreading by means of a tension band which opposes the force of the roof ribs. The structure is usually covered by layers of fabric and sheep's wool felt for insulation and weatherproofing.[NEWLINE][NEWLINE]As nomadic tribesmen (and later as cavalry-based conquerors), the Mongolians' survival was dependent upon the quality of their horses and the skill of their riders. A warhorse must be extensively trained if it is to be successfully used in battle. In their natural state, most horses quite sensibly seek to run away from dangerous situations - say, when surrounded by screaming men armed with sharp objects. A cavalryman's horse, on the other hand, needs to be able to suppress this instinct and instead instantly carry out any order given it by its rider - no matter how suicidal. Such training takes time and skill - for both mount and rider.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 3UC Project - wodhann, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CIV5_BUILDING_GER_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]A ger is a portable, bent dwelling structure traditionally used by nomads in the steppes of Central Asia as their home. The structure comprises a crown or compression wheel, usually steam bent, supported by roof ribs which are bent down at the end where they meet the lattice wall (again, steam bent). The top of the wall is prevented from spreading by means of a tension band which opposes the force of the roof ribs. The structure is usually covered by layers of fabric and sheep's wool felt for insulation and weatherproofing.[NEWLINE][NEWLINE]As nomadic tribesmen (and later as cavalry-based conquerors), the Mongolians' survival was dependent upon the quality of their horses and the skill of their riders. A warhorse must be extensively trained if it is to be successfully used in battle. In their natural state, most horses quite sensibly seek to run away from dangerous situations - say, when surrounded by screaming men armed with sharp objects. A cavalryman's horse, on the other hand, needs to be able to suppress this instinct and instead instantly carry out any order given it by its rider - no matter how suicidal. Such training takes time and skill - for both mount and rider.[NEWLINE][NEWLINE][COLOR_POSITIVE_TEXT]Credits: 3UC Project - wodhann, mikeburnfire[ENDCOLOR]</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

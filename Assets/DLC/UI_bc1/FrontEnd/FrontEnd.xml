@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Context Name="FrontEnd" ColorSet="Beige_Black_Alpha" Font="TwCenMT22" FontStyle="Shadow" >
+
+	<Image ID="AtlasLogo" Anchor="C,C" Sampler="Linear" />
+
+	<LuaContext ID="MainMenu" FileName="MainMenu" Hidden="1" />
+	<LuaContext ID="ContentSwitch" FileName="ContentSwitch" Hidden="1" />
+	<LuaContext FileName="FrontEndPopup" Hidden="1" />
+	<LuaContext FileName="ExitConfirm" Hidden="1" />
+</Context>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/2/2015 4:30:51 AM -->
+<GameData>
+
+	<!-- Remove coastal bias. -->
+	<Civilization_Start_Along_Ocean>
+		<Delete CivilizationType="CIVILIZATION_OTTOMAN" />
+	</Civilization_Start_Along_Ocean>
+	
+	<!-- New UA Millets: +1 Happiness in each City for each World Religion with at least 1 follower. -->
+	<Traits>
+		<Update>
+			<Set NavalUnitMaintenanceModifier="0" HappinessPerReligion="1" FreeBuilding="BUILDING_OTTOMANDUMMYBUILDING" FreeBuildingOnConquest="BUILDING_OTTOMANDUMMYBUILDING" />
+			<Where Type="TRAIT_CONVERTS_SEA_BARBARIANS" />
+		</Update>
+	</Traits>
+	<Trait_FreePromotionUnitCombats>
+		<Delete TraitType="TRAIT_CONVERTS_SEA_BARBARIANS" UnitCombatType="UNITCOMBAT_NAVALMELEE" PromotionType="PROMOTION_PRIZE_SHIPS" />
+	</Trait_FreePromotionUnitCombats>
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_OTTOMANDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_OTTOMANDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_OTTOMANDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_OTTOMANDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_OTTOMANDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_OTTOMANDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Building_YieldChangesPerReligion>
+		<Row>
+			<BuildingType>BUILDING_OTTOMANDUMMYBUILDING</BuildingType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>100</Yield>
+		</Row>
+	</Building_YieldChangesPerReligion>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+			<Text>Millets</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Millets</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Millets</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Millets</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>Each City gets +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Each City gets +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Each City gets +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_SEA_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Each City gets +1 [ICON_HAPPINESS_1] Happiness and +1 [ICON_GOLD] Gold for each World Religion with at least 1 follower in that City.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+</GameData>

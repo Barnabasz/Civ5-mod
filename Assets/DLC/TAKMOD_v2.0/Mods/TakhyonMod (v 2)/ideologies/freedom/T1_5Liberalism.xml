@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:08:50 PM -->
+<GameData>
+
+	<!-- Liberalism (replaces Creative Expression): Gain 100 Science when a Great Person is born. -->
+	<Policies>
+		<Update>
+			<Set Level="1" TourismFromTradeMissions="0" SciencePerGreatPersonBorn="150" Civilopedia="TXT_KEY_POLICY_LIBERALISM_TEXT" />
+			<Where Type="POLICY_CREATIVE_EXPRESSION" />
+		</Update>
+	</Policies>
+	<Policy_GreatWorkYieldChanges>
+		<Delete PolicyType="POLICY_CREATIVE_EXPRESSION" />
+	</Policy_GreatWorkYieldChanges>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+			<Text>Liberalism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR][NEWLINE]Gain 100 [ICON_RESEARCH] Science (on Quick Speed) whenever a [ICON_GREAT_PEOPLE] Great Person is born.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Liberalism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR][NEWLINE]Gain 100 [ICON_RESEARCH] Science (on Quick Speed) whenever a [ICON_GREAT_PEOPLE] Great Person is born.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Liberalism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR][NEWLINE]Gain 100 [ICON_RESEARCH] Science (on Quick Speed) whenever a [ICON_GREAT_PEOPLE] Great Person is born.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Liberalism</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP" />
+		<Row Tag="TXT_KEY_POLICY_CREATIVE_EXPRESSION_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Liberalism[ENDCOLOR][NEWLINE]Gain 100 [ICON_RESEARCH] Science (on Quick Speed) whenever a [ICON_GREAT_PEOPLE] Great Person is born.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_LIBERALISM_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Liberalism)[ENDCOLOR][NEWLINE][NEWLINE]Liberalism is a political and moral philosophy based on liberty and equality. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support civil rights, democracy, secularism, gender and race equality, internationalism and the freedoms of speech, the press, religion and markets.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_LIBERALISM_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Liberalism)[ENDCOLOR][NEWLINE][NEWLINE]Liberalism is a political and moral philosophy based on liberty and equality. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support civil rights, democracy, secularism, gender and race equality, internationalism and the freedoms of speech, the press, religion and markets.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_LIBERALISM_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Liberalism)[ENDCOLOR][NEWLINE][NEWLINE]Liberalism is a political and moral philosophy based on liberty and equality. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support civil rights, democracy, secularism, gender and race equality, internationalism and the freedoms of speech, the press, religion and markets.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_LIBERALISM_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Liberalism)[ENDCOLOR][NEWLINE][NEWLINE]Liberalism is a political and moral philosophy based on liberty and equality. Liberals espouse a wide array of views depending on their understanding of these principles, but they generally support civil rights, democracy, secularism, gender and race equality, internationalism and the freedoms of speech, the press, religion and markets.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

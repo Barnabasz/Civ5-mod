@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/3/2018 10:18:42 AM -->
+<GameData>
+	
+	<!-- Remove Companion Cavalry -->
+	<Civilization_UnitClassOverrides>
+		<Delete UnitType="UNIT_GREEK_COMPANIONCAVALRY" />
+	</Civilization_UnitClassOverrides>
+
+	<!-- [New UB] Odeon (replaces Amphitheater): +2 Science, no maintenance cost. -->
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_ODEON</Type>
+			<BuildingClass>BUILDINGCLASS_AMPHITHEATER</BuildingClass>
+			<FreeStartEra>ERA_INDUSTRIAL</FreeStartEra>
+			<Cost>100</Cost>
+			<FaithCost>150</FaithCost>
+			<UnlockedByBelief>true</UnlockedByBelief>
+			<GoldMaintenance>0</GoldMaintenance>
+			<PrereqTech>TECH_DRAMA</PrereqTech>
+			<Description>TXT_KEY_BUILDING_ODEON</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ODEON_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_ODEON_HELP</Help>
+			<ArtDefineTag>COLESSEUM</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<HurryCostModifier>25</HurryCostModifier>
+			<NeverCapture>false</NeverCapture>
+			<ConquestProb>100</ConquestProb>
+			<GreatWorkSlotType>GREAT_WORK_SLOT_LITERATURE</GreatWorkSlotType>
+			<GreatWorkCount>1</GreatWorkCount>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<PortraitIndex>20</PortraitIndex>
+		</Row>
+	</Buildings>
+	
+	<!-- Can be purchased with faith in Liturgical Drama. -->
+
+	<Belief_BuildingClassFaithPurchase>
+		<Row>
+			<BeliefType>BELIEF_LITURGICAL_DRAMA</BeliefType>
+			<BuildingClassType>BUILDING_ODEON</BuildingClassType>
+		</Row>
+	</Belief_BuildingClassFaithPurchase>
+
+	<!-- City needs to have a Monument before building Odeon. -->
+
+	<Building_ClassesNeededInCity>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MONUMENT</BuildingClassType>
+		</Row>
+	</Building_ClassesNeededInCity>
+	
+	<!-- Flavors -->
+
+	<Building_Flavors>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<FlavorType>FLAVOR_CULTURE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<FlavorType>FLAVOR_SCIENCE</FlavorType>
+			<Flavor>20</Flavor>
+		</Row>
+	</Building_Flavors>
+	
+	<!-- Yields -->
+
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<!-- Civilization building class overrides. -->
+
+	<Civilization_BuildingClassOverrides>
+		<Row>
+			<CivilizationType>CIVILIZATION_GREECE</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_AMPHITHEATER</BuildingClassType>
+			<BuildingType>BUILDING_ODEON</BuildingType>
+		</Row>
+	</Civilization_BuildingClassOverrides>
+	
+	<!-- Texts. -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ODEON">
+			<Text>Odeon</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_ODEON">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Odeon</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_ODEON">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Odeon</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_ODEON">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Odeon</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
+			<Text>The Odeon is a building unique to the Greeks, replacing the Amphitheater. It increases the [ICON_CULTURE] Culture of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies, and also advances your scientific goals by providing +2 [ICON_RESEARCH] Science. Additionally, unlike the Amphitheater, the Odeon has no maintenance cost. The city must contain a Monument before the Odeon can be constructed. Contains 1 slot for a Great Work of Writing.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Odeon is a building unique to the Greeks, replacing the Amphitheater. It increases the [ICON_CULTURE] Culture of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies, and also advances your scientific goals by providing +2 [ICON_RESEARCH] Science. Additionally, unlike the Amphitheater, the Odeon has no maintenance cost. The city must contain a Monument before the Odeon can be constructed. Contains 1 slot for a Great Work of Writing.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Odeon is a building unique to the Greeks, replacing the Amphitheater. It increases the [ICON_CULTURE] Culture of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies, and also advances your scientific goals by providing +2 [ICON_RESEARCH] Science. Additionally, unlike the Amphitheater, the Odeon has no maintenance cost. The city must contain a Monument before the Odeon can be constructed. Contains 1 slot for a Great Work of Writing.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_ODEON_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Odeon is a building unique to the Greeks, replacing the Amphitheater. It increases the [ICON_CULTURE] Culture of a city, speeding the growth of the city's territory and the civilization's acquisition of Social Policies, and also advances your scientific goals by providing +2 [ICON_RESEARCH] Science. Additionally, unlike the Amphitheater, the Odeon has no maintenance cost. The city must contain a Monument before the Odeon can be constructed. Contains 1 slot for a Great Work of Writing.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Modern western drama was created in Greece around 530 BC, evolving from the "dithyramb," a fertility ritual of songs, poems and dances offered to the Greek god Dionysus. An "Odeon" is a large, open-aired structure in which such performances were held. The audience sat in a semicircle of seats around a central paved "dancing square" (orchestra). The first row of seats was reserved for important officials or priests. There was usually an altar dedicated to Dionysus somewhere in the odeon. The "logeion" was a small raised platform where the performers acted (the original dramas had at most three or four actors; the size of the stage would increase as later plays required bigger casts).</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Modern western drama was created in Greece around 530 BC, evolving from the "dithyramb," a fertility ritual of songs, poems and dances offered to the Greek god Dionysus. An "Odeon" is a large, open-aired structure in which such performances were held. The audience sat in a semicircle of seats around a central paved "dancing square" (orchestra). The first row of seats was reserved for important officials or priests. There was usually an altar dedicated to Dionysus somewhere in the odeon. The "logeion" was a small raised platform where the performers acted (the original dramas had at most three or four actors; the size of the stage would increase as later plays required bigger casts).</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Modern western drama was created in Greece around 530 BC, evolving from the "dithyramb," a fertility ritual of songs, poems and dances offered to the Greek god Dionysus. An "Odeon" is a large, open-aired structure in which such performances were held. The audience sat in a semicircle of seats around a central paved "dancing square" (orchestra). The first row of seats was reserved for important officials or priests. There was usually an altar dedicated to Dionysus somewhere in the odeon. The "logeion" was a small raised platform where the performers acted (the original dramas had at most three or four actors; the size of the stage would increase as later plays required bigger casts).</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_ODEON_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization IV - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Modern western drama was created in Greece around 530 BC, evolving from the "dithyramb," a fertility ritual of songs, poems and dances offered to the Greek god Dionysus. An "Odeon" is a large, open-aired structure in which such performances were held. The audience sat in a semicircle of seats around a central paved "dancing square" (orchestra). The first row of seats was reserved for important officials or priests. There was usually an altar dedicated to Dionysus somewhere in the odeon. The "logeion" was a small raised platform where the performers acted (the original dramas had at most three or four actors; the size of the stage would increase as later plays required bigger casts).</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_FRIENDSHIP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Military Units may enter City-State borders freely. City-State [ICON_INFLUENCE] Influence degrades at half and recovers at twice the normal rate. Completing City-State quests provides 25% more [ICON_INFLUENCE] Influence.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Policies>
+		<Row>
+			<Type>DUMMY_POLICY_GREECE</Type>
+			<Description>TXT_KEY_DUMMY_POLICY_GREECE</Description>
+			<MinorQuestFriendshipMod>25</MinorQuestFriendshipMod>
+		</Row>
+	</Policies>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_DUMMY_POLICY_GREECE">
+			<Text>Greece Dummy Policy</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_DUMMY_POLICY_GREECE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Greece Dummy Policy</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_DUMMY_POLICY_GREECE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Greece Dummy Policy</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_DUMMY_POLICY_GREECE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Greece Dummy Policy</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

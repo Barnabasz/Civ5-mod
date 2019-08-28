@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 2/4/2016 11:29:22 PM -->
+<GameData>
+	
+	<!-- Remove barbarian conversion thingy from Germany. -->
+	<Traits>
+		<Update>
+			<Set LandBarbarianConversionPercent="0" />
+			<Where Type="TRAIT_CONVERTS_LAND_BARBARIANS" />
+		</Update>
+	</Traits>
+	
+	<!-- Give extra yields to specialists. -->
+
+	<Trait_SpecialistYieldChanges>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+			<SpecialistType>SPECIALIST_SCIENTIST</SpecialistType>
+			<YieldType>YIELD_SCIENCE</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+			<SpecialistType>SPECIALIST_MERCHANT</SpecialistType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CONVERTS_LAND_BARBARIANS</TraitType>
+			<SpecialistType>SPECIALIST_ENGINEER</SpecialistType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_SpecialistYieldChanges>
+
+	<!-- Dummy building for Germany to give +2 Culture for Guilds. -->
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_GERMANYDUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_GERMANYDUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_GERMANYDUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_GERMANYDUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_GERMANYDUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_GERMANYDUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<Building_BuildingClassYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_GERMANYDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_WRITERS_GUILD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GERMANYDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_ARTISTS_GUILD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_GERMANYDUMMYBUILDING</BuildingType>
+			<BuildingClassType>BUILDINGCLASS_MUSICIANS_GUILD</BuildingClassType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<YieldChange>2</YieldChange>
+		</Row>
+	</Building_BuildingClassYieldChanges>
+	
+	<Civilization_FreeBuildingClasses>
+		<Row>
+			<CivilizationType>CIVILIZATION_GERMANY</CivilizationType>
+			<BuildingClassType>BUILDINGCLASS_GERMANYDUMMYBUILDING</BuildingClassType>
+		</Row>
+	</Civilization_FreeBuildingClasses>
+
+	<!-- Trait name update -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+			<Text>German Efficiency</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]German Efficiency</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]German Efficiency</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS_SHORT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]German Efficiency</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Description update -->
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+			<Text>Scientific Specialists provide additional +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production, or +1 [ICON_RESEARCH] Science of their respective type, and Guilds provide +2 [ICON_CULTURE] Culture. Pay 25% less for Land Unit maintenance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Scientific Specialists provide additional +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production, or +1 [ICON_RESEARCH] Science of their respective type, and Guilds provide +2 [ICON_CULTURE] Culture. Pay 25% less for Land Unit maintenance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Scientific Specialists provide additional +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production, or +1 [ICON_RESEARCH] Science of their respective type, and Guilds provide +2 [ICON_CULTURE] Culture. Pay 25% less for Land Unit maintenance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS" />
+		<Row Tag="TXT_KEY_TRAIT_CONVERTS_LAND_BARBARIANS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Scientific Specialists provide additional +1 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production, or +1 [ICON_RESEARCH] Science of their respective type, and Guilds provide +2 [ICON_CULTURE] Culture. Pay 25% less for Land Unit maintenance.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Dummy -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_GERMANYDUMMYBUILDING">
+			<Text>Germany Dummy Building</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_GERMANYDUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Germany Dummy Building</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_GERMANYDUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Germany Dummy Building</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_GERMANYDUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Germany Dummy Building</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

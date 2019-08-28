@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/7/2018 9:34:32 PM -->
+<GameData>
+  <!-- Scouts (and Shoshone Pathfinder) now obsolete at Electricity (instead of Scientific Theory). -->
+
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_ELECTRICITY" />
+			<Where Type="UNIT_SCOUT" />
+		</Update>
+	</Units>
+
+	<Units>
+		<Update>
+			<Set ObsoleteTech="TECH_ELECTRICITY" />
+			<Where Type="UNIT_SHOSHONE_PATHFINDER" />
+		</Update>
+	</Units>
+  
+</GameData>

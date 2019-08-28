@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 3/22/2017 7:17:12 PM -->
+<GameData>
+
+	<!-- Partisans (replaces Nationalism): +50% chance to succeed at City State coups. (Example: If coup chance is 24%, this tenet increases it to 74%. 25 Influence from Military Unit gifts to City-States. -->
+	<Policies>
+		<Update>
+			<Set Level="3" UnitGoldMaintenanceMod="0" CoupChanceModifier="50" MilitaryUnitGiftExtraInfluence="20" Civilopedia="TXT_KEY_POLICY_PARTISANS_TEXT" />
+			<Where Type="POLICY_NATIONALISM" />
+		</Update>
+	</Policies>
+
+	<!-- localization -->
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>Partisans</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Partisans[ENDCOLOR][NEWLINE]+50% chance to succeed at City-State coups. Earn 25 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Partisans</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Partisans[ENDCOLOR][NEWLINE]+50% chance to succeed at City-State coups. Earn 25 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Partisans</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Partisans[ENDCOLOR][NEWLINE]+50% chance to succeed at City-State coups. Earn 25 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Partisans</Text>
+		</Row>
+		<Delete Tag="TXT_KEY_POLICY_NATIONALISM_HELP" />
+		<Row Tag="TXT_KEY_POLICY_NATIONALISM_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Partisans[ENDCOLOR][NEWLINE]+50% chance to succeed at City-State coups. Earn 25 [ICON_INFLUENCE] Influence from Military Unit gifts to City-States.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_POLICY_PARTISANS_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Partisan_(military))[ENDCOLOR][NEWLINE][NEWLINE]A partisan is a member of an irregular military force formed to oppose control of an area by a foreign power or by an army of occupation by some kind of insurgent activity. The term can apply to the field element of resistance movements, examples of which are the civilians who opposed Nazi German, Fascist Italian and Ustaše Croatian rule in several countries during World War II.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_POLICY_PARTISANS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Partisan_(military))[ENDCOLOR][NEWLINE][NEWLINE]A partisan is a member of an irregular military force formed to oppose control of an area by a foreign power or by an army of occupation by some kind of insurgent activity. The term can apply to the field element of resistance movements, examples of which are the civilians who opposed Nazi German, Fascist Italian and Ustaše Croatian rule in several countries during World War II.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_POLICY_PARTISANS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Partisan_(military))[ENDCOLOR][NEWLINE][NEWLINE]A partisan is a member of an irregular military force formed to oppose control of an area by a foreign power or by an army of occupation by some kind of insurgent activity. The term can apply to the field element of resistance movements, examples of which are the civilians who opposed Nazi German, Fascist Italian and Ustaše Croatian rule in several countries during World War II.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_POLICY_PARTISANS_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Wikipedia (https://en.wikipedia.org/wiki/Partisan_(military))[ENDCOLOR][NEWLINE][NEWLINE]A partisan is a member of an irregular military force formed to oppose control of an area by a foreign power or by an army of occupation by some kind of insurgent activity. The term can apply to the field element of resistance movements, examples of which are the civilians who opposed Nazi German, Fascist Italian and Ustaše Croatian rule in several countries during World War II.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

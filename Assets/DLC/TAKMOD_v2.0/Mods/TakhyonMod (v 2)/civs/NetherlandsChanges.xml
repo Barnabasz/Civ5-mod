@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by HellBlazer on 7/18/2015 9:53:11 PM -->
+<GameData>
+	
+	<!-- Give Netherlands a Wetlands Bias for Hellblazer's map scripts -->
+	<Civilization_Start_Region_Priority>
+		<Update>
+			<Where CivilizationType="CIVILIZATION_NETHERLANDS"/>
+			<Set RegionType="REGION_WETLANDS"/>
+		</Update>
+	</Civilization_Start_Region_Priority>
+	
+	<!-- New Dutch UA gives +1 Happiness per Luxury and +1 Gold per Luxury Resource -->
+	<Table name="Trait_YieldChangesLuxuryResources">
+		<Column name="TraitType" type="text" reference="Traits(Type)"/>
+		<Column name="YieldType" type="text" reference="Yields(Type)"/>
+		<Column name="Yield" type="integer"/>
+	</Table>
+	<Traits>
+		<Update>
+			<Set ExtraHappinessPerLuxury="1" LuxuryHappinessRetention="0" />
+			<Where Type="TRAIT_LUXURY_RETENTION" />
+		</Update>
+	</Traits>
+	<Trait_YieldChangesLuxuryResources>
+		<Row>
+			<TraitType>TRAIT_LUXURY_RETENTION</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesLuxuryResources>
+
+	<!-- Change Sea Beggar to Tercio (renamed to Mercenary). Remove increased cost from Tercio. -->
+
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitClassType="UNITCLASS_MUSKETMAN" UnitType="UNIT_SPANISH_TERCIO" />
+			<Where CivilizationType="CIVILIZATION_NETHERLANDS" />
+		</Update>
+	</Civilization_UnitClassOverrides>
+	
+	<Units>
+		<Update>
+			<Set Cost="150" />
+			<Where Type="UNIT_SPANISH_TERCIO" />
+		</Update>
+		<Update>
+			<Set FaithCost="300" />
+			<Where Type="UNIT_SPANISH_TERCIO" />
+		</Update>
+	</Units>
+
+	<!-- Give Mercenary Quick Study promotion. -->
+
+	<Unit_FreePromotions>
+		<Row>
+			<UnitType>UNIT_SPANISH_TERCIO</UnitType>
+			<PromotionType>PROMOTION_GAIN_EXPERIENCE</PromotionType>
+		</Row>
+	</Unit_FreePromotions>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_LUXURY_RETENTION" />
+		<Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+			<Text>Each unique Luxury is worth +1 [ICON_HAPPINESS_1] Happiness for the Empire, and Luxury Resource tiles produce +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_LUXURY_RETENTION" />
+		<Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Each unique Luxury is worth +1 [ICON_HAPPINESS_1] Happiness for the Empire, and Luxury Resource tiles produce +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_LUXURY_RETENTION" />
+		<Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Each unique Luxury is worth +1 [ICON_HAPPINESS_1] Happiness for the Empire, and Luxury Resource tiles produce +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_LUXURY_RETENTION" />
+		<Row Tag="TXT_KEY_TRAIT_LUXURY_RETENTION">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Each unique Luxury is worth +1 [ICON_HAPPINESS_1] Happiness for the Empire, and Luxury Resource tiles produce +1 [ICON_GOLD] Gold.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Change Spanish Tercio texts for Dutch stuff. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_UNIT_SPANISH_TERCIO" />
+		<Row Tag="TXT_KEY_UNIT_SPANISH_TERCIO">
+			<Text>Mercenary</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_UNIT_SPANISH_TERCIO" />
+		<Row Tag="TXT_KEY_UNIT_SPANISH_TERCIO">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Mercenary</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_UNIT_SPANISH_TERCIO" />
+		<Row Tag="TXT_KEY_UNIT_SPANISH_TERCIO">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Mercenary</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_UNIT_SPANISH_TERCIO" />
+		<Row Tag="TXT_KEY_UNIT_SPANISH_TERCIO">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Mercenary</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING">
+			<Text>Mercenary</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Mercenary</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Mercenary</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HEADING">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Mercenary</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT">
+			<Text>[COLOR_POSITIVE_TEXT]Source: Civilization III - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Mercenaries first came to prominence in Europe in the 14th century, when soldiers from the Hundred Years' War preferred to continue fighting for a living rather than learn peacetime trades. Swiss soldiers in particular enjoyed an especially high reputation for loyalty and professionalism, and several European nations incorporated Swiss mercenary regiments into their armies. The Netherlands, in particular, employed huge numbers of mercenaries, since the strength of the Dutch nation was commerce and wealth. This allowed Dutch princes and stadtholders to pay mercenaries well and regularly, which led to extremely effective fighters. The most famous assignment of Swiss mercenaries is the personal safety of the Pope; a special unit of Swiss soldiers, the Swiss Guard, has pledged to protect the Pope and the Vatican for the last 500 years.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization III - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Mercenaries first came to prominence in Europe in the 14th century, when soldiers from the Hundred Years' War preferred to continue fighting for a living rather than learn peacetime trades. Swiss soldiers in particular enjoyed an especially high reputation for loyalty and professionalism, and several European nations incorporated Swiss mercenary regiments into their armies. The Netherlands, in particular, employed huge numbers of mercenaries, since the strength of the Dutch nation was commerce and wealth. This allowed Dutch princes and stadtholders to pay mercenaries well and regularly, which led to extremely effective fighters. The most famous assignment of Swiss mercenaries is the personal safety of the Pope; a special unit of Swiss soldiers, the Swiss Guard, has pledged to protect the Pope and the Vatican for the last 500 years.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization III - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Mercenaries first came to prominence in Europe in the 14th century, when soldiers from the Hundred Years' War preferred to continue fighting for a living rather than learn peacetime trades. Swiss soldiers in particular enjoyed an especially high reputation for loyalty and professionalism, and several European nations incorporated Swiss mercenary regiments into their armies. The Netherlands, in particular, employed huge numbers of mercenaries, since the strength of the Dutch nation was commerce and wealth. This allowed Dutch princes and stadtholders to pay mercenaries well and regularly, which led to extremely effective fighters. The most famous assignment of Swiss mercenaries is the personal safety of the Pope; a special unit of Swiss soldiers, the Swiss Guard, has pledged to protect the Pope and the Vatican for the last 500 years.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_TEXT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Source: Civilization III - Civilopedia entry[ENDCOLOR][NEWLINE][NEWLINE]Mercenaries first came to prominence in Europe in the 14th century, when soldiers from the Hundred Years' War preferred to continue fighting for a living rather than learn peacetime trades. Swiss soldiers in particular enjoyed an especially high reputation for loyalty and professionalism, and several European nations incorporated Swiss mercenary regiments into their armies. The Netherlands, in particular, employed huge numbers of mercenaries, since the strength of the Dutch nation was commerce and wealth. This allowed Dutch princes and stadtholders to pay mercenaries well and regularly, which led to extremely effective fighters. The most famous assignment of Swiss mercenaries is the personal safety of the Pope; a special unit of Swiss soldiers, the Swiss Guard, has pledged to protect the Pope and the Vatican for the last 500 years.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY">
+			<Text>The Mercenary is a Dutch Unique Unit, replacing the Musketman. This Unit is stronger in combat than the Musketman, fights at double-strength against mounted units, and gains more experience from battles to acquire promotions quicker.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Mercenary is a Dutch Unique Unit, replacing the Musketman. This Unit is stronger in combat than the Musketman, fights at double-strength against mounted units, and gains more experience from battles to acquire promotions quicker.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Mercenary is a Dutch Unique Unit, replacing the Musketman. This Unit is stronger in combat than the Musketman, fights at double-strength against mounted units, and gains more experience from battles to acquire promotions quicker.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Mercenary is a Dutch Unique Unit, replacing the Musketman. This Unit is stronger in combat than the Musketman, fights at double-strength against mounted units, and gains more experience from battles to acquire promotions quicker.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP">
+			<Text>Dominant military Unit of the Renaissance Era. Only the Netherlands may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman which it replaces, as well as the Bonus vs Mounted (50) promotion, and earns promotions 50% faster.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Dominant military Unit of the Renaissance Era. Only the Netherlands may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman which it replaces, as well as the Bonus vs Mounted (50) promotion, and earns promotions 50% faster.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Dominant military Unit of the Renaissance Era. Only the Netherlands may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman which it replaces, as well as the Bonus vs Mounted (50) promotion, and earns promotions 50% faster.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP" />
+		<Row Tag="TXT_KEY_CIV5_SPAIN_TERCIO_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Dominant military Unit of the Renaissance Era. Only the Netherlands may build it. This Unit has a higher [ICON_STRENGTH] Combat Strength than the Musketman which it replaces, as well as the Bonus vs Mounted (50) promotion, and earns promotions 50% faster.</Text>
+		</Row>
+	</Language_RU_RU>	
+
+</GameData>

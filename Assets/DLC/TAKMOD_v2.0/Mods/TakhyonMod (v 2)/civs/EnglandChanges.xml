@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/1/2018 12:39:30 PM -->
+<GameData>
+  <!-- Now also gets +1 Gold from Strategic Resources. -->
+
+	<Trait_YieldChangesStrategicResources>
+		<Row>
+			<TraitType>TRAIT_OCEAN_MOVEMENT</TraitType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Trait_YieldChangesStrategicResources>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>+2 [ICON_MOVES] Movement for all embarked Units and Naval Units. Strategic Resources provide +1 [ICON_GOLD] Gold. Receives 1 extra [ICON_SPY] Spy.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+2 [ICON_MOVES] Movement for all embarked Units and Naval Units. Strategic Resources provide +1 [ICON_GOLD] Gold. Receives 1 extra [ICON_SPY] Spy.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+2 [ICON_MOVES] Movement for all embarked Units and Naval Units. Strategic Resources provide +1 [ICON_GOLD] Gold. Receives 1 extra [ICON_SPY] Spy.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_TRAIT_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+2 [ICON_MOVES] Movement for all embarked Units and Naval Units. Strategic Resources provide +1 [ICON_GOLD] Gold. Receives 1 extra [ICON_SPY] Spy.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Rename Ocean Movement promo to Sun Never Sets -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT">
+			<Text>Sun Never Sets</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Sun Never Sets</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Sun Never Sets</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PEDIA_PROMOTION_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Sun Never Sets</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>Sun Never Sets</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Sun Never Sets</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Sun Never Sets</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT" />
+		<Row Tag="TXT_KEY_PROMOTION_OCEAN_MOVEMENT">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Sun Never Sets</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

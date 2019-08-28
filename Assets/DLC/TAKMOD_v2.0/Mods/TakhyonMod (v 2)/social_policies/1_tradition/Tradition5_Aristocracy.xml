@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 7/15/2018 9:33:53 AM -->
+<GameData>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+			<Text>[COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building National Wonders, World Wonders, and Guilds. +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building National Wonders, World Wonders, and Guilds. +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building National Wonders, World Wonders, and Guilds. +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP" />
+		<Row Tag="TXT_KEY_POLICY_ARISTOCRACY_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Aristocracy[ENDCOLOR][NEWLINE]+15% [ICON_PRODUCTION] Production when building National Wonders, World Wonders, and Guilds. +1 [ICON_HAPPINESS_1] Happiness for every 10 [ICON_CITIZEN] Citizens in a City.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

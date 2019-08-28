@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/4/2018 5:09:05 PM -->
+<GameData>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+			<Text>[ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith gained from City-States increased by 50%, and Units gifted by Militaristic City-States start with extra 15 experience.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith gained from City-States increased by 50%, and Units gifted by Militaristic City-States start with extra 15 experience.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith gained from City-States increased by 50%, and Units gifted by Militaristic City-States start with extra 15 experience.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES" />
+		<Row Tag="TXT_KEY_TRAIT_CITY_STATE_BONUSES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][ICON_FOOD] Food, [ICON_CULTURE] Culture, and [ICON_PEACE] Faith gained from City-States increased by 50%, and Units gifted by Militaristic City-States start with extra 15 experience.</Text>
+		</Row>
+	</Language_RU_RU>
+  
+</GameData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 8/12/2018 3:59:05 PM -->
+<GameData>
+	
+	<Buildings>
+		<Update>
+			<Set PrereqTech="TECH_ELECTRONICS" GreatPeopleRateChange="0" Cost="1250" />
+			<Where Type="BUILDING_CN_TOWER" />
+		</Update>
+	</Buildings>
+	
+</GameData>

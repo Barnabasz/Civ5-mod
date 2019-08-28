@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/2/2018 10:17:03 PM -->
+<GameData>
+	
+	<!-- Improve Krepost, give +1 Faith and 33% cheaper tiles. -->
+	
+	<Building_YieldChanges>
+		<Row>
+			<BuildingType>BUILDING_KREPOST</BuildingType>
+			<YieldType>YIELD_FAITH</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_YieldChanges>
+	
+	<!-- Dummy building for Russia to give food from Tundra. -->
+
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_RUSSIADUMMYBUILDING</Type>
+			<Description>TXT_KEY_BUILDING_RUSSIADUMMYBUILDING</Description>
+			<DefaultBuilding>BUILDING_RUSSIADUMMYBUILDING</DefaultBuilding>
+			<MaxGlobalInstances>-1</MaxGlobalInstances>
+			<MaxTeamInstances>-1</MaxTeamInstances>
+			<MaxPlayerInstances>-1</MaxPlayerInstances>
+			<ExtraPlayerInstances>0</ExtraPlayerInstances>
+			<NoLimit>false</NoLimit>
+			<Monument>false</Monument>
+		</Row>
+	</BuildingClasses>
+
+	<Building_TerrainYieldChanges>
+		<Row>
+			<BuildingType>BUILDING_RUSSIADUMMYBUILDING</BuildingType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+			<YieldType>YIELD_FOOD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Building_TerrainYieldChanges>
+
+	<Buildings>
+		<Row>
+			<Type>BUILDING_RUSSIADUMMYBUILDING</Type>
+			<BuildingClass>BUILDINGCLASS_RUSSIADUMMYBUILDING</BuildingClass>
+			<Cost>-1</Cost>
+			<FaithCost>-1</FaithCost>
+			<PrereqTech>NULL</PrereqTech>
+			<GreatWorkCount>-1</GreatWorkCount>
+			<ArtDefineTag>NONE</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<NeverCapture>true</NeverCapture>
+			<HurryCostModifier>-1</HurryCostModifier>
+			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CIV_COLOR_ATLAS</IconAtlas>
+			<Description>TXT_KEY_BUILDING_RUSSIADUMMYBUILDING</Description>
+			<NukeImmune>true</NukeImmune>
+		</Row>
+	</Buildings>
+
+	<!-- All Russia's cities get dummy building for free. -->
+
+	<Traits>
+		<Update>
+			<Set FreeBuilding="BUILDING_RUSSIADUMMYBUILDING" FreeBuildingOnConquest="BUILDING_RUSSIADUMMYBUILDING" />
+			<Where Type="TRAIT_STRATEGIC_RICHES" />
+		</Update>
+	</Traits>
+
+	<!-- Krepost texts. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY">
+			<Text>The Krepost is the Russian unique building, replacing the barracks. The Krepost provides 15 experience points for all military units constructed in its city. In addition, the Krepost provides +1 [ICON_PEACE] Faith and increases the city's cultural border growth by 25%. It's quite worthwhile to construct these useful buildings in all Russian cities, but especially in cities on the civilization's frontiers.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]The Krepost is the Russian unique building, replacing the barracks. The Krepost provides 15 experience points for all military units constructed in its city. In addition, the Krepost provides +1 [ICON_PEACE] Faith and increases the city's cultural border growth by 25%. It's quite worthwhile to construct these useful buildings in all Russian cities, but especially in cities on the civilization's frontiers.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]The Krepost is the Russian unique building, replacing the barracks. The Krepost provides 15 experience points for all military units constructed in its city. In addition, the Krepost provides +1 [ICON_PEACE] Faith and increases the city's cultural border growth by 25%. It's quite worthwhile to construct these useful buildings in all Russian cities, but especially in cities on the civilization's frontiers.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY" />
+		<Row Tag="TXT_KEY_BUILDINGS_KREPOST_STRATEGY">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]The Krepost is the Russian unique building, replacing the barracks. The Krepost provides 15 experience points for all military units constructed in its city. In addition, the Krepost provides +1 [ICON_PEACE] Faith and increases the city's cultural border growth by 25%. It's quite worthwhile to construct these useful buildings in all Russian cities, but especially in cities on the civilization's frontiers.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILDING_KREPOST_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_KREPOST_HELP">
+			<Text>+15 XP for all Units. Provides +1 [ICON_PEACE] Faith. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILDING_KREPOST_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_KREPOST_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+15 XP for all Units. Provides +1 [ICON_PEACE] Faith. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILDING_KREPOST_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_KREPOST_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+15 XP for all Units. Provides +1 [ICON_PEACE] Faith. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILDING_KREPOST_HELP" />
+		<Row Tag="TXT_KEY_BUILDING_KREPOST_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+15 XP for all Units. Provides +1 [ICON_PEACE] Faith. [ICON_CULTURE] Culture and [ICON_GOLD] Gold costs of acquiring new tiles reduced by 25% in this city.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Dummy building -->
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIADUMMYBUILDING">
+			<Text>You should not see this in game?</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIADUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]You should not see this in game?</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIADUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]You should not see this in game?</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_RUSSIADUMMYBUILDING">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]You should not see this in game?</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Trait text. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+			<Text>Strategic Resources provide +1 [ICON_PRODUCTION] Production, and Horse, Iron, and Uranium Resources provide double quantity. +1 [ICON_FOOD] Food from Tundra.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Strategic Resources provide +1 [ICON_PRODUCTION] Production, and Horse, Iron, and Uranium Resources provide double quantity. +1 [ICON_FOOD] Food from Tundra.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Strategic Resources provide +1 [ICON_PRODUCTION] Production, and Horse, Iron, and Uranium Resources provide double quantity. +1 [ICON_FOOD] Food from Tundra.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES" />
+		<Row Tag="TXT_KEY_TRAIT_STRATEGIC_RICHES">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Strategic Resources provide +1 [ICON_PRODUCTION] Production, and Horse, Iron, and Uranium Resources provide double quantity. +1 [ICON_FOOD] Food from Tundra.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

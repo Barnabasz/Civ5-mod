@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/1/2015 9:25:16 PM -->
+<GameData>
+	
+	<!-- New UA code by Fruity. -->
+
+	<Traits>
+		<Update>
+			<Set CapitalThemingBonusModifier="50" EarnsGreatPersonOnSlotOrGuild="true" />
+			<Where Type="TRAIT_ENHANCED_CULTURE" />
+		</Update>
+	</Traits>
+	<Buildings>
+		
+		<!-- Guilds -->
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_WRITERS_GUILD" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_ARTISTS_GUILD" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_MUSICIANS_GUILD" />
+		</Update>
+
+		<!-- Wonders -->
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_GREAT_LIBRARY" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_PARTHENON" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_GLOBE_THEATER" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_SISTINE_CHAPEL" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_UFFIZI" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_LOUVRE" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_BROADWAY" />
+		</Update>
+		<Update>
+			<Set GrantsFreeCulturalGreatPersonWithTrait="true" />
+			<Where BuildingClass="BUILDINGCLASS_SYDNEY_OPERA_HOUSE" />
+		</Update>
+
+	</Buildings>
+	
+	<!-- Improve Chateau by adding +1 Production. -->
+
+	<Improvement_Yields>
+		<Delete YieldType="YIELD_GOLD" ImprovementType="IMPROVEMENT_CHATEAU" />
+		<Delete YieldType="YIELD_CULTURE" ImprovementType="IMPROVEMENT_CHATEAU" />
+		<Row>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<YieldType>YIELD_CULTURE</YieldType>
+			<Yield>2</Yield>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_CHATEAU</ImprovementType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>1</Yield>
+		</Row>
+	</Improvement_Yields>
+	
+	<!-- Change Musketeer into Hakkapeliitta (Change name into Cuirassier). -->
+
+	<Civilization_UnitClassOverrides>
+		<Update>
+			<Set UnitClassType="UNITCLASS_LANCER" UnitType="UNIT_SWEDISH_HAKKAPELIITTA" />
+			<Where CivilizationType="CIVILIZATION_FRANCE" />
+		</Update>
+	</Civilization_UnitClassOverrides>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE" />
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>Whenever a Guild or a World Wonder with Great Work slots is built in the [ICON_CAPITAL] Capital, gain one free cultural Great Person of the matching type. Theming Bonuses are 50% more effective in their [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE" />
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Whenever a Guild or a World Wonder with Great Work slots is built in the [ICON_CAPITAL] Capital, gain one free cultural Great Person of the matching type. Theming Bonuses are 50% more effective in their [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE" />
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Whenever a Guild or a World Wonder with Great Work slots is built in the [ICON_CAPITAL] Capital, gain one free cultural Great Person of the matching type. Theming Bonuses are 50% more effective in their [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE" />
+		<Row Tag="TXT_KEY_TRAIT_ENHANCED_CULTURE">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR][COLOR_POSITIVE_TEXT]Whenever a Guild or a World Wonder with Great Work slots is built in the [ICON_CAPITAL] Capital, gain one free cultural Great Person of the matching type. Theming Bonuses are 50% more effective in their [ICON_CAPITAL] Capital.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+			<Text>Constructs a Chateau which increases the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Constructs a Chateau which increases the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Constructs a Chateau which increases the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Constructs a Chateau which increases the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_REC" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+			<Text>A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau.[NEWLINE][NEWLINE]It will increase the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_REC" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau.[NEWLINE][NEWLINE]It will increase the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_REC" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau.[NEWLINE][NEWLINE]It will increase the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_BUILD_CHATEAU_REC" />
+		<Row Tag="TXT_KEY_BUILD_CHATEAU_REC">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A Chateau must be built adjacent to a Luxury resource. It may not be adjacent to another Chateau.[NEWLINE][NEWLINE]It will increase the Production, Culture, and Gold yield of the tile. Also provides a defensive bonus.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+			<Text>A Chateau will increase the Production, Culture, and Gold yield of the tile. It must be built adjacent to a Luxury resource and it may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]A Chateau will increase the Production, Culture, and Gold yield of the tile. It must be built adjacent to a Luxury resource and it may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]A Chateau will increase the Production, Culture, and Gold yield of the tile. It must be built adjacent to a Luxury resource and it may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP" />
+		<Row Tag="TXT_KEY_CIV5_IMPROVEMENTS_CHATEAU_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]A Chateau will increase the Production, Culture, and Gold yield of the tile. It must be built adjacent to a Luxury resource and it may not be adjacent to another Chateau. It provides the same +50% defense bonus as a Fort. Must be built in French territory. When Flight is researched its [ICON_CULTURE] Culture yield increases by 1 and its [ICON_GOLD] Gold output rises by 2.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

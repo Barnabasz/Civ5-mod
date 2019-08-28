@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 6/6/2018 5:15:20 PM -->
+<GameData>
+  <!-- Give Pentagon the Statue of Zeus bonus, to make it useful for late game city smashing. Also give more Great Merchant points, now gives 3 (up from 2). -->
+
+	<Buildings>
+		<Update>
+			<Set FreeBuildingThisCity="BUILDINGCLASS_MILITARY_BASE" PrereqTech="TECH_BALLISTICS" FreePromotion="PROMOTION_STATUE_ZEUS" UnitUpgradeCostMod="0" GreatPeopleRateChange="3" />
+			<Where Type="BUILDING_PENTAGON" />
+		</Update>
+	</Buildings>
+ 
+  <!-- Change the Statue of Zeus Promotion to be 25% (up from 15%). -->
+	
+	<UnitPromotions>
+		<Update>
+			<Set CityAttack="25" />
+			<Where Type="PROMOTION_STATUE_ZEUS" />
+		</Update>
+	</UnitPromotions>
+	
+	<!-- Change texts from Pentagon. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_WONDER_PENTAGON_HELP" />
+		<Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+			<Text>All units gain +25% [ICON_STRENGTH] combat strength when attacking cities. Provides a free Military Base in the City in which it is built.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_WONDER_PENTAGON_HELP" />
+		<Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]All units gain +25% [ICON_STRENGTH] combat strength when attacking cities. Provides a free Military Base in the City in which it is built.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_WONDER_PENTAGON_HELP" />
+		<Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]All units gain +25% [ICON_STRENGTH] combat strength when attacking cities. Provides a free Military Base in the City in which it is built.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_WONDER_PENTAGON_HELP" />
+		<Row Tag="TXT_KEY_WONDER_PENTAGON_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]All units gain +25% [ICON_STRENGTH] combat strength when attacking cities. Provides a free Military Base in the City in which it is built.</Text>
+		</Row>
+	</Language_RU_RU>
+	
+	<!-- Change texts from Statue of Zeus Promotion. -->
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+			<Text>+25% [ICON_STRENGTH] Combat Strength when attacking cities.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]+25% [ICON_STRENGTH] Combat Strength when attacking cities.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]+25% [ICON_STRENGTH] Combat Strength when attacking cities.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]+25% [ICON_STRENGTH] Combat Strength when attacking cities.</Text>
+		</Row>
+	</Language_RU_RU>
+
+	<Language_en_US>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+			<Text>Pentagon</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Pentagon</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Pentagon</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Delete Tag="TXT_KEY_PROMOTION_STATUE_ZEUS" />
+		<Row Tag="TXT_KEY_PROMOTION_STATUE_ZEUS">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Pentagon</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>

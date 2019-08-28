@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 5/4/2017 6:06:08 PM -->
+<GameData>
+
+	<!-- Pyramid costs no Gold Maintenance. Pyramid nerfed to +1 Science (down from +2). -->
+	<Buildings>
+		<Update>
+			<Set GoldMaintenance="0" Help="TXT_KEY_BUILDING_MAYA_PYRAMID_HELP" />
+			<Where Type="BUILDING_MAYA_PYRAMID" />
+		</Update>
+	</Buildings>
+	<Building_YieldChanges>
+		<Update>
+			<Set Yield="1" />
+			<Where BuildingType="BUILDING_MAYA_PYRAMID" YieldType="YIELD_SCIENCE" />
+		</Update>
+	</Building_YieldChanges>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_HELP">
+			<Text>Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_en_US>
+	<Language_DE_DE>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_HELP">
+			<Text>[COLOR_WARNING_TEXT](DE_DE text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_DE_DE>
+	<Language_PL_PL>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_HELP">
+			<Text>[COLOR_WARNING_TEXT](PL_PL text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_PL_PL>
+	<Language_RU_RU>
+		<Row Tag="TXT_KEY_BUILDING_MAYA_PYRAMID_HELP">
+			<Text>[COLOR_WARNING_TEXT](RU_RU text) [ENDCOLOR]Requires no [ICON_GOLD] Gold maintenance.</Text>
+		</Row>
+	</Language_RU_RU>
+
+</GameData>
